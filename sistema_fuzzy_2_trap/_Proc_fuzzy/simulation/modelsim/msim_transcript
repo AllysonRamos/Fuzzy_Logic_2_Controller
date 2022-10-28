@@ -1,0 +1,248 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Fuzzy_1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:42 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v 
+# -- Compiling module Fuzzy_1
+# 
+# Top level modules:
+# 	Fuzzy_1
+# End time: 12:01:42 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffd.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:42 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffd.v 
+# -- Compiling module ffd
+# 
+# Top level modules:
+# 	ffd
+# End time: 12:01:42 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffds.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:42 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffds.v 
+# -- Compiling module ffds
+# 
+# Top level modules:
+# 	ffds
+# End time: 12:01:42 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_controle_regras.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:42 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_controle_regras.v 
+# -- Compiling module Unidade_controle_regras
+# 
+# Top level modules:
+# 	Unidade_controle_regras
+# End time: 12:01:42 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_X_pos.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:42 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_X_pos.v 
+# -- Compiling module soma_X_pos
+# 
+# Top level modules:
+# 	soma_X_pos
+# End time: 12:01:42 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_total.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:42 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_total.v 
+# -- Compiling module soma_total
+# 
+# Top level modules:
+# 	soma_total
+# End time: 12:01:42 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:42 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma.v 
+# -- Compiling module soma
+# 
+# Top level modules:
+# 	soma
+# End time: 12:01:42 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux_4CANAIS_4b.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:42 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux_4CANAIS_4b.v 
+# -- Compiling module mux_4CANAIS_4b
+# 
+# Top level modules:
+# 	mux_4CANAIS_4b
+# End time: 12:01:42 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux4b_U_reg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux4b_U_reg.v 
+# -- Compiling module mux4b_U_reg
+# 
+# Top level modules:
+# 	mux4b_U_reg
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v 
+# -- Compiling module TR_defuzzy
+# 
+# Top level modules:
+# 	TR_defuzzy
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Registrador_saida.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Registrador_saida.v 
+# -- Compiling module Registrador_saida
+# 
+# Top level modules:
+# 	Registrador_saida
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v 
+# -- Compiling module Unidade_regras
+# 
+# Top level modules:
+# 	Unidade_regras
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/inferencia.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/inferencia.v 
+# -- Compiling module inferencia
+# 
+# Top level modules:
+# 	inferencia
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU.v 
+# -- Compiling module FOU
+# 
+# Top level modules:
+# 	FOU
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v 
+# -- Compiling module fuzzificador
+# 
+# Top level modules:
+# 	fuzzificador
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_U_reg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_U_reg.v 
+# -- Compiling module compara_U_reg
+# 
+# Top level modules:
+# 	compara_U_reg
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_Maximo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_Maximo.v 
+# -- Compiling module compara_Maximo
+# 
+# Top level modules:
+# 	compara_Maximo
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador_inferencia.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador_inferencia.v 
+# -- Compiling module codificador_inferencia
+# 
+# Top level modules:
+# 	codificador_inferencia
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador.v 
+# -- Compiling module codificador
+# 
+# Top level modules:
+# 	codificador
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/maquina_estados.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/maquina_estados.v 
+# -- Compiling module maquina_estados
+# 
+# Top level modules:
+# 	maquina_estados
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+F:/Wanderson/Unifei/TFG/TFG\ Novo/Materiais\ dos\ professores/_Proc_fuzzy {F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU_TB.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:01:43 on Oct 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy" F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU_TB.v 
+# -- Compiling module FOU_TB
+# 
+# Top level modules:
+# 	FOU_TB
+# End time: 12:01:43 on Oct 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  FOU_TB
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" FOU_TB 
+# Start time: 12:01:44 on Oct 27,2022
+# Loading work.FOU_TB
+# Loading work.FOU
+# Loading work.ffds
+# Loading work.fuzzificador
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aline  Hostname: DESKTOP-T3S058L  ProcessID: 11020
+#           Attempting to use alternate WLF file "./wlftv76v6f".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftv76v6f
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU_TB.v(58)
+#    Time: 5 us  Iteration: 0  Instance: /FOU_TB
+# Break in Module FOU_TB at F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU_TB.v line 58
+# End time: 12:05:44 on Oct 27,2022, Elapsed time: 0:04:00
+# Errors: 0, Warnings: 2

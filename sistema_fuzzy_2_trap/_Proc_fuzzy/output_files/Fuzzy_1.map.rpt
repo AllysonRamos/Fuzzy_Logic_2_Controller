@@ -1,0 +1,1489 @@
+Analysis & Synthesis report for Fuzzy_1
+Thu Oct 27 12:00:35 2022
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |Fuzzy_1|Unidade_controle_regras:U2|maquina_estados:I1|estado_atual
+  9. User-Specified and Inferred Latches
+ 10. General Register Statistics
+ 11. Inverted Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Parameter Settings for User Entity Instance: FOU:U1|fuzzificador:in1
+ 14. Parameter Settings for User Entity Instance: FOU:U1|fuzzificador:in2
+ 15. Parameter Settings for User Entity Instance: TR_defuzzy:U4|soma_X_pos:x1
+ 16. Parameter Settings for Inferred Entity Instance: TR_defuzzy:U4|lpm_divide:Div0
+ 17. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div0
+ 18. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div2
+ 19. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div3
+ 20. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div6
+ 21. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div0
+ 22. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div2
+ 23. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div3
+ 24. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div6
+ 25. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div4
+ 26. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div5
+ 27. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div1
+ 28. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div7
+ 29. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div4
+ 30. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div5
+ 31. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div1
+ 32. Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div7
+ 33. Port Connectivity Checks: "inferencia:U3|codificador:Cod"
+ 34. Port Connectivity Checks: "inferencia:U3|Unidade_regras:LOW"
+ 35. Port Connectivity Checks: "inferencia:U3|Unidade_regras:UP|Registrador_saida:U3|codificador_inferencia:cod"
+ 36. Port Connectivity Checks: "inferencia:U3|Unidade_regras:UP"
+ 37. Port Connectivity Checks: "inferencia:U3"
+ 38. Port Connectivity Checks: "Unidade_controle_regras:U2"
+ 39. Post-Synthesis Netlist Statistics for Top Partition
+ 40. Elapsed Time Per Partition
+ 41. Analysis & Synthesis Messages
+ 42. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Thu Oct 27 12:00:35 2022       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; Fuzzy_1                                     ;
+; Top-level Entity Name              ; Fuzzy_1                                     ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 6,451                                       ;
+;     Total combinational functions  ; 6,405                                       ;
+;     Dedicated logic registers      ; 76                                          ;
+; Total registers                    ; 76                                          ;
+; Total pins                         ; 28                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                            ; Fuzzy_1            ; Fuzzy_1            ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; State Machine Processing                                         ; User-Encoded       ; Auto               ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.2%      ;
+;     Processor 3            ;   0.1%      ;
+;     Processor 4            ;   0.1%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                          ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                      ; Library ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------+---------+
+; Fuzzy_1.v                        ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v                  ;         ;
+; ffd.v                            ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffd.v                      ;         ;
+; ffds.v                           ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffds.v                     ;         ;
+; Unidade_controle_regras.v        ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_controle_regras.v  ;         ;
+; soma_X_pos.v                     ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_X_pos.v               ;         ;
+; soma_total.v                     ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_total.v               ;         ;
+; soma.v                           ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma.v                     ;         ;
+; mux_4CANAIS_4b.v                 ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux_4CANAIS_4b.v           ;         ;
+; mux4b_U_reg.v                    ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux4b_U_reg.v              ;         ;
+; TR_defuzzy.v                     ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v               ;         ;
+; Registrador_saida.v              ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Registrador_saida.v        ;         ;
+; Unidade_regras.v                 ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v           ;         ;
+; inferencia.v                     ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/inferencia.v               ;         ;
+; FOU.v                            ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU.v                      ;         ;
+; fuzzificador.v                   ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v             ;         ;
+; compara_U_reg.v                  ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_U_reg.v            ;         ;
+; compara_Maximo.v                 ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_Maximo.v           ;         ;
+; codificador_inferencia.v         ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador_inferencia.v   ;         ;
+; codificador.v                    ; yes             ; User Verilog HDL File        ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador.v              ;         ;
+; maquina_estados.v                ; yes             ; Auto-Found Verilog HDL File  ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/maquina_estados.v          ;         ;
+; lpm_divide.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_divide.tdf                             ;         ;
+; abs_divider.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/abs_divider.inc                            ;         ;
+; sign_div_unsign.inc              ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/sign_div_unsign.inc                        ;         ;
+; aglobal181.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc                             ;         ;
+; db/lpm_divide_lkm.tdf            ; yes             ; Auto-Generated Megafunction  ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/lpm_divide_lkm.tdf      ;         ;
+; db/sign_div_unsign_dnh.tdf       ; yes             ; Auto-Generated Megafunction  ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/sign_div_unsign_dnh.tdf ;         ;
+; db/alt_u_div_eaf.tdf             ; yes             ; Auto-Generated Megafunction  ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/alt_u_div_eaf.tdf       ;         ;
+; db/add_sub_7pc.tdf               ; yes             ; Auto-Generated Megafunction  ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/add_sub_7pc.tdf         ;         ;
+; db/add_sub_8pc.tdf               ; yes             ; Auto-Generated Megafunction  ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/add_sub_8pc.tdf         ;         ;
+; db/lpm_divide_2jm.tdf            ; yes             ; Auto-Generated Megafunction  ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/lpm_divide_2jm.tdf      ;         ;
+; db/sign_div_unsign_qlh.tdf       ; yes             ; Auto-Generated Megafunction  ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/sign_div_unsign_qlh.tdf ;         ;
+; db/alt_u_div_87f.tdf             ; yes             ; Auto-Generated Megafunction  ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/alt_u_div_87f.tdf       ;         ;
+; db/lpm_divide_3jm.tdf            ; yes             ; Auto-Generated Megafunction  ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/lpm_divide_3jm.tdf      ;         ;
+; db/sign_div_unsign_rlh.tdf       ; yes             ; Auto-Generated Megafunction  ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/sign_div_unsign_rlh.tdf ;         ;
+; db/alt_u_div_a7f.tdf             ; yes             ; Auto-Generated Megafunction  ; F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/alt_u_div_a7f.tdf       ;         ;
++----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                              ;
++---------------------------------------------+----------------------------+
+; Resource                                    ; Usage                      ;
++---------------------------------------------+----------------------------+
+; Estimated Total logic elements              ; 6,451                      ;
+;                                             ;                            ;
+; Total combinational functions               ; 6405                       ;
+; Logic element usage by number of LUT inputs ;                            ;
+;     -- 4 input functions                    ; 1474                       ;
+;     -- 3 input functions                    ; 2064                       ;
+;     -- <=2 input functions                  ; 2867                       ;
+;                                             ;                            ;
+; Logic elements by mode                      ;                            ;
+;     -- normal mode                          ; 4119                       ;
+;     -- arithmetic mode                      ; 2286                       ;
+;                                             ;                            ;
+; Total registers                             ; 76                         ;
+;     -- Dedicated logic registers            ; 76                         ;
+;     -- I/O registers                        ; 0                          ;
+;                                             ;                            ;
+; I/O pins                                    ; 28                         ;
+;                                             ;                            ;
+; Embedded Multiplier 9-bit elements          ; 0                          ;
+;                                             ;                            ;
+; Maximum fan-out node                        ; FOU:U1|ffds:ENTRADA02|q[7] ;
+; Maximum fan-out                             ; 75                         ;
+; Total fan-out                               ; 17514                      ;
+; Average fan-out                             ; 2.68                       ;
++---------------------------------------------+----------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                 ;
++----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
+; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                              ; Entity Name             ; Library Name ;
++----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
+; |Fuzzy_1                                     ; 6405 (0)            ; 76 (0)                    ; 0           ; 0            ; 0       ; 0         ; 28   ; 0            ; |Fuzzy_1                                                                                                                         ; Fuzzy_1                 ; work         ;
+;    |FOU:U1|                                  ; 5659 (0)            ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1                                                                                                                  ; FOU                     ; work         ;
+;       |ffds:ENTRADA01|                       ; 1 (1)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|ffds:ENTRADA01                                                                                                   ; ffds                    ; work         ;
+;       |ffds:ENTRADA02|                       ; 1 (1)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|ffds:ENTRADA02                                                                                                   ; ffds                    ; work         ;
+;       |fuzzificador:in1|                     ; 2795 (305)          ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1                                                                                                 ; fuzzificador            ; work         ;
+;          |lpm_divide:Div0|                   ; 284 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div0                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_2jm:auto_generated|  ; 284 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div0|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm          ; work         ;
+;                |sign_div_unsign_qlh:divider| ; 284 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div0|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh     ; work         ;
+;                   |alt_u_div_87f:divider|    ; 284 (284)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div0|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f           ; work         ;
+;          |lpm_divide:Div1|                   ; 320 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div1                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_2jm:auto_generated|  ; 320 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div1|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm          ; work         ;
+;                |sign_div_unsign_qlh:divider| ; 320 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div1|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh     ; work         ;
+;                   |alt_u_div_87f:divider|    ; 320 (320)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div1|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f           ; work         ;
+;          |lpm_divide:Div2|                   ; 281 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div2                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_3jm:auto_generated|  ; 281 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div2|lpm_divide_3jm:auto_generated                                                   ; lpm_divide_3jm          ; work         ;
+;                |sign_div_unsign_rlh:divider| ; 281 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div2|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider                       ; sign_div_unsign_rlh     ; work         ;
+;                   |alt_u_div_a7f:divider|    ; 281 (281)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div2|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider|alt_u_div_a7f:divider ; alt_u_div_a7f           ; work         ;
+;          |lpm_divide:Div3|                   ; 370 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div3                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_3jm:auto_generated|  ; 370 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div3|lpm_divide_3jm:auto_generated                                                   ; lpm_divide_3jm          ; work         ;
+;                |sign_div_unsign_rlh:divider| ; 370 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div3|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider                       ; sign_div_unsign_rlh     ; work         ;
+;                   |alt_u_div_a7f:divider|    ; 370 (370)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div3|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider|alt_u_div_a7f:divider ; alt_u_div_a7f           ; work         ;
+;          |lpm_divide:Div4|                   ; 303 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div4                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_2jm:auto_generated|  ; 303 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div4|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm          ; work         ;
+;                |sign_div_unsign_qlh:divider| ; 303 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div4|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh     ; work         ;
+;                   |alt_u_div_87f:divider|    ; 303 (303)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div4|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f           ; work         ;
+;          |lpm_divide:Div5|                   ; 260 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div5                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_2jm:auto_generated|  ; 260 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div5|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm          ; work         ;
+;                |sign_div_unsign_qlh:divider| ; 260 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div5|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh     ; work         ;
+;                   |alt_u_div_87f:divider|    ; 260 (260)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div5|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f           ; work         ;
+;          |lpm_divide:Div6|                   ; 367 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div6                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_3jm:auto_generated|  ; 367 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div6|lpm_divide_3jm:auto_generated                                                   ; lpm_divide_3jm          ; work         ;
+;                |sign_div_unsign_rlh:divider| ; 367 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div6|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider                       ; sign_div_unsign_rlh     ; work         ;
+;                   |alt_u_div_a7f:divider|    ; 367 (367)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div6|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider|alt_u_div_a7f:divider ; alt_u_div_a7f           ; work         ;
+;          |lpm_divide:Div7|                   ; 305 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div7                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_2jm:auto_generated|  ; 305 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div7|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm          ; work         ;
+;                |sign_div_unsign_qlh:divider| ; 305 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div7|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh     ; work         ;
+;                   |alt_u_div_87f:divider|    ; 305 (305)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in1|lpm_divide:Div7|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f           ; work         ;
+;       |fuzzificador:in2|                     ; 2862 (319)          ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2                                                                                                 ; fuzzificador            ; work         ;
+;          |lpm_divide:Div0|                   ; 363 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div0                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_3jm:auto_generated|  ; 363 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div0|lpm_divide_3jm:auto_generated                                                   ; lpm_divide_3jm          ; work         ;
+;                |sign_div_unsign_rlh:divider| ; 363 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div0|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider                       ; sign_div_unsign_rlh     ; work         ;
+;                   |alt_u_div_a7f:divider|    ; 363 (363)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div0|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider|alt_u_div_a7f:divider ; alt_u_div_a7f           ; work         ;
+;          |lpm_divide:Div1|                   ; 260 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div1                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_2jm:auto_generated|  ; 260 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div1|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm          ; work         ;
+;                |sign_div_unsign_qlh:divider| ; 260 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div1|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh     ; work         ;
+;                   |alt_u_div_87f:divider|    ; 260 (260)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div1|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f           ; work         ;
+;          |lpm_divide:Div2|                   ; 363 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div2                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_3jm:auto_generated|  ; 363 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div2|lpm_divide_3jm:auto_generated                                                   ; lpm_divide_3jm          ; work         ;
+;                |sign_div_unsign_rlh:divider| ; 363 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div2|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider                       ; sign_div_unsign_rlh     ; work         ;
+;                   |alt_u_div_a7f:divider|    ; 363 (363)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div2|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider|alt_u_div_a7f:divider ; alt_u_div_a7f           ; work         ;
+;          |lpm_divide:Div3|                   ; 363 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div3                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_3jm:auto_generated|  ; 363 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div3|lpm_divide_3jm:auto_generated                                                   ; lpm_divide_3jm          ; work         ;
+;                |sign_div_unsign_rlh:divider| ; 363 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div3|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider                       ; sign_div_unsign_rlh     ; work         ;
+;                   |alt_u_div_a7f:divider|    ; 363 (363)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div3|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider|alt_u_div_a7f:divider ; alt_u_div_a7f           ; work         ;
+;          |lpm_divide:Div4|                   ; 260 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div4                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_2jm:auto_generated|  ; 260 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div4|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm          ; work         ;
+;                |sign_div_unsign_qlh:divider| ; 260 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div4|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh     ; work         ;
+;                   |alt_u_div_87f:divider|    ; 260 (260)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div4|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f           ; work         ;
+;          |lpm_divide:Div5|                   ; 260 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div5                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_2jm:auto_generated|  ; 260 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div5|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm          ; work         ;
+;                |sign_div_unsign_qlh:divider| ; 260 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div5|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh     ; work         ;
+;                   |alt_u_div_87f:divider|    ; 260 (260)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div5|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f           ; work         ;
+;          |lpm_divide:Div6|                   ; 368 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div6                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_3jm:auto_generated|  ; 368 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div6|lpm_divide_3jm:auto_generated                                                   ; lpm_divide_3jm          ; work         ;
+;                |sign_div_unsign_rlh:divider| ; 368 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div6|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider                       ; sign_div_unsign_rlh     ; work         ;
+;                   |alt_u_div_a7f:divider|    ; 368 (368)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div6|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider|alt_u_div_a7f:divider ; alt_u_div_a7f           ; work         ;
+;          |lpm_divide:Div7|                   ; 306 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div7                                                                                 ; lpm_divide              ; work         ;
+;             |lpm_divide_2jm:auto_generated|  ; 306 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div7|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm          ; work         ;
+;                |sign_div_unsign_qlh:divider| ; 306 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div7|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh     ; work         ;
+;                   |alt_u_div_87f:divider|    ; 306 (306)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|FOU:U1|fuzzificador:in2|lpm_divide:Div7|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f           ; work         ;
+;    |TR_defuzzy:U4|                           ; 413 (0)             ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4                                                                                                           ; TR_defuzzy              ; work         ;
+;       |ffd:ff1|                              ; 23 (23)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4|ffd:ff1                                                                                                   ; ffd                     ; work         ;
+;       |lpm_divide:Div0|                      ; 279 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4|lpm_divide:Div0                                                                                           ; lpm_divide              ; work         ;
+;          |lpm_divide_lkm:auto_generated|     ; 279 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4|lpm_divide:Div0|lpm_divide_lkm:auto_generated                                                             ; lpm_divide_lkm          ; work         ;
+;             |sign_div_unsign_dnh:divider|    ; 279 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4|lpm_divide:Div0|lpm_divide_lkm:auto_generated|sign_div_unsign_dnh:divider                                 ; sign_div_unsign_dnh     ; work         ;
+;                |alt_u_div_eaf:divider|       ; 279 (279)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4|lpm_divide:Div0|lpm_divide_lkm:auto_generated|sign_div_unsign_dnh:divider|alt_u_div_eaf:divider           ; alt_u_div_eaf           ; work         ;
+;       |soma:s1|                              ; 24 (24)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4|soma:s1                                                                                                   ; soma                    ; work         ;
+;       |soma_X_pos:x1|                        ; 68 (68)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4|soma_X_pos:x1                                                                                             ; soma_X_pos              ; work         ;
+;       |soma_total:x2|                        ; 19 (19)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4|soma_total:x2                                                                                             ; soma_total              ; work         ;
+;    |Unidade_controle_regras:U2|              ; 81 (0)              ; 4 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|Unidade_controle_regras:U2                                                                                              ; Unidade_controle_regras ; work         ;
+;       |maquina_estados:I1|                   ; 81 (81)             ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|Unidade_controle_regras:U2|maquina_estados:I1                                                                           ; maquina_estados         ; work         ;
+;    |inferencia:U3|                           ; 252 (0)             ; 48 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3                                                                                                           ; inferencia              ; work         ;
+;       |Unidade_regras:LOW|                   ; 151 (0)             ; 24 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW                                                                                        ; Unidade_regras          ; work         ;
+;          |Registrador_saida:U3|              ; 2 (0)               ; 24 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|Registrador_saida:U3                                                                   ; Registrador_saida       ; work         ;
+;             |codificador_inferencia:cod|     ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|Registrador_saida:U3|codificador_inferencia:cod                                        ; codificador_inferencia  ; work         ;
+;             |ffd:dois|                       ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|Registrador_saida:U3|ffd:dois                                                          ; ffd                     ; work         ;
+;             |ffd:um|                         ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|Registrador_saida:U3|ffd:um                                                            ; ffd                     ; work         ;
+;             |ffd:zero|                       ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|Registrador_saida:U3|ffd:zero                                                          ; ffd                     ; work         ;
+;          |compara_Maximo:U2|                 ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|compara_Maximo:U2                                                                      ; compara_Maximo          ; work         ;
+;          |compara_U_reg:minimo|              ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|compara_U_reg:minimo                                                                   ; compara_U_reg           ; work         ;
+;          |mux4b_U_reg:A|                     ; 48 (48)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|mux4b_U_reg:A                                                                          ; mux4b_U_reg             ; work         ;
+;          |mux4b_U_reg:B|                     ; 53 (53)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|mux4b_U_reg:B                                                                          ; mux4b_U_reg             ; work         ;
+;          |mux_4CANAIS_4b:U4|                 ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|mux_4CANAIS_4b:U4                                                                      ; mux_4CANAIS_4b          ; work         ;
+;       |Unidade_regras:UP|                    ; 99 (0)              ; 24 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP                                                                                         ; Unidade_regras          ; work         ;
+;          |Registrador_saida:U3|              ; 0 (0)               ; 24 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|Registrador_saida:U3                                                                    ; Registrador_saida       ; work         ;
+;             |ffd:dois|                       ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|Registrador_saida:U3|ffd:dois                                                           ; ffd                     ; work         ;
+;             |ffd:um|                         ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|Registrador_saida:U3|ffd:um                                                             ; ffd                     ; work         ;
+;             |ffd:zero|                       ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|Registrador_saida:U3|ffd:zero                                                           ; ffd                     ; work         ;
+;          |compara_Maximo:U2|                 ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|compara_Maximo:U2                                                                       ; compara_Maximo          ; work         ;
+;          |compara_U_reg:minimo|              ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|compara_U_reg:minimo                                                                    ; compara_U_reg           ; work         ;
+;          |mux4b_U_reg:A|                     ; 25 (25)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|mux4b_U_reg:A                                                                           ; mux4b_U_reg             ; work         ;
+;          |mux4b_U_reg:B|                     ; 26 (26)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|mux4b_U_reg:B                                                                           ; mux4b_U_reg             ; work         ;
+;          |mux_4CANAIS_4b:U4|                 ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|mux_4CANAIS_4b:U4                                                                       ; mux_4CANAIS_4b          ; work         ;
+;       |codificador:Cod|                      ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|inferencia:U3|codificador:Cod                                                                                           ; codificador             ; work         ;
++----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  User-Encoded
++----------------------------------------------------------------------------------------+
+; State Machine - |Fuzzy_1|Unidade_controle_regras:U2|maquina_estados:I1|estado_atual    ;
++--------------------+----------------+----------------+----------------+----------------+
+; Name               ; estado_atual~7 ; estado_atual~6 ; estado_atual~5 ; estado_atual~4 ;
++--------------------+----------------+----------------+----------------+----------------+
+; estado_atual.END   ; 0              ; 0              ; 0              ; 0              ;
+; estado_atual.Start ; 0              ; 0              ; 0              ; 1              ;
+; estado_atual.R0    ; 0              ; 0              ; 1              ; 0              ;
+; estado_atual.R1    ; 0              ; 0              ; 1              ; 1              ;
+; estado_atual.R2    ; 0              ; 1              ; 0              ; 0              ;
+; estado_atual.R3    ; 0              ; 1              ; 0              ; 1              ;
+; estado_atual.R4    ; 0              ; 1              ; 1              ; 0              ;
+; estado_atual.R5    ; 0              ; 1              ; 1              ; 1              ;
+; estado_atual.R6    ; 1              ; 0              ; 0              ; 0              ;
+; estado_atual.R7    ; 1              ; 0              ; 0              ; 1              ;
+; estado_atual.R8    ; 1              ; 0              ; 1              ; 0              ;
++--------------------+----------------+----------------+----------------+----------------+
+
+
++----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                ;
++-----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal ; Free of Timing Hazards ;
++-----------------------------------------------------+---------------------+------------------------+
+; FOU:U1|fuzzificador:in2|MF_02_LOW[7]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_LOW[7]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_LOW[7]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_LOW[7]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_LOW[7]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_LOW[7]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_LOW[6]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_LOW[6]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_LOW[6]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_LOW[6]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_LOW[6]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_LOW[6]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_LOW[5]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_LOW[5]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_LOW[5]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_LOW[5]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_LOW[5]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_LOW[5]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_LOW[4]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_LOW[4]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_LOW[4]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_LOW[4]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_LOW[4]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_LOW[4]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_LOW[3]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_LOW[3]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_LOW[3]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_LOW[3]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_LOW[3]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_LOW[3]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_LOW[2]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_LOW[2]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_LOW[2]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_LOW[2]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_LOW[2]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_LOW[2]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_LOW[1]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_LOW[1]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_LOW[1]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_LOW[1]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_LOW[1]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_LOW[1]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_LOW[0]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_LOW[0]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_LOW[0]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_LOW[0]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_LOW[0]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_LOW[0]                ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_UP[7]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_UP[7]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_UP[7]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_UP[7]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_UP[7]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_UP[7]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_UP[6]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_UP[6]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_UP[6]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_UP[6]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_UP[6]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_UP[6]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_UP[5]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_UP[5]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_UP[5]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_UP[5]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_UP[5]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_UP[5]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_UP[4]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_UP[4]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_UP[4]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_UP[4]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_UP[4]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_UP[4]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_UP[3]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_UP[3]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_UP[3]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_UP[3]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_UP[3]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_UP[3]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_UP[2]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_UP[2]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_UP[2]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_UP[2]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_UP[2]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_UP[2]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_UP[1]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_UP[1]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_UP[1]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_UP[1]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_UP[1]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_UP[1]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_02_UP[0]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_01_UP[0]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in1|MF_03_UP[0]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_02_UP[0]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_01_UP[0]                 ; VCC                 ; yes                    ;
+; FOU:U1|fuzzificador:in2|MF_03_UP[0]                 ; VCC                 ; yes                    ;
+; Number of user-specified and inferred latches = 96  ;                     ;                        ;
++-----------------------------------------------------+---------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 76    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 76    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 72    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; FOU:U1|ffds:ENTRADA01|q[0]             ; 29      ;
+; FOU:U1|ffds:ENTRADA02|q[0]             ; 25      ;
+; Total number of inverted registers = 2 ;         ;
++----------------------------------------+---------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                        ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|mux_4CANAIS_4b:U4|Mux7   ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|FOU:U1|fuzzificador:in1|MF_03_UP[2]                      ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|FOU:U1|fuzzificador:in2|MF_03_UP[7]                      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|FOU:U1|fuzzificador:in1|MF_01_UP[7]                      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|FOU:U1|fuzzificador:in1|MF_02_UP[5]                      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|FOU:U1|fuzzificador:in2|MF_01_UP[0]                      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|FOU:U1|fuzzificador:in2|MF_02_UP[7]                      ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|FOU:U1|fuzzificador:in2|MF_01_LOW[6]                     ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|FOU:U1|fuzzificador:in2|MF_02_LOW[3]                     ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|FOU:U1|fuzzificador:in1|MF_01_LOW[7]                     ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|FOU:U1|fuzzificador:in1|MF_02_LOW[1]                     ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|mux4b_U_reg:A|Selector2  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|mux4b_U_reg:B|Selector7 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: FOU:U1|fuzzificador:in1 ;
++----------------+----------+------------------------------------------+
+; Parameter Name ; Value    ; Type                                     ;
++----------------+----------+------------------------------------------+
+; A1             ; 00000000 ; Unsigned Binary                          ;
+; B1             ; 00000001 ; Unsigned Binary                          ;
+; C1             ; 00110011 ; Unsigned Binary                          ;
+; D1             ; 01110010 ; Unsigned Binary                          ;
+; A2             ; 00000000 ; Unsigned Binary                          ;
+; B2             ; 00000001 ; Unsigned Binary                          ;
+; C2             ; 00110011 ; Unsigned Binary                          ;
+; D2             ; 01100100 ; Unsigned Binary                          ;
+; A3             ; 00000101 ; Unsigned Binary                          ;
+; B3             ; 01001101 ; Unsigned Binary                          ;
+; C3             ; 10011001 ; Unsigned Binary                          ;
+; D3             ; 11011110 ; Unsigned Binary                          ;
+; A4             ; 00010010 ; Unsigned Binary                          ;
+; B4             ; 01001101 ; Unsigned Binary                          ;
+; C4             ; 10011001 ; Unsigned Binary                          ;
+; D4             ; 11010001 ; Unsigned Binary                          ;
+; A5             ; 01100100 ; Unsigned Binary                          ;
+; B5             ; 10110011 ; Unsigned Binary                          ;
+; C5             ; 11111110 ; Unsigned Binary                          ;
+; D5             ; 11111111 ; Unsigned Binary                          ;
+; A6             ; 01111101 ; Unsigned Binary                          ;
+; B6             ; 10110011 ; Unsigned Binary                          ;
+; C6             ; 11111110 ; Unsigned Binary                          ;
+; D6             ; 11111111 ; Unsigned Binary                          ;
++----------------+----------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: FOU:U1|fuzzificador:in2 ;
++----------------+----------+------------------------------------------+
+; Parameter Name ; Value    ; Type                                     ;
++----------------+----------+------------------------------------------+
+; A1             ; 00000000 ; Unsigned Binary                          ;
+; B1             ; 00000001 ; Unsigned Binary                          ;
+; C1             ; 01001101 ; Unsigned Binary                          ;
+; D1             ; 10010100 ; Unsigned Binary                          ;
+; A2             ; 00000000 ; Unsigned Binary                          ;
+; B2             ; 00000001 ; Unsigned Binary                          ;
+; C2             ; 01001101 ; Unsigned Binary                          ;
+; D2             ; 10000101 ; Unsigned Binary                          ;
+; A3             ; 00011111 ; Unsigned Binary                          ;
+; B3             ; 01100110 ; Unsigned Binary                          ;
+; C3             ; 10110011 ; Unsigned Binary                          ;
+; D3             ; 11111010 ; Unsigned Binary                          ;
+; A4             ; 00101110 ; Unsigned Binary                          ;
+; B4             ; 01100110 ; Unsigned Binary                          ;
+; C4             ; 10110011 ; Unsigned Binary                          ;
+; D4             ; 11101011 ; Unsigned Binary                          ;
+; A5             ; 10011001 ; Unsigned Binary                          ;
+; B5             ; 11100110 ; Unsigned Binary                          ;
+; C5             ; 11111110 ; Unsigned Binary                          ;
+; D5             ; 11111111 ; Unsigned Binary                          ;
+; A6             ; 10101000 ; Unsigned Binary                          ;
+; B6             ; 11100110 ; Unsigned Binary                          ;
+; C6             ; 11111110 ; Unsigned Binary                          ;
+; D6             ; 11111111 ; Unsigned Binary                          ;
++----------------+----------+------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: TR_defuzzy:U4|soma_X_pos:x1 ;
++----------------+----------+----------------------------------------------+
+; Parameter Name ; Value    ; Type                                         ;
++----------------+----------+----------------------------------------------+
+; POS_1          ; 00000001 ; Unsigned Binary                              ;
+; POS_2          ; 01111111 ; Unsigned Binary                              ;
+; POS_3          ; 11111110 ; Unsigned Binary                              ;
++----------------+----------+----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: TR_defuzzy:U4|lpm_divide:Div0 ;
++------------------------+----------------+--------------------------------------+
+; Parameter Name         ; Value          ; Type                                 ;
++------------------------+----------------+--------------------------------------+
+; LPM_WIDTHN             ; 16             ; Untyped                              ;
+; LPM_WIDTHD             ; 16             ; Untyped                              ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                              ;
+; LPM_PIPELINE           ; 0              ; Untyped                              ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                              ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                              ;
+; CBXI_PARAMETER         ; lpm_divide_lkm ; Untyped                              ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                              ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                              ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                           ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                         ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                         ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                       ;
++------------------------+----------------+--------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div0 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 6              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_2jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div2 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 7              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_3jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div3 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 7              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_3jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div6 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 7              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_3jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div0 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 7              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_3jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div2 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 7              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_3jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div3 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 7              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_3jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div6 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 7              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_3jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div4 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 6              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_2jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div5 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 6              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_2jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div1 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 6              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_2jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in2|lpm_divide:Div7 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 6              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_2jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div4 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 6              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_2jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div5 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 6              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_2jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div1 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 6              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_2jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: FOU:U1|fuzzificador:in1|lpm_divide:Div7 ;
++------------------------+----------------+------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                           ;
++------------------------+----------------+------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                        ;
+; LPM_WIDTHD             ; 6              ; Untyped                                        ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                        ;
+; LPM_PIPELINE           ; 0              ; Untyped                                        ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                        ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                        ;
+; CBXI_PARAMETER         ; lpm_divide_2jm ; Untyped                                        ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                        ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                        ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                     ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                   ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                   ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                 ;
++------------------------+----------------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "inferencia:U3|codificador:Cod"                                                                                                                                          ;
++--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                                                                                                               ;
++--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; codigo ; Output ; Warning  ; Output or bidir port (2 bits) is smaller than the port expression (3 bits) it drives.  The 1 most-significant bit(s) in the port expression will be connected to GND. ;
++--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "inferencia:U3|Unidade_regras:LOW"                                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Mux_8Canais ; Input ; Warning  ; Input port expression (3 bits) is wider than the input port (2 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "inferencia:U3|Unidade_regras:UP|Registrador_saida:U3|codificador_inferencia:cod"                                                                                        ;
++--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                                                                                                               ;
++--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; codigo ; Output ; Warning  ; Output or bidir port (3 bits) is smaller than the port expression (7 bits) it drives.  The 4 most-significant bit(s) in the port expression will be connected to GND. ;
++--------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "inferencia:U3|Unidade_regras:UP"                                                                                                                                                       ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                                                          ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Mux_8Canais ; Input ; Warning  ; Input port expression (3 bits) is wider than the input port (2 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "inferencia:U3"                                                                                                                                    ;
++------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port       ; Type  ; Severity ; Details                                                                                                                                      ;
++------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; EN_Cod_Mem ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Unidade_controle_regras:U2"                                                                                ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                                                  ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; estado ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 28                          ;
+; cycloneiii_ff         ; 76                          ;
+;     CLR               ; 4                           ;
+;     ENA CLR           ; 72                          ;
+; cycloneiii_lcell_comb ; 6407                        ;
+;     arith             ; 2286                        ;
+;         1 data inputs ; 23                          ;
+;         2 data inputs ; 439                         ;
+;         3 data inputs ; 1824                        ;
+;     normal            ; 4121                        ;
+;         0 data inputs ; 298                         ;
+;         1 data inputs ; 29                          ;
+;         2 data inputs ; 2080                        ;
+;         3 data inputs ; 240                         ;
+;         4 data inputs ; 1474                        ;
+;                       ;                             ;
+; Max LUT depth         ; 59.50                       ;
+; Average LUT depth     ; 51.32                       ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:09     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Thu Oct 27 12:00:15 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Fuzzy_1 -c Fuzzy_1
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file fuzzy_1.v
+    Info (12023): Found entity 1: Fuzzy_1 File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ffd.v
+    Info (12023): Found entity 1: ffd File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffd.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file ffds.v
+    Info (12023): Found entity 1: ffds File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffds.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file unidade_controle_regras.v
+    Info (12023): Found entity 1: Unidade_controle_regras File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_controle_regras.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file soma_x_pos.v
+    Info (12023): Found entity 1: soma_X_pos File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_X_pos.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file soma_total.v
+    Info (12023): Found entity 1: soma_total File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_total.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file soma.v
+    Info (12023): Found entity 1: soma File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux_4canais_4b.v
+    Info (12023): Found entity 1: mux_4CANAIS_4b File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux_4CANAIS_4b.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file mux4b_u_reg.v
+    Info (12023): Found entity 1: mux4b_U_reg File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux4b_U_reg.v Line: 1
+Warning (12019): Can't analyze file -- file Duas_regras.v is missing
+Info (12021): Found 1 design units, including 1 entities, in source file tr_defuzzy.v
+    Info (12023): Found entity 1: TR_defuzzy File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file registrador_saida.v
+    Info (12023): Found entity 1: Registrador_saida File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Registrador_saida.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file unidade_regras.v
+    Info (12023): Found entity 1: Unidade_regras File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file trapezio.v
+    Info (12023): Found entity 1: Trapezio File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Trapezio.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file registrador.v
+    Info (12023): Found entity 1: registrador File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/registrador.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file referencia_trapezio.v
+    Info (12023): Found entity 1: referencia_trapezio File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/referencia_trapezio.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file range_x_trapezio.v
+    Info (12023): Found entity 1: range_x_trapezio File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/range_x_trapezio.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file numerador_multiplicado_trapezio.v
+    Info (12023): Found entity 1: Numerador_Multiplicado_trapezio File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Numerador_Multiplicado_trapezio.v Line: 10
+Info (12021): Found 1 design units, including 1 entities, in source file num_denom_trapezio.v
+    Info (12023): Found entity 1: Num_denom_trapezio File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Num_denom_trapezio.v Line: 1
+Warning (12019): Can't analyze file -- file mux8b_U_reg.v is missing
+Warning (12019): Can't analyze file -- file mux_8CANAIS_8b.v is missing
+Warning (12019): Can't analyze file -- file Memoria_7posicoes.v is missing
+Info (12021): Found 1 design units, including 1 entities, in source file inferencia.v
+    Info (12023): Found entity 1: inferencia File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/inferencia.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file gerasativo.v
+    Info (12023): Found entity 1: geraSativo File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/geraSativo.v Line: 1
+Warning (12019): Can't analyze file -- file FOU_TRAPEZIO_tb.v is missing
+Info (12021): Found 1 design units, including 1 entities, in source file fou.v
+    Info (12023): Found entity 1: FOU File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file fuzzificador.v
+    Info (12023): Found entity 1: fuzzificador File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file elementos_trapezio.v
+    Info (12023): Found entity 1: Elementos_trapezio File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Elementos_trapezio.v Line: 19
+Info (12021): Found 1 design units, including 1 entities, in source file elemento_menor_trapezio.v
+    Info (12023): Found entity 1: Elemento_menor_trapezio File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Elemento_menor_trapezio.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file descarte_topo_trapezio.v
+    Info (12023): Found entity 1: descarte_topo_trapezio File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/descarte_topo_trapezio.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file compara_u_reg.v
+    Info (12023): Found entity 1: compara_U_reg File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_U_reg.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file compara_maximo.v
+    Info (12023): Found entity 1: compara_Maximo File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_Maximo.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file codificador_inferencia.v
+    Info (12023): Found entity 1: codificador_inferencia File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador_inferencia.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file codificador.v
+    Info (12023): Found entity 1: codificador File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at Fuzzy_1.v(38): created implicit net for "Reset_inf" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v Line: 38
+Info (12127): Elaborating entity "Fuzzy_1" for the top level hierarchy
+Info (12128): Elaborating entity "Unidade_controle_regras" for hierarchy "Unidade_controle_regras:U2" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v Line: 38
+Warning (12125): Using design file maquina_estados.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: maquina_estados File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/maquina_estados.v Line: 1
+Info (12128): Elaborating entity "maquina_estados" for hierarchy "Unidade_controle_regras:U2|maquina_estados:I1" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_controle_regras.v Line: 19
+Info (12128): Elaborating entity "FOU" for hierarchy "FOU:U1" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v Line: 42
+Info (12128): Elaborating entity "ffds" for hierarchy "FOU:U1|ffds:ENTRADA01" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU.v Line: 18
+Info (12128): Elaborating entity "fuzzificador" for hierarchy "FOU:U1|fuzzificador:in1" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU.v Line: 31
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(24): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 24
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(28): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 28
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(35): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 35
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(39): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 39
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(46): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 46
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(50): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 50
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(57): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 57
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(61): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 61
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(68): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 68
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(72): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 72
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(80): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 80
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(84): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 84
+Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(19): inferring latch(es) for variable "MF_01_UP", which holds its previous value in one or more paths through the always construct File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(19): inferring latch(es) for variable "MF_01_LOW", which holds its previous value in one or more paths through the always construct File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(19): inferring latch(es) for variable "MF_02_UP", which holds its previous value in one or more paths through the always construct File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(19): inferring latch(es) for variable "MF_02_LOW", which holds its previous value in one or more paths through the always construct File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(19): inferring latch(es) for variable "MF_03_UP", which holds its previous value in one or more paths through the always construct File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(19): inferring latch(es) for variable "MF_03_LOW", which holds its previous value in one or more paths through the always construct File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[0]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[1]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[2]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[3]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[4]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[5]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[6]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[7]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[0]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[1]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[2]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[3]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[4]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[5]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[6]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[7]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[0]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[1]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[2]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[3]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[4]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[5]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[6]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[7]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[0]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[1]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[2]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[3]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[4]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[5]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[6]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[7]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[0]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[1]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[2]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[3]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[4]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[5]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[6]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[7]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[0]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[1]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[2]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[3]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[4]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[5]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[6]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[7]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (12128): Elaborating entity "fuzzificador" for hierarchy "FOU:U1|fuzzificador:in2" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU.v Line: 43
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(24): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 24
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(28): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 28
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(35): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 35
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(39): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 39
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(46): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 46
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(50): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 50
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(57): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 57
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(61): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 61
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(68): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 68
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(72): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 72
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(80): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 80
+Warning (10230): Verilog HDL assignment warning at fuzzificador.v(84): truncated value with size 32 to match size of target (8) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 84
+Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(19): inferring latch(es) for variable "MF_01_UP", which holds its previous value in one or more paths through the always construct File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(19): inferring latch(es) for variable "MF_01_LOW", which holds its previous value in one or more paths through the always construct File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(19): inferring latch(es) for variable "MF_02_UP", which holds its previous value in one or more paths through the always construct File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(19): inferring latch(es) for variable "MF_02_LOW", which holds its previous value in one or more paths through the always construct File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(19): inferring latch(es) for variable "MF_03_UP", which holds its previous value in one or more paths through the always construct File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(19): inferring latch(es) for variable "MF_03_LOW", which holds its previous value in one or more paths through the always construct File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[0]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[1]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[2]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[3]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[4]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[5]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[6]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_LOW[7]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[0]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[1]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[2]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[3]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[4]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[5]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[6]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_03_UP[7]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[0]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[1]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[2]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[3]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[4]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[5]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[6]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_LOW[7]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[0]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[1]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[2]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[3]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[4]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[5]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[6]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_02_UP[7]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[0]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[1]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[2]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[3]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[4]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[5]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[6]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_LOW[7]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[0]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[1]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[2]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[3]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[4]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[5]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[6]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (10041): Inferred latch for "MF_01_UP[7]" at fuzzificador.v(19) File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 19
+Info (12128): Elaborating entity "inferencia" for hierarchy "inferencia:U3" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v Line: 46
+Info (12128): Elaborating entity "Unidade_regras" for hierarchy "inferencia:U3|Unidade_regras:UP" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/inferencia.v Line: 17
+Info (12128): Elaborating entity "mux4b_U_reg" for hierarchy "inferencia:U3|Unidade_regras:UP|mux4b_U_reg:A" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v Line: 15
+Info (10264): Verilog HDL Case Statement information at mux4b_U_reg.v(7): all case item expressions in this case statement are onehot File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux4b_U_reg.v Line: 7
+Info (12128): Elaborating entity "compara_U_reg" for hierarchy "inferencia:U3|Unidade_regras:UP|compara_U_reg:minimo" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v Line: 18
+Info (12128): Elaborating entity "compara_Maximo" for hierarchy "inferencia:U3|Unidade_regras:UP|compara_Maximo:U2" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v Line: 21
+Info (12128): Elaborating entity "Registrador_saida" for hierarchy "inferencia:U3|Unidade_regras:UP|Registrador_saida:U3" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v Line: 24
+Info (12128): Elaborating entity "ffd" for hierarchy "inferencia:U3|Unidade_regras:UP|Registrador_saida:U3|ffd:zero" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Registrador_saida.v Line: 9
+Info (12128): Elaborating entity "codificador_inferencia" for hierarchy "inferencia:U3|Unidade_regras:UP|Registrador_saida:U3|codificador_inferencia:cod" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Registrador_saida.v Line: 17
+Warning (10235): Verilog HDL Always Construct warning at codificador_inferencia.v(8): variable "rst" is read inside the Always Construct but isn't in the Always Construct's Event Control File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador_inferencia.v Line: 8
+Info (12128): Elaborating entity "mux_4CANAIS_4b" for hierarchy "inferencia:U3|Unidade_regras:UP|mux_4CANAIS_4b:U4" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v Line: 26
+Info (12128): Elaborating entity "codificador" for hierarchy "inferencia:U3|codificador:Cod" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/inferencia.v Line: 20
+Info (12128): Elaborating entity "TR_defuzzy" for hierarchy "TR_defuzzy:U4" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v Line: 49
+Info (12128): Elaborating entity "soma" for hierarchy "TR_defuzzy:U4|soma:s1" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v Line: 18
+Info (12128): Elaborating entity "soma_X_pos" for hierarchy "TR_defuzzy:U4|soma_X_pos:x1" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v Line: 20
+Info (12128): Elaborating entity "soma_total" for hierarchy "TR_defuzzy:U4|soma_total:x2" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v Line: 22
+Warning (12030): Port "ordered port 0" on the entity instantiation of "cod" is connected to a signal of width 7. The formal width of the signal in the module is 3.  The extra bits will be left dangling without any fan-out logic. File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Registrador_saida.v Line: 17
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "inferencia:U3|codigo_pos_mem[2]" is missing source, defaulting to GND File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/inferencia.v Line: 13
+Info (278001): Inferred 17 megafunctions from design logic
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "TR_defuzzy:U4|Div0" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v Line: 26
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in1|Div0" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 28
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in1|Div2" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 46
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in1|Div3" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 50
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in1|Div6" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 68
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in2|Div0" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 28
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in2|Div2" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 46
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in2|Div3" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 50
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in2|Div6" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 68
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in2|Div4" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 57
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in2|Div5" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 61
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in2|Div1" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 39
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in2|Div7" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 80
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in1|Div4" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 57
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in1|Div5" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 61
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in1|Div1" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 39
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "FOU:U1|fuzzificador:in1|Div7" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 80
+Info (12130): Elaborated megafunction instantiation "TR_defuzzy:U4|lpm_divide:Div0" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v Line: 26
+Info (12133): Instantiated megafunction "TR_defuzzy:U4|lpm_divide:Div0" with the following parameter: File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v Line: 26
+    Info (12134): Parameter "LPM_WIDTHN" = "16"
+    Info (12134): Parameter "LPM_WIDTHD" = "16"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_lkm.tdf
+    Info (12023): Found entity 1: lpm_divide_lkm File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/lpm_divide_lkm.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_dnh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_dnh File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/sign_div_unsign_dnh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_eaf.tdf
+    Info (12023): Found entity 1: alt_u_div_eaf File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/alt_u_div_eaf.tdf Line: 26
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_7pc.tdf
+    Info (12023): Found entity 1: add_sub_7pc File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/add_sub_7pc.tdf Line: 22
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_8pc.tdf
+    Info (12023): Found entity 1: add_sub_8pc File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/add_sub_8pc.tdf Line: 22
+Info (12130): Elaborated megafunction instantiation "FOU:U1|fuzzificador:in1|lpm_divide:Div0" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 28
+Info (12133): Instantiated megafunction "FOU:U1|fuzzificador:in1|lpm_divide:Div0" with the following parameter: File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 28
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "6"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_2jm.tdf
+    Info (12023): Found entity 1: lpm_divide_2jm File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/lpm_divide_2jm.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_qlh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_qlh File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/sign_div_unsign_qlh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_87f.tdf
+    Info (12023): Found entity 1: alt_u_div_87f File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/alt_u_div_87f.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "FOU:U1|fuzzificador:in1|lpm_divide:Div2" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 46
+Info (12133): Instantiated megafunction "FOU:U1|fuzzificador:in1|lpm_divide:Div2" with the following parameter: File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 46
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "7"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_3jm.tdf
+    Info (12023): Found entity 1: lpm_divide_3jm File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/lpm_divide_3jm.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_rlh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_rlh File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/sign_div_unsign_rlh.tdf Line: 24
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_a7f.tdf
+    Info (12023): Found entity 1: alt_u_div_a7f File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/alt_u_div_a7f.tdf Line: 26
+Info (12130): Elaborated megafunction instantiation "FOU:U1|fuzzificador:in1|lpm_divide:Div3" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 50
+Info (12133): Instantiated megafunction "FOU:U1|fuzzificador:in1|lpm_divide:Div3" with the following parameter: File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 50
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "7"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "FOU:U1|fuzzificador:in1|lpm_divide:Div6" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 68
+Info (12133): Instantiated megafunction "FOU:U1|fuzzificador:in1|lpm_divide:Div6" with the following parameter: File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 68
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "7"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "FOU:U1|fuzzificador:in2|lpm_divide:Div0" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 28
+Info (12133): Instantiated megafunction "FOU:U1|fuzzificador:in2|lpm_divide:Div0" with the following parameter: File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 28
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "7"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "FOU:U1|fuzzificador:in2|lpm_divide:Div6" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 68
+Info (12133): Instantiated megafunction "FOU:U1|fuzzificador:in2|lpm_divide:Div6" with the following parameter: File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 68
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "7"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "FOU:U1|fuzzificador:in2|lpm_divide:Div4" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 57
+Info (12133): Instantiated megafunction "FOU:U1|fuzzificador:in2|lpm_divide:Div4" with the following parameter: File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 57
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "6"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "FOU:U1|fuzzificador:in2|lpm_divide:Div7" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 80
+Info (12133): Instantiated megafunction "FOU:U1|fuzzificador:in2|lpm_divide:Div7" with the following parameter: File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 80
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "6"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "FOU:U1|fuzzificador:in1|lpm_divide:Div4" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 57
+Info (12133): Instantiated megafunction "FOU:U1|fuzzificador:in1|lpm_divide:Div4" with the following parameter: File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 57
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "6"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "FOU:U1|fuzzificador:in1|lpm_divide:Div1" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 39
+Info (12133): Instantiated megafunction "FOU:U1|fuzzificador:in1|lpm_divide:Div1" with the following parameter: File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 39
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "6"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12130): Elaborated megafunction instantiation "FOU:U1|fuzzificador:in1|lpm_divide:Div7" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 80
+Info (12133): Instantiated megafunction "FOU:U1|fuzzificador:in1|lpm_divide:Div7" with the following parameter: File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v Line: 80
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "6"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Warning (12241): 6 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (13000): Registers with preset signals will power-up high File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffds.v Line: 11
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Info (286030): Timing-Driven Synthesis is running
+Info (17016): Found the following redundant logic cells in design
+    Info (17048): Logic cell "FOU:U1|fuzzificador:in1|lpm_divide:Div2|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider|alt_u_div_a7f:divider|add_sub_18_result_int[2]~12" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/alt_u_div_a7f.tdf Line: 76
+    Info (17048): Logic cell "FOU:U1|fuzzificador:in1|lpm_divide:Div2|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider|alt_u_div_a7f:divider|add_sub_18_result_int[1]~14" File: F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/db/alt_u_div_a7f.tdf Line: 76
+Info (144001): Generated suppressed messages file F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/output_files/Fuzzy_1.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 6497 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 20 input pins
+    Info (21059): Implemented 8 output pins
+    Info (21061): Implemented 6469 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 49 warnings
+    Info: Peak virtual memory: 4837 megabytes
+    Info: Processing ended: Thu Oct 27 12:00:35 2022
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:31
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/output_files/Fuzzy_1.map.smsg.
+
+

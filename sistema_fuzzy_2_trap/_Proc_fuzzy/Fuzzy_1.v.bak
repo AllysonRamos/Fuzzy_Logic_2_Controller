@@ -1,0 +1,116 @@
+module Fuzzy_1 (Srst, Entrada_01, Entrada_02, EN_REGRAS, Sativo_UP, saida_defuzzy, 
+                clk_0, clk_1, SReset_Memoria, Sclk_int, SSequencia_regras,
+                Ssaida_UP_0, Ssaida_UP_1,  Ssaida_UP_2, Ssaida_LOW_0, Ssaida_LOW_1,
+					 Ssaida_LOW_2, sFOU_01_UP, sFOU_02_UP, sFOU_03_UP, sFOU_01_LOW,
+					 sFOU_02_LOW, sFOU_03_LOW, sFOU_04_UP, sFOU_05_UP, sFOU_06_UP,
+					 sFOU_04_LOW, sFOU_05_LOW, sFOU_06_LOW, Ssaida_x_pos, Ssaida_total, SFOU_1, SFOU_2,SFOU_3); 
+
+input  [7:0] Entrada_01,Entrada_02; // Extra
+
+input  EN_REGRAS,clk_0, clk_1, Srst;
+
+output [7:0] Ssaida_UP_0, Ssaida_UP_1,  Ssaida_UP_2, Ssaida_LOW_0, Ssaida_LOW_1,
+             Ssaida_LOW_2;
+
+output [7:0] SFOU_1, SFOU_2,SFOU_3;
+
+output [7:0] sFOU_01_UP, sFOU_02_UP, sFOU_03_UP, sFOU_01_LOW, sFOU_02_LOW,
+             sFOU_03_LOW, sFOU_04_UP, sFOU_05_UP, sFOU_06_UP, sFOU_04_LOW,
+				 sFOU_05_LOW, sFOU_06_LOW;
+output [15:0] Ssaida_x_pos, Ssaida_total;
+
+wire   [7:0] Input_01, Input_02;
+
+output [5:0] Sativo_UP;
+
+output [7:0] saida_defuzzy;
+
+output SReset_Memoria, Sclk_int;
+output [3:0] SSequencia_regras;
+
+wire [8:0] DADOS_A, DADOS_B, DADOS_C,DADOS_D, DADOS_E, DADOS_F, DADOS_G, DADOS_H,DADOS_I, DADOS_J;
+wire [7:0] w_saida;
+wire clock_gerador_funcao;
+
+//wire clk_0, clk_1, c0,c1,c2, c3;
+
+//wire Abilita_Memorias, Apaga_Memoria, ENA_Locked, rst;
+wire Apaga_Memoria, ENA_Locked, rst;
+
+wire [1:0] sel_1, sel_2;
+
+wire [3:0] Regras;
+wire       EN_FF_FOU, sel_mux_2CANAIS, Reset_Memoria, clk_int;
+wire       Sequencia_regras;
+wire [2:0] codigo_pos_mem;
+wire [5:0] Ativo_UP;
+wire [7:0] FOU_01_UP, FOU_02_UP, FOU_03_UP,FOU_01_LOW, FOU_02_LOW, FOU_03_LOW,
+           FOU_04_UP, FOU_05_UP, FOU_06_UP,FOU_04_LOW,FOU_05_LOW, FOU_06_LOW;
+wire [7:0] saida_UP_0, saida_UP_1,  saida_UP_2, saida_LOW_0, saida_LOW_1, saida_LOW_2;
+wire [7:0] FOU_1, FOU_2,FOU_3;
+wire [15:0] saida_x_pos, saida_total;
+//or (Srst, ERESET,EENA_Locked);
+
+assign sFOU_01_UP  = FOU_01_UP;
+assign sFOU_02_UP  = FOU_02_UP;
+assign sFOU_03_UP  = FOU_03_UP;
+assign sFOU_01_LOW = FOU_01_LOW;
+assign sFOU_02_LOW = FOU_02_LOW;
+assign sFOU_03_LOW = FOU_03_LOW;
+assign sFOU_04_UP  = FOU_04_UP;
+assign sFOU_05_UP  = FOU_05_UP;
+assign sFOU_06_UP  = FOU_06_UP;
+assign sFOU_04_LOW = FOU_04_LOW;
+assign sFOU_05_LOW = FOU_05_LOW;
+assign sFOU_06_LOW = FOU_06_LOW;
+
+assign Regras = {sel_1[1:0], sel_2[1:0]};
+assign Apaga_Memoria = Reset_Memoria;
+
+assign Input_01 = Entrada_01; // EXTRA
+
+assign Input_02 = Entrada_02; // EXTRA
+
+assign SReset_Memoria = Reset_Memoria;
+assign Sclk_int = clk_int;
+assign SSequencia_regras = Regras;
+
+assign Sativo_UP = Ativo_UP;
+
+FOU U1(Input_01, Input_02, EN_REGRAS, clk_int, Srst, FOU_01_UP, FOU_02_UP, FOU_03_UP,  
+       FOU_01_LOW, FOU_02_LOW, FOU_03_LOW,FOU_04_UP,FOU_05_UP,
+       FOU_06_UP,FOU_04_LOW, FOU_05_LOW, FOU_06_LOW,
+       Ativo_UP);
+
+Unidade_controle_regras U2(clk_0, Srst, EN_REGRAS, Ativo_UP, {sel_1[1:0], sel_2[1:0]},
+                           Reset_Memoria, clk_int);
+
+inferencia U3(FOU_01_UP, FOU_02_UP,FOU_03_UP,FOU_04_UP,FOU_05_UP,
+              FOU_06_UP, FOU_01_LOW, FOU_02_LOW, FOU_03_LOW, FOU_04_LOW, 
+              FOU_05_LOW, FOU_06_LOW, saida_UP_0, saida_UP_1,  saida_UP_2,
+              saida_LOW_0, saida_LOW_1, saida_LOW_2, Regras, clk_1, Reset_Memoria);
+				  
+TR_defuzzy U4(saida_UP_0, saida_UP_1,  saida_UP_2,saida_LOW_0, 
+              saida_LOW_1, saida_LOW_2,saida_defuzzy, saida_x_pos, saida_total, 
+              EN_REGRAS,clk_int, Srst, FOU_1, FOU_2,FOU_3);
+
+assign Ssaida_UP_0 = saida_UP_0;
+assign Ssaida_UP_1 = saida_UP_1;
+assign Ssaida_UP_2 = saida_UP_2;
+assign Ssaida_LOW_0 = saida_LOW_0;
+assign Ssaida_LOW_1 = saida_LOW_1;
+assign Ssaida_LOW_2 = saida_LOW_2;
+
+
+assign Ssaida_x_pos = saida_x_pos;
+assign Ssaida_total = saida_total;
+
+assign SFOU_1 = FOU_1;
+assign SFOU_2 = FOU_2;
+assign SFOU_3 = FOU_3;
+endmodule
+
+
+
+
+

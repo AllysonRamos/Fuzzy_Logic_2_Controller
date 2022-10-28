@@ -1,0 +1,137 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk_1'
+Slack : -65.478
+TNS   : -3038.040
+
+Type  : Slow 1200mV 85C Model Setup 'clk_0'
+Slack : -62.635
+TNS   : -249.589
+
+Type  : Slow 1200mV 85C Model Setup 'Unidade_controle_regras:U2|maquina_estados:I1|estado_atual~4'
+Slack : -47.326
+TNS   : -291.184
+
+Type  : Slow 1200mV 85C Model Hold 'clk_0'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_1'
+Slack : 1.555
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Unidade_controle_regras:U2|maquina_estados:I1|estado_atual~4'
+Slack : 1.927
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk_1'
+Slack : -4.177
+TNS   : -197.623
+
+Type  : Slow 1200mV 85C Model Removal 'clk_1'
+Slack : 1.643
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_1'
+Slack : -3.000
+TNS   : -64.680
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_0'
+Slack : -3.000
+TNS   : -8.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Unidade_controle_regras:U2|maquina_estados:I1|estado_atual~4'
+Slack : -1.285
+TNS   : -30.840
+
+Type  : Slow 1200mV 0C Model Setup 'clk_1'
+Slack : -59.178
+TNS   : -2742.568
+
+Type  : Slow 1200mV 0C Model Setup 'clk_0'
+Slack : -56.473
+TNS   : -225.023
+
+Type  : Slow 1200mV 0C Model Setup 'Unidade_controle_regras:U2|maquina_estados:I1|estado_atual~4'
+Slack : -42.576
+TNS   : -262.247
+
+Type  : Slow 1200mV 0C Model Hold 'clk_0'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_1'
+Slack : 1.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Unidade_controle_regras:U2|maquina_estados:I1|estado_atual~4'
+Slack : 1.779
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk_1'
+Slack : -3.827
+TNS   : -181.057
+
+Type  : Slow 1200mV 0C Model Removal 'clk_1'
+Slack : 1.583
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_1'
+Slack : -3.000
+TNS   : -64.680
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_0'
+Slack : -3.000
+TNS   : -8.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Unidade_controle_regras:U2|maquina_estados:I1|estado_atual~4'
+Slack : -1.285
+TNS   : -30.840
+
+Type  : Fast 1200mV 0C Model Setup 'clk_1'
+Slack : -31.625
+TNS   : -1464.331
+
+Type  : Fast 1200mV 0C Model Setup 'clk_0'
+Slack : -30.428
+TNS   : -121.389
+
+Type  : Fast 1200mV 0C Model Setup 'Unidade_controle_regras:U2|maquina_estados:I1|estado_atual~4'
+Slack : -22.943
+TNS   : -140.456
+
+Type  : Fast 1200mV 0C Model Hold 'clk_0'
+Slack : 0.211
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_1'
+Slack : 0.582
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Unidade_controle_regras:U2|maquina_estados:I1|estado_atual~4'
+Slack : 1.145
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk_1'
+Slack : -1.545
+TNS   : -72.125
+
+Type  : Fast 1200mV 0C Model Removal 'clk_1'
+Slack : 0.570
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_1'
+Slack : -3.000
+TNS   : -53.923
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_0'
+Slack : -3.000
+TNS   : -7.866
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Unidade_controle_regras:U2|maquina_estados:I1|estado_atual~4'
+Slack : -1.000
+TNS   : -24.000
+
+------------------------------------------------------------

@@ -1,0 +1,484 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/simulation/modelsim
+vcodificador
+Z1 !s110 1666882903
+!i10b 1
+!s100 2N5Y1=WJ^Bm;foGNO^X]83
+IA=^MBH]ac4VZ^8odZRjaF1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1626768616
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1666882903.000000
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy}
+Z8 tCvgOpt 0
+vcodificador_inferencia
+R1
+!i10b 1
+!s100 2ZRWZGOd50Zgg:I0Z1fZI3
+IRkeTa:WjD9OkF61PhMHL`1
+R2
+R0
+R3
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador_inferencia.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador_inferencia.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador_inferencia.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/codificador_inferencia.v|
+!i113 1
+R6
+R7
+R8
+vcompara_Maximo
+R1
+!i10b 1
+!s100 HJKT7ScX00K]4kX<ncjln0
+INbi1NODn6_Kg`]GE>FJI<0
+R2
+R0
+w1616600754
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_Maximo.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_Maximo.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_Maximo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_Maximo.v|
+!i113 1
+R6
+R7
+R8
+ncompara_@maximo
+vcompara_U_reg
+R1
+!i10b 1
+!s100 K2Qo4WgBAIfX:h0@A==LS3
+IIN:Igd<bm=gY7kIZUIB690
+R2
+R0
+w1616660990
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_U_reg.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_U_reg.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_U_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/compara_U_reg.v|
+!i113 1
+R6
+R7
+R8
+ncompara_@u_reg
+vffd
+Z9 !s110 1666882902
+!i10b 1
+!s100 nbk0?]6g;L4ihoz[00RJ=2
+IzKkY7A:WROk_ih6A>]PBI2
+R2
+R0
+w1615540730
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffd.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffd.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1666882902.000000
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffd.v|
+!i113 1
+R6
+R7
+R8
+vffds
+R9
+!i10b 1
+!s100 1Sn4;@VN?dT9=11@XaQ@m2
+I>MKPdZ`Tc_`78H^BPl@T23
+R2
+R0
+w1625380944
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffds.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffds.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffds.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/ffds.v|
+!i113 1
+R6
+R7
+R8
+vFOU
+R1
+!i10b 1
+!s100 _4OGFXecEmTH?Bz?Eb1C12
+I6Mc=SPj?GS3WlcOLR87SY3
+R2
+R0
+w1666882814
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU.v|
+!i113 1
+R6
+R7
+R8
+n@f@o@u
+vFOU_TB
+R1
+!i10b 1
+!s100 :F^^i6aTWeOShV3UbYai?3
+I4TRGnM^l[e@zThj=QQUbl1
+R2
+R0
+w1632869015
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU_TB.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU_TB.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU_TB.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/FOU_TB.v|
+!i113 1
+R6
+R7
+R8
+n@f@o@u_@t@b
+vfuzzificador
+R1
+!i10b 1
+!s100 K@i:a9>ZYGUH1G;PE6FUc0
+IofRd]SK8T8c8Kl1jEZAGS0
+R2
+R0
+w1666882485
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/fuzzificador.v|
+!i113 1
+R6
+R7
+R8
+vFuzzy_1
+R9
+!i10b 1
+!s100 TjhJRjeGoY8<:ccC1_3QZ2
+I?DbnP0`aR`:5U^]RHJigM0
+R2
+R0
+w1664040632
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Fuzzy_1.v|
+!i113 1
+R6
+R7
+R8
+n@fuzzy_1
+vinferencia
+R1
+!i10b 1
+!s100 FIkCQ`?Jk>]6f?DCPMT<00
+IF2HjeJY;G]LBB?]jmI>^l1
+R2
+R0
+w1664028044
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/inferencia.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/inferencia.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/inferencia.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/inferencia.v|
+!i113 1
+R6
+R7
+R8
+vmaquina_estados
+R1
+!i10b 1
+!s100 VUQf3alTOchV_eAA`GmTV0
+I2?b4h_FNhN^khI=2FP][L0
+R2
+R0
+w1664039322
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/maquina_estados.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/maquina_estados.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/maquina_estados.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/maquina_estados.v|
+!i113 1
+R6
+R7
+R8
+vmux4b_U_reg
+R1
+!i10b 1
+!s100 <KKiXAa<>[j4EOhN^_PfC0
+ICL_:>:lXb1k1ITbYOQQkW3
+R2
+R0
+w1626768618
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux4b_U_reg.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux4b_U_reg.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux4b_U_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux4b_U_reg.v|
+!i113 1
+R6
+R7
+R8
+nmux4b_@u_reg
+vmux_4CANAIS_4b
+R9
+!i10b 1
+!s100 ASj<gP2:DEjFe;DU0d[`j2
+I;[nCG:z<iF8FBN9@YjT;g3
+R2
+R0
+w1626770776
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux_4CANAIS_4b.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux_4CANAIS_4b.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux_4CANAIS_4b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/mux_4CANAIS_4b.v|
+!i113 1
+R6
+R7
+R8
+nmux_4@c@a@n@a@i@s_4b
+vRegistrador_saida
+R1
+!i10b 1
+!s100 C398a2I9YWG`=DmMffAzB2
+IClo<BeF1_oo1^]gcLjGHK0
+R2
+R0
+w1624271578
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Registrador_saida.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Registrador_saida.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Registrador_saida.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Registrador_saida.v|
+!i113 1
+R6
+R7
+R8
+n@registrador_saida
+vsoma
+R9
+!i10b 1
+!s100 ]`^>67]TJWJo7bBLBZm>O2
+I[QQd_:2RioBm_hQ>PRM?52
+R2
+R0
+w1626801276
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma.v|
+!i113 1
+R6
+R7
+R8
+vsoma_total
+R9
+!i10b 1
+!s100 WBZEnfL=V21j9IUgn=`d00
+ISb3@SCbi>@FTlOeYVNkk_1
+R2
+R0
+w1626803070
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_total.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_total.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_total.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_total.v|
+!i113 1
+R6
+R7
+R8
+vsoma_X_pos
+R9
+!i10b 1
+!s100 j6o952h453]V;MFNh^fZH2
+Ik`??72:O>SSHIF@z>;c[@1
+R2
+R0
+w1626801274
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_X_pos.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_X_pos.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_X_pos.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/soma_X_pos.v|
+!i113 1
+R6
+R7
+R8
+nsoma_@x_pos
+vTR_defuzzy
+R1
+!i10b 1
+!s100 _MFYQc1zc4dhoG2U^Z21T0
+IEGD@7OJDeCLOb<2G_>Dck3
+R2
+R0
+w1664041682
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/TR_defuzzy.v|
+!i113 1
+R6
+R7
+R8
+n@t@r_defuzzy
+vUnidade_controle_regras
+R9
+!i10b 1
+!s100 ZE8:ZYOY1`97XBYcRoJdU3
+ION8fS^HcChQ17IT=>moE41
+R2
+R0
+w1664039366
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_controle_regras.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_controle_regras.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_controle_regras.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_controle_regras.v|
+!i113 1
+R6
+R7
+R8
+n@unidade_controle_regras
+vUnidade_regras
+R1
+!i10b 1
+!s100 LQZNBi>><2BYHTJ9^0BQO0
+I??gEWRb7cY08VUBoBnaCB3
+R2
+R0
+w1631631814
+8F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Materiais dos professores/_Proc_fuzzy/Unidade_regras.v|
+!i113 1
+R6
+R7
+R8
+n@unidade_regras
