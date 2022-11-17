@@ -15,8 +15,11 @@ FOU_06_UP,FOU_04_LOW, FOU_05_LOW, FOU_06_LOW;
 
 output [5:0] Ativo_UP;
 
-ffds ENTRADA01(entrada_01, Input_01, EN_Entrada_FOU, CLK, RESET);
-ffds ENTRADA02(entrada_02, Input_02, EN_Entrada_FOU, CLK, RESET);
+//ffds ENTRADA01(entrada_01, Input_01, EN_Entrada_FOU, CLK, RESET);
+//ffds ENTRADA02(entrada_02, Input_02, EN_Entrada_FOU, CLK, RESET);
+
+ffds ENTRADA01(entrada_01, Input_01, CLK, RESET);
+ffds ENTRADA02(entrada_02, Input_02, CLK, RESET);
 
 //---------------------------<MEMBERSHIP FUNCTION FOR INPUT_1>---------------------------
 
@@ -44,18 +47,6 @@ Ativo_5, Ativo_6);
 		
 assign Ativo_UP = {Ativo_1, Ativo_2, Ativo_3,
                    Ativo_4, Ativo_5, Ativo_6};  											 
-											 
-////---------------------------Ativo entrada x1------------------------------------------
-//
-//geraSativo detecta_1(FOU_01_UP, Ativo_UP_1); 
-//geraSativo detecta_2(FOU_02_UP, Ativo_UP_2); 
-//geraSativo detecta_3(FOU_03_UP, Ativo_UP_3); 
-// 
-////---------------------------Ativo entrada x2------------------------------------------
-//
-//geraSativo detecta_4(FOU_04_UP, Ativo_UP_4); 
-//geraSativo detecta_5(FOU_05_UP, Ativo_UP_5); 
-//geraSativo detecta_6(FOU_06_UP, Ativo_UP_6); 
 
 endmodule
 

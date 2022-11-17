@@ -10,7 +10,7 @@ FOU_04_UP, FOU_05_UP, FOU_06_UP, FOU_04_LOW, FOU_05_LOW, FOU_06_LOW;
 	FOU DUT(
 		.CLK(CLK),
 		.RESET(RESET),
-		//.EN_Entrada_FOU(EN_Entrada_FOU),
+		.EN_Entrada_FOU(EN_Entrada_FOU),
 		.Input_01(Input_01),
 		.Input_02(Input_02),
 		.FOU_01_UP(FOU_01_UP),
@@ -38,7 +38,7 @@ FOU_04_UP, FOU_05_UP, FOU_06_UP, FOU_04_LOW, FOU_05_LOW, FOU_06_LOW;
 	
 	initial begin
 		RESET = 0;
-		//EN_Entrada_FOU = 1;
+		EN_Entrada_FOU = 1;
 		Input_01 = 0;
 		Input_02 = 0;
 		#10;

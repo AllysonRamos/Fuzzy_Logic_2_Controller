@@ -1,13 +1,15 @@
-module ffds (q, D, EN, clk, inicio);
+module ffds (q, D, clk, reset);
     output reg [7:0] q;
     input [7:0] D;
-	 input EN, clk, inicio;
+	 //input EN;
+	 input clk, reset;
    
 
-    always @(posedge(clk), posedge(inicio))
+    always @(posedge(clk), posedge(reset))
 	 
-      if (inicio == 1'b1) q <= 1'b1;
-		else
-		     if (EN == 1'b1)  q <= D;
-    
+      if (reset == 1'b1) 
+			q <= 1'b1;
+		else //if (EN == 1'b1) 
+			q <= D;
+
 endmodule
