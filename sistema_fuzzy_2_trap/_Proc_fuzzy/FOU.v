@@ -1,10 +1,10 @@
-module FOU (Input_01,Input_02, EN_Entrada_FOU, CLK, RESET, FOU_01_UP, FOU_02_UP, FOU_03_UP, 
+module FOU (Input_01,Input_02, clk, EN_SCLK, RESET, FOU_01_UP, FOU_02_UP, FOU_03_UP, 
 FOU_01_LOW, FOU_02_LOW, FOU_03_LOW, FOU_04_UP, FOU_05_UP, FOU_06_UP,FOU_04_LOW, FOU_05_LOW, FOU_06_LOW,
 Ativo_UP);
 
 input [7:0] Input_01, Input_02;
 
-input EN_Entrada_FOU, CLK, RESET;
+input clk, EN_SCLK, RESET;
 
 wire [7:0] entrada_01,entrada_02;
 
@@ -15,19 +15,19 @@ FOU_06_UP,FOU_04_LOW, FOU_05_LOW, FOU_06_LOW;
 
 output [5:0] Ativo_UP;
 
-//ffds ENTRADA01(entrada_01, Input_01, EN_Entrada_FOU, CLK, RESET);
-//ffds ENTRADA02(entrada_02, Input_02, EN_Entrada_FOU, CLK, RESET);
+ffds ENTRADA01(entrada_01, Input_01, clk, EN_SCLK, RESET);
+ffds ENTRADA02(entrada_02, Input_02, clk, EN_SCLK, RESET);
 
-ffds ENTRADA01(entrada_01, Input_01, CLK, RESET);
-ffds ENTRADA02(entrada_02, Input_02, CLK, RESET);
+//ffds ENTRADA01(entrada_01, Input_01, EN_SCLK, RESET);
+//ffds ENTRADA02(entrada_02, Input_02, EN_SCLK, RESET);
 
 //---------------------------<MEMBERSHIP FUNCTION FOR INPUT_1>---------------------------
 
 defparam in1.A1=8'd0,   in1.B1=8'd1,   in1.C1=8'd51,  in1.D1=8'd114; // Trapézio FOU_1_UP
-defparam in1.A2=8'd0,   in1.B2=8'd1,   in1.C2=8'd51,  in1.D2=8'd100; // Trapézio FOU_1_LOW
+defparam in1.A2=8'd0,   in1.B2=8'd1,   in1.C2=8'd51,  in1.D2=8'd107; // Trapézio FOU_1_LOW
 defparam in1.A3=8'd5,   in1.B3=8'd77,  in1.C3=8'd153, in1.D3=8'd222; // Trapézio FOU_2_UP
 defparam in1.A4=8'd18,  in1.B4=8'd77,  in1.C4=8'd153, in1.D4=8'd209; // Trapézio FOU_2_LOW
-defparam in1.A5=8'd100, in1.B5=8'd179, in1.C5=8'd254, in1.D5=8'd255; // Trapézio FOU_3_UP
+defparam in1.A5=8'd118, in1.B5=8'd179, in1.C5=8'd254, in1.D5=8'd255; // Trapézio FOU_3_UP
 defparam in1.A6=8'd125, in1.B6=8'd179, in1.C6=8'd254, in1.D6=8'd255;  // Trapézio FOU_3_LOW
 
 fuzzificador in1 (entrada_01, FOU_01_UP,  FOU_01_LOW, FOU_02_UP, FOU_02_LOW, FOU_03_UP, FOU_03_LOW, Ativo_1,

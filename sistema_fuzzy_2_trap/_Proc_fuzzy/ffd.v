@@ -4,11 +4,8 @@ module ffd (q, D, EN, clk, rst);
 	 input EN, clk, rst;
    
 
-    always @(posedge(clk), posedge(rst)) 
-      if (rst==1'b1) begin
-		q <= 1'b0;
-		end 
-		else if (EN==1'b1) begin
-				q <= D;
-     end
+    always @(posedge(clk), posedge(rst)) begin
+      if (rst==1'b1)			q <= 1'b0;
+		else if (EN==1'b1) 	q <= D;
+	 end
 endmodule

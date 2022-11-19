@@ -3,28 +3,28 @@
 module Fuzzy_1_tb;
 
     reg  RESET_MEM, EN_REGRAS, Srst;
-    reg  clk_0, clk_1;
+    reg  clk_0;
     reg  [7:0] Entrada_01, Entrada_02;
 	 
     wire       SReset_Memoria, Sclk_int; 
     wire [5:0] FOU_ATIVO;
     wire [7:0] saida_defuzzy;
     wire [3:0] SSequencia_regras;
-//    wire [7:0] Ssaida_UP_0, Ssaida_UP_1,  Ssaida_UP_2;
-//    wire [7:0] Ssaida_LOW_0, Ssaida_LOW_1, Ssaida_LOW_2;
-//	 wire [7:0] sFOU_01_UP, sFOU_02_UP, sFOU_03_UP, sFOU_01_LOW,
-//					sFOU_02_LOW, sFOU_03_LOW, sFOU_04_UP, sFOU_05_UP, sFOU_06_UP,
-//					sFOU_04_LOW, sFOU_05_LOW, sFOU_06_LOW, SFOU_1, SFOU_2, SFOU_3;
+    wire [7:0] Ssaida_UP_0, Ssaida_UP_1,  Ssaida_UP_2;
+    wire [7:0] Ssaida_LOW_0, Ssaida_LOW_1, Ssaida_LOW_2;
+	 wire [7:0] sFOU_01_UP, sFOU_02_UP, sFOU_03_UP, sFOU_01_LOW,
+					sFOU_02_LOW, sFOU_03_LOW, sFOU_04_UP, sFOU_05_UP, sFOU_06_UP,
+					sFOU_04_LOW, sFOU_05_LOW, sFOU_06_LOW;
+					//, SFOU_1, SFOU_2, SFOU_3;
 //    wire [15:0] Ssaida_x_pos, Ssaida_total; 
 
     initial begin
        clk_0 = 1'b0;
-       clk_1 = 1'b0;
 	    EN_REGRAS   = 1'b1;
 	    Srst        = 1'b1;
 	    RESET_MEM   = 1'b1;
-       Entrada_01 = 8'd201;  
-       Entrada_02 = 8'd77;
+       Entrada_01 = 8'd112;  
+       Entrada_02 = 8'd160;
        
 		 #65 Srst  = 1'b0; 
 		 RESET_MEM = 1'b0;
@@ -35,8 +35,8 @@ module Fuzzy_1_tb;
 	 integer i,j;
 	 
 	initial begin
-//	Open output file
-//		f = $fopen("output.txt","w");
+	//Open output file
+		f = $fopen("output.txt","w");
 		
 	for (i=0;i<257;i=i+16) begin
 		for (j=0;j<257;j=j+16) begin
@@ -60,8 +60,8 @@ module Fuzzy_1_tb;
 	
     always
 	  begin
-	    #15 clk_0 = 1'b1; #20 clk_1 = 1'b1;
-       #20 clk_0 = 1'b0; #15 clk_1 = 1'b0;
+	    #15 clk_0 = 1'b1;
+       #20 clk_0 = 1'b0; 
 	  end
 	  
 //	initial begin
@@ -69,8 +69,12 @@ module Fuzzy_1_tb;
 //	end
 
 					  
-	 Fuzzy_1 DUT (Srst, Entrada_01, Entrada_02, EN_REGRAS, saida_defuzzy, clk_0, clk_1, Sclk_int,
-						SSequencia_regras, SReset_Memoria, FOU_ATIVO); 
+	 Fuzzy_1 DUT (Srst, Entrada_01, Entrada_02, EN_REGRAS, saida_defuzzy, clk_0, Sclk_int,
+						SSequencia_regras, SReset_Memoria, FOU_ATIVO,
+						sFOU_01_UP, sFOU_02_UP, sFOU_03_UP, sFOU_01_LOW,
+						sFOU_02_LOW, sFOU_03_LOW, sFOU_04_UP, sFOU_05_UP, sFOU_06_UP,
+						sFOU_04_LOW, sFOU_05_LOW, sFOU_06_LOW,
+						Ssaida_UP_0, Ssaida_LOW_0, Ssaida_UP_1, Ssaida_LOW_1, Ssaida_UP_2, Ssaida_LOW_2); 
 	 //module Fuzzy_1 (Srst, Entrada_01, Entrada_02, EN_REGRAS, saida_defuzzy, clk_0, clk_1); 
 
 
