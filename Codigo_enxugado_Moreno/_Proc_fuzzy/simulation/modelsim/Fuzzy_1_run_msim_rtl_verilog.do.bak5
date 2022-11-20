@@ -1,0 +1,42 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/Unidade_controle_regras.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/soma_X_pos.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/soma_total.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/soma.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/mux_4CANAIS_4b.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/mux4b_U_reg.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/Duas_regras.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/TR_defuzzy.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/Registrador_saida.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/Unidade_regras.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/Trapezio.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/range_x_trapezio.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/Numerador_Multiplicado_trapezio.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/Num_denom_trapezio.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/inferencia.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/geraSativo.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/Fuzzy_1.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/FOU.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/ffd.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/Elementos_trapezio.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/Elemento_menor_trapezio.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/descarte_topo_trapezio.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/compara_U_reg.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/compara_Maximo.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/codificador_inferencia.v}
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/codificador.v}
+
+vlog -vlog01compat -work work +incdir+C:/Aline_junho {C:/Aline_junho/Fuzzy_1_tb.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  DUT
+
+add wave *
+view structure
+view signals
+run -all

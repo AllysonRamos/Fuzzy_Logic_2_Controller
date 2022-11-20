@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "saida_defuzzy[0]",
+					"strict" : false
+				},
+				{
+					"name" : "saida_defuzzy[1]",
+					"strict" : false
+				},
+				{
+					"name" : "saida_defuzzy[2]",
+					"strict" : false
+				},
+				{
+					"name" : "saida_defuzzy[3]",
+					"strict" : false
+				},
+				{
+					"name" : "saida_defuzzy[4]",
+					"strict" : false
+				},
+				{
+					"name" : "saida_defuzzy[5]",
+					"strict" : false
+				},
+				{
+					"name" : "saida_defuzzy[6]",
+					"strict" : false
+				},
+				{
+					"name" : "saida_defuzzy[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Srst",
+					"strict" : false
+				},
+				{
+					"name" : "EN_REGRAS",
+					"strict" : false
+				},
+				{
+					"name" : "clk_1",
+					"strict" : false
+				},
+				{
+					"name" : "clk_0",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
