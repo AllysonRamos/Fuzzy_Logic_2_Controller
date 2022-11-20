@@ -1,0 +1,40 @@
+module bloco_fuzzificador_numerador (clk, reset, X, saida_fuzzificador);
+
+input [7:0] X;
+input clk, reset;
+
+output reg [7:0] saida_fuzzificador;
+
+parameter A = 8'd0; 
+parameter B = 8'd1;
+parameter C = 8'd51;
+parameter D = 8'd120;
+
+always @ (posedge clk, negedge reset)
+	begin
+		if(!reset)
+			saida_fuzzificador<=8'd0;
+		else
+		if(X<=A)
+			saida_fuzzificador<=8'd0;
+		else if(X<B)
+			saida_fuzzificador<=255*(X-A)/(B-A);
+		else if(X<=C)
+			saida_fuzzificador<=8'd255;
+		else if(X<D)
+			saida_fuzzificador<=255*(D-X)/(D-C);
+		else if(X>=D)
+			saida_fuzzificador<=8'd0;
+			
+		/*
+		case(X)
+			X<=A: 	saida_fuzzificador<=8'd0;
+			X<B:  	saida_fuzzificador<=Ka*(X-A);
+			X<C:  	saida_fuzzificador<=8'd255;
+			X<D:  	saida_fuzzificador<=Kd*(D-X);
+			X>=D: 	saida_fuzzificador<=8'd0;
+		default: 	saida_fuzzificador<=8'bz;
+		endcase
+		*/
+	end
+endmodule
