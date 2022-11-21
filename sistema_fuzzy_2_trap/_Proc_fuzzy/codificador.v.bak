@@ -1,7 +1,7 @@
 module codificador (codigo, entrada);
 
 	    input      [3:0]   entrada;
-       output reg [1:0]   codigo;
+        output reg [1:0]   codigo;
        
         always @(entrada)
           begin

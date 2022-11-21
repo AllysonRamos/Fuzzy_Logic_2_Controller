@@ -40,30 +40,29 @@ module maquina_estados (clk, entrada, rst, EN_REGRAS, saida, estado);
 			case (estado_atual)    
 				END  :  estado_atual <= Start;
 				Start:
-//================R8=====================
+//================R8============================================================
 			         if (entrada == 6'b001_001) // 1 REGRA
 						estado_atual <= R8;
 													
-//================R7=====================
+//================R7============================================================
 				      else if (entrada == 6'b001_011) // 2 REGRAS
 						estado_atual <= R7;
 						else if (entrada == 6'b001_010)//1 REGRA
 						estado_atual <= R7;
 
-//================R6=====================
+//================R6============================================================
 				      else if (entrada == 6'b001_110) // 2 REGRAS
 						estado_atual <= R6;					
 						else if (entrada == 6'b001_100)//1 REGRA
 						estado_atual <= R6;
 
-//================R5=====================
-	
+//================R5============================================================
 				      else if (entrada == 6'b011_001) // 2 REGRAS
 						estado_atual <= R5;
 						else if (entrada == 6'b010_001)//1 REGRA
 						estado_atual <= R5;	
 					
-//================R4=====================
+//================R4============================================================
 				      else if (entrada == 6'b010_011) //2 REGRAS
 						estado_atual <= R4;
 				      else if (entrada == 6'b011_010) // 2 REGRAS
@@ -73,7 +72,7 @@ module maquina_estados (clk, entrada, rst, EN_REGRAS, saida, estado);
 						else if (entrada == 6'b010_010)//1 REGRA
 						estado_atual <= R4;	
 				
-//================R3=====================
+//================R3============================================================
 				      else if (entrada == 6'b010_110) //  2 REGRAS
 						estado_atual <= R3;
 				      else if (entrada == 6'b011_100) // 2 REGRAS
@@ -83,13 +82,13 @@ module maquina_estados (clk, entrada, rst, EN_REGRAS, saida, estado);
 						else if (entrada == 6'b010_100)//1REGRA
 						estado_atual <= R3;	
 						
-//================R2=====================
+//================R2============================================================
 				      else if (entrada == 6'b110_001)//2 Regras
 						estado_atual <= R2;
 						else if (entrada == 6'b100_001)//1 Regra
 						estado_atual <= R2;
 
-//================R1=====================
+//================R1============================================================
 				      else if (entrada == 6'b100_011)//2 regras
 						estado_atual <= R1;
 				      else if (entrada == 6'b110_010)// 2 regras
@@ -99,7 +98,7 @@ module maquina_estados (clk, entrada, rst, EN_REGRAS, saida, estado);
 						else if (entrada == 6'b100_010)//1 Regra
 						estado_atual <= R1;
 					
-//================R0=====================
+//================R0============================================================
 				      else if(entrada ==  6'b100_110) // 2 regra
 				      estado_atual <= R0;
 						else if(entrada ==  6'b110_100)// 2 regras
@@ -145,8 +144,7 @@ R3:
 					 else if(entrada ==  6'b011_110)//4R
 					   estado_atual <= R4;
 					 else estado_atual <= END;						
-													
-						
+															
 R4:			
 					 if (entrada == 6'b010_011) //ok
 						estado_atual <= R5;								//alterado dia 17/11/22
@@ -168,7 +166,6 @@ R5:
 					 else if(entrada ==  6'b110_011)//Seq de 4R
 					   estado_atual <= R4;
 					 else estado_atual <= END;
-		
 						
 R6:			
 					 if (entrada == 6'b001_110) // ok
@@ -181,8 +178,7 @@ R7:
 						estado_atual <= R8;
 					 else if(entrada ==  6'b011_110)//ok
 					   estado_atual <= R6;
-					 else estado_atual <= END;
-								 
+					 else estado_atual <= END;			 
 								
 R8:			
                 if(entrada ==  6'b011_011)//ok
