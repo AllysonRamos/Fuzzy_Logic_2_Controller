@@ -1,10 +1,9 @@
-module fuzzificador (entrada, MF_01_UP, MF_01_LOW, MF_02_UP, MF_02_LOW, MF_03_UP, MF_03_LOW, Ativo_1, Ativo_2, 
-Ativo_3);
+module fuzzificador (entrada, MF_01_UP, MF_01_LOW, MF_02_UP, MF_02_LOW, 
+							MF_03_UP, MF_03_LOW, Ativo_1, Ativo_2, Ativo_3);
 
 input [7:0] entrada;
 
 output reg Ativo_1, Ativo_2, Ativo_3;
-
 output reg [7:0] MF_01_UP, MF_01_LOW, MF_02_UP, MF_02_LOW, MF_03_UP, MF_03_LOW;
 
 parameter A1, B1, C1, D1; // trapezio MF_01_UP 
