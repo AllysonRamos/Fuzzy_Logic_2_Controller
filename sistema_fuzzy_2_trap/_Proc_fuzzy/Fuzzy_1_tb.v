@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 100ns/100ps
 
 module Fuzzy_1_tb;
 
@@ -21,12 +21,12 @@ Fuzzy_1 DUT (Srst, Entrada_01, Entrada_02, EN_REGRAS, saida_defuzzy, clk_0, Sclk
 	    EN_REGRAS   = 1'b1;
 	    Srst        = 1'b1;
 	    RESET_MEM   = 1'b1;
-		 
-//     Entrada_01 = 8'd112;	HABILITE PARA TESTE COM ENTRADAS FIXAS
-//     Entrada_02 = 8'd160;	HABILITE PARA TESTE COM ENTRADAS FIXAS
        
 		 #65 Srst  = 1'b0; 
 		 RESET_MEM = 1'b0;
+		 
+		//Entrada_01 = 8'd112;	//HABILITE PARA TESTE COM ENTRADAS FIXAS
+		//Entrada_02 = 8'd160;
 		
     end
 	 
