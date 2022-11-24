@@ -1,5 +1,8 @@
 module Fuzzy_1 (Srst, Entrada_01, Entrada_02, EN_REGRAS, saida_defuzzy, 
-                clk_0, Sclk_int, SSequencia_regras, SReset_Memoria, SAtivo); 
+                clk_0, Sclk_int, SSequencia_regras, SReset_Memoria, SAtivo
+					 //saida_01_UP, saida_01_LOW, saida_02_UP, saida_02_LOW, saida_03_UP, saida_03_LOW, 
+					 //saida_04_UP, saida_04_LOW, saida_05_UP, saida_05_LOW, saida_06_UP, saida_06_LOW
+					 ); 
 
 //---------------------------<INPUTS>----------------------------------------------------------				 
 input 		EN_REGRAS,clk_0,Srst;
@@ -16,9 +19,11 @@ wire clk_int, rst, Reset_Inf;
 wire [7:0] Input_01, Input_02;
 wire [1:0] sel_1, sel_2;
 wire [3:0] Regras;
-wire [5:0] Ativo_UP;
-wire [7:0] FOU_01_UP, FOU_02_UP, FOU_03_UP,FOU_01_LOW, FOU_02_LOW, FOU_03_LOW,
-           FOU_04_UP, FOU_05_UP, FOU_06_UP,FOU_04_LOW,FOU_05_LOW, FOU_06_LOW;
+wire [5:0] saida_Ativo_UP;
+//wire [7:0] FOU_01_UP, FOU_02_UP, FOU_03_UP,FOU_01_LOW, FOU_02_LOW, FOU_03_LOW,
+//           FOU_04_UP, FOU_05_UP, FOU_06_UP,FOU_04_LOW,FOU_05_LOW, FOU_06_LOW;
+wire [7:0] saida_01_UP, saida_01_LOW, saida_02_UP, saida_02_LOW, saida_03_UP, saida_03_LOW, 
+			  saida_04_UP, saida_04_LOW, saida_05_UP, saida_05_LOW, saida_06_UP, saida_06_LOW;
 wire [7:0] saida_UP_1, saida_UP_2,  saida_UP_3, saida_LOW_1, saida_LOW_2, saida_LOW_3;
 wire [15:0] saida_x_pos, saida_total;
 
@@ -29,20 +34,22 @@ assign Regras = {sel_1[1:0], sel_2[1:0]};
 assign SSequencia_regras = Regras;
 assign SReset_Memoria = Reset_Inf;
 assign Sclk_int = clk_int;
-assign SAtivo = Ativo_UP;
+assign SAtivo = saida_Ativo_UP;
 
 //---------------------------<MODULES>----------------------------------------------------------						
 bloco_fuzzificador U1(Input_01, Input_02, clk_0, clk_int, Srst, 
-		 FOU_01_UP, FOU_02_UP, FOU_03_UP, FOU_01_LOW, FOU_02_LOW, FOU_03_LOW, 
-		 FOU_04_UP, FOU_05_UP, FOU_06_UP, FOU_04_LOW, FOU_05_LOW, FOU_06_LOW,
-       Ativo_UP);
+		 //FOU_01_UP, FOU_02_UP, FOU_03_UP, FOU_01_LOW, FOU_02_LOW, FOU_03_LOW, 
+		 //FOU_04_UP, FOU_05_UP, FOU_06_UP, FOU_04_LOW, FOU_05_LOW, FOU_06_LOW,
+       saida_Ativo_UP,
+		 saida_01_UP, saida_01_LOW, saida_02_UP, saida_02_LOW, saida_03_UP, saida_03_LOW, 
+		 saida_04_UP, saida_04_LOW, saida_05_UP, saida_05_LOW, saida_06_UP, saida_06_LOW);
 		 
-Unidade_controle_regras U2(clk_0, Srst, EN_REGRAS, Ativo_UP, {sel_1[1:0], sel_2[1:0]},
+Unidade_controle_regras U2(clk_0, Srst, EN_REGRAS, saida_Ativo_UP, {sel_1[1:0], sel_2[1:0]},
                            Reset_Inf, clk_int);
 		 
-inferencia U3(FOU_01_UP, FOU_02_UP,FOU_03_UP,FOU_04_UP,FOU_05_UP,
-              FOU_06_UP, FOU_01_LOW, FOU_02_LOW, FOU_03_LOW, FOU_04_LOW, 
-              FOU_05_LOW, FOU_06_LOW, saida_UP_2,  saida_UP_3,
+inferencia U3(saida_01_UP,  saida_02_UP,  saida_03_UP,  saida_04_UP,  saida_05_UP,  saida_06_UP,
+				  saida_01_LOW, saida_02_LOW, saida_03_LOW, saida_04_LOW, saida_05_LOW, saida_06_LOW,
+				  saida_UP_2,  saida_UP_3,
               saida_LOW_1, saida_UP_1, saida_LOW_2, saida_LOW_3, Regras, clk_0, Reset_Inf);
 				  
 TR_defuzzy U4(saida_UP_1, saida_UP_2, saida_UP_3, saida_LOW_1, saida_LOW_2, saida_LOW_3, 

@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/simulation/modelsim
+vFuzzy_1
+Z1 !s110 1669254394
+!i10b 1
+!s100 KcX>JJ<WDE2E44SDj^6DK2
+I2Kz8k<WJTiQ?z0^1PL^LK1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1669254270
+Z4 8Fuzzy_1.vo
+Z5 FFuzzy_1.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1669254393.000000
+Z8 !s107 Fuzzy_1.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Fuzzy_1.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+n@fuzzy_1
+vFuzzy_1_tb
+R1
+!i10b 1
+!s100 IoUOk9C^5=EgWMY9VJ22;1
+IA_9a`E][Q=Rnd7K45FTn?3
+R2
+R0
+w1669249787
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1_tb.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1669254394.000000
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy
+R12
+n@fuzzy_1_tb
+vhard_block
+R1
+!i10b 1
+!s100 `c3<fkh6_;C0hFF658JU52
+IYX<2FYDjM?9aD=kZ5Tihc0
+R2
+R0
+R3
+R4
+R5
+L0 126017
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

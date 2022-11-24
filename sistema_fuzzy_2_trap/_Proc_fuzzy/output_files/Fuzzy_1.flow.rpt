@@ -1,5 +1,5 @@
 Flow report for Fuzzy_1
-Thu Oct 27 12:01:25 2022
+Wed Nov 23 22:44:30 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,18 +40,18 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Oct 27 12:01:25 2022       ;
+; Flow Status                        ; Successful - Wed Nov 23 22:44:30 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Fuzzy_1                                     ;
 ; Top-level Entity Name              ; Fuzzy_1                                     ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 6,410 / 114,480 ( 6 % )                     ;
-;     Total combinational functions  ; 6,405 / 114,480 ( 6 % )                     ;
-;     Dedicated logic registers      ; 76 / 114,480 ( < 1 % )                      ;
-; Total registers                    ; 76                                          ;
-; Total pins                         ; 28 / 529 ( 5 % )                            ;
+; Total logic elements               ; 6,302 / 114,480 ( 6 % )                     ;
+;     Total combinational functions  ; 6,295 / 114,480 ( 5 % )                     ;
+;     Dedicated logic registers      ; 178 / 114,480 ( < 1 % )                     ;
+; Total registers                    ; 178                                         ;
+; Total pins                         ; 39 / 529 ( 7 % )                            ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                       ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/27/2022 12:00:16 ;
+; Start date & time ; 11/23/2022 22:43:38 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Fuzzy_1             ;
 +-------------------+---------------------+
@@ -75,10 +75,10 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 9447189803475.166688281613200          ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 123870410517417.166925421706484        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; FOU_TB         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; Fuzzy_1_tb     ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; FOU_TB                                 ; --            ; --          ; eda_simulation ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Fuzzy_1_tb                             ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation ;
@@ -91,7 +91,6 @@ refer to the applicable agreement for further details.
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                   ; --            ; --          ; --             ;
 ; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
@@ -107,12 +106,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:20     ; 1.0                     ; 4837 MB             ; 00:00:31                           ;
-; Fitter               ; 00:00:34     ; 1.1                     ; 5736 MB             ; 00:01:02                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4694 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:08     ; 1.1                     ; 4890 MB             ; 00:00:08                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4661 MB             ; 00:00:02                           ;
-; Total                ; 00:01:06     ; --                      ; --                  ; 00:01:46                           ;
+; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4885 MB             ; 00:00:09                           ;
+; Fitter               ; 00:00:23     ; 1.2                     ; 6368 MB             ; 00:00:17                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4696 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.8                     ; 4988 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4666 MB             ; 00:00:01                           ;
+; Total                ; 00:00:49     ; --                      ; --                  ; 00:00:31                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -121,11 +120,11 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; WANDERSON        ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; WANDERSON        ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; WANDERSON        ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; WANDERSON        ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; WANDERSON        ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; G15-DELL         ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; G15-DELL         ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; G15-DELL         ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; G15-DELL         ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; G15-DELL         ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

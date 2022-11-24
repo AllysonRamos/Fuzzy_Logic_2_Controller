@@ -1,16 +1,23 @@
 module bloco_fuzzificador (Input_01,Input_02, clk, EN_SCLK, RESET, 
-				FOU_01_UP, FOU_02_UP, FOU_03_UP, FOU_01_LOW, FOU_02_LOW, FOU_03_LOW, 
-				FOU_04_UP, FOU_05_UP, FOU_06_UP, FOU_04_LOW, FOU_05_LOW, FOU_06_LOW,
-				Ativo_UP);
+				//FOU_01_UP, FOU_02_UP, FOU_03_UP, FOU_01_LOW, FOU_02_LOW, FOU_03_LOW, 
+				//FOU_04_UP, FOU_05_UP, FOU_06_UP, FOU_04_LOW, FOU_05_LOW, FOU_06_LOW,
+				//Ativo_UP, 
+				saida_Ativo_UP,
+				saida_01_UP, saida_01_LOW, saida_02_UP, saida_02_LOW, saida_03_UP, saida_03_LOW, 
+				saida_04_UP, saida_04_LOW, saida_05_UP, saida_05_LOW, saida_06_UP, saida_06_LOW
+				);
 
 //---------------------------<INPUTS>----------------------------------------------------------	
 input clk, EN_SCLK, RESET;
 input [7:0] Input_01, Input_02;
 
 //---------------------------<OUTPUTS>---------------------------------------------------------
-output [7:0] FOU_01_UP, FOU_02_UP, FOU_03_UP, FOU_01_LOW, FOU_02_LOW, FOU_03_LOW, 
+wire [7:0] FOU_01_UP, FOU_02_UP, FOU_03_UP, FOU_01_LOW, FOU_02_LOW, FOU_03_LOW, 
 				 FOU_04_UP, FOU_05_UP, FOU_06_UP,FOU_04_LOW, FOU_05_LOW, FOU_06_LOW;
-output [5:0] Ativo_UP;
+wire [5:0] Ativo_UP;
+output [5:0] saida_Ativo_UP;
+output [7:0] saida_01_UP, saida_01_LOW, saida_02_UP, saida_02_LOW, saida_03_UP, saida_03_LOW, 
+				 saida_04_UP, saida_04_LOW, saida_05_UP, saida_05_LOW, saida_06_UP, saida_06_LOW;
 
 //---------------------------<WIRES>-----------------------------------------------------------
 wire [7:0] entrada_01,entrada_02;
@@ -47,6 +54,27 @@ defparam in2.A6=8'd168, in2.B6=8'd230, in2.C6=8'd254, in2.D6=8'd255;  // Trapéz
 
 fuzzificador in2 (entrada_02, FOU_04_UP, FOU_04_LOW, FOU_05_UP, FOU_05_LOW, 
 						FOU_06_UP, FOU_06_LOW, Ativo_4, Ativo_5, Ativo_6);
+
+ffds SAIDA01_UP(saida_01_UP, FOU_01_UP, clk, EN_SCLK, RESET);
+ffds SAIDA01_LOW(saida_01_LOW, FOU_01_LOW, clk, EN_SCLK, RESET);
+
+ffds SAIDA02_UP(saida_02_UP, FOU_02_UP, clk, EN_SCLK, RESET);
+ffds SAIDA02_LOW(saida_02_LOW, FOU_02_LOW, clk, EN_SCLK, RESET);
+
+ffds SAIDA03_UP(saida_03_UP, FOU_03_UP, clk, EN_SCLK, RESET);
+ffds SAIDA03_LOW(saida_03_LOW, FOU_03_LOW, clk, EN_SCLK, RESET);
+
+ffds SAIDA04_UP(saida_04_UP, FOU_04_UP, clk, EN_SCLK, RESET);
+ffds SAIDA04_LOW(saida_04_LOW, FOU_04_LOW, clk, EN_SCLK, RESET);
+
+ffds SAIDA05_UP(saida_05_UP, FOU_05_UP, clk, EN_SCLK, RESET);
+ffds SAIDA05_LOW(saida_05_LOW, FOU_05_LOW, clk, EN_SCLK, RESET);
+
+ffds SAIDA06_UP(saida_06_UP, FOU_06_UP, clk, EN_SCLK, RESET);
+ffds SAIDA06_LOW(saida_06_LOW, FOU_06_LOW, clk, EN_SCLK, RESET);
+
+ffds SAIDA_ATIVO_UP(saida_Ativo_UP, Ativo_UP, clk, EN_SCLK, RESET);
+
 
 endmodule
 

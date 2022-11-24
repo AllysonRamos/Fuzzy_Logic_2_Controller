@@ -36,6 +36,58 @@
 					"strict" : false
 				},
 				{
+					"name" : "Sclk_int",
+					"strict" : false
+				},
+				{
+					"name" : "SSequencia_regras[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SSequencia_regras[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SSequencia_regras[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SSequencia_regras[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SReset_Memoria",
+					"strict" : false
+				},
+				{
+					"name" : "SAtivo[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SAtivo[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SAtivo[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SAtivo[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SAtivo[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SAtivo[5]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_0",
+					"strict" : false
+				},
+				{
 					"name" : "Srst",
 					"strict" : false
 				},
@@ -44,11 +96,35 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk_1",
+					"name" : "Entrada_02[7]",
 					"strict" : false
 				},
 				{
-					"name" : "clk_0",
+					"name" : "Entrada_02[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[0]",
 					"strict" : false
 				},
 				{
@@ -56,7 +132,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "Entrada_01[4]",
+					"name" : "Entrada_01[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[2]",
 					"strict" : false
 				},
 				{
@@ -68,11 +148,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "Entrada_01[2]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_01[3]",
+					"name" : "Entrada_01[4]",
 					"strict" : false
 				},
 				{
@@ -81,38 +157,6 @@
 				},
 				{
 					"name" : "Entrada_01[5]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[7]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[0]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[1]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[2]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[3]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[4]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[6]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[5]",
 					"strict" : false
 				}
 			]
