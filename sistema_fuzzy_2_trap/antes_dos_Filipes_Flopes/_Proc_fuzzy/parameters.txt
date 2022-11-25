@@ -1,0 +1,4 @@
+parameter A1 = 8'd10; // trapezio FOU_01_UP 
+parameter B1 = 8'd77;
+parameter C1 = 8'd153;
+parameter D1 = 8'd222;

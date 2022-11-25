@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy/simulation/modelsim
+vFuzzy_1
+Z1 !s110 1669256449
+!i10b 1
+!s100 YN[]9R0LZhD0F_^[6GYYo2
+IJ0RNZYRn_GAc^NaOcGRIU0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1669256435
+Z4 8Fuzzy_1.vo
+Z5 FFuzzy_1.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1669256448.000000
+Z8 !s107 Fuzzy_1.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Fuzzy_1.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+n@fuzzy_1
+vFuzzy_1_tb
+R1
+!i10b 1
+!s100 7WE[K:B[[oh7Hj?E?1U6Q3
+In^cDeQW1@cFlcVFAoZ2[B0
+R2
+R0
+w1669256381
+8F:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy/Fuzzy_1_tb.v
+FF:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy/Fuzzy_1_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1669256449.000000
+!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy/Fuzzy_1_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy/Fuzzy_1_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work {+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy}
+R12
+n@fuzzy_1_tb
+vhard_block
+R1
+!i10b 1
+!s100 =WTlL2OX71VcDa^^8OAWP2
+I5WNj147U]3k^zfPLCJK342
+R2
+R0
+R3
+R4
+R5
+L0 123915
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

@@ -1,0 +1,19 @@
+module soma(FOU_0_UP, FOU_1_UP, FOU_2_UP,
+FOU_0_LOW, FOU_1_LOW, FOU_2_LOW,
+FOU_0, FOU_1, FOU_2);
+
+input [7:0] FOU_0_UP, FOU_1_UP, FOU_2_UP,
+FOU_0_LOW, FOU_1_LOW, FOU_2_LOW;
+
+output [7:0] FOU_0, FOU_1, FOU_2;
+
+assign FOU_0 = FOU_0_UP + FOU_0_LOW;
+assign FOU_1 = FOU_1_UP + FOU_1_LOW;
+assign FOU_2 = FOU_2_UP + FOU_2_LOW;
+//assign FOU_3 = FOU_3_UP +FOU_3_LOW;
+//assign FOU_4 = FOU_4_UP +FOU_4_LOW;
+//assign FOU_5 = FOU_5_UP +FOU_5_LOW;
+//assign FOU_6 = FOU_6_UP +FOU_6_LOW;
+
+
+endmodule
