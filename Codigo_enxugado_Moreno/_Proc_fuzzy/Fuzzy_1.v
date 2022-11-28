@@ -1,5 +1,5 @@
-module Fuzzy_1 (Srst, Entrada_01, Entrada_02, EN_REGRAS, saida_defuzzy, 
-                clk_0, clk_1); 
+module Fuzzy_1 (Srst, Entrada_01, Entrada_02, EN_REGRAS, Ativo_UP, saida_defuzzy, 
+                clk_0, clk_1);  
 
 input  [7:0] Entrada_01,Entrada_02; // Extra
 
@@ -8,6 +8,7 @@ input  EN_REGRAS,clk_0, clk_1, Srst;
 wire   [7:0] Input_01, Input_02;
 
 output [7:0] saida_defuzzy;
+output [5:0] Ativo_UP;
 
 wire [8:0] DADOS_A, DADOS_B, DADOS_C,DADOS_D, DADOS_E, DADOS_F, DADOS_G, DADOS_H,DADOS_I, DADOS_J;
 wire [7:0] w_saida;

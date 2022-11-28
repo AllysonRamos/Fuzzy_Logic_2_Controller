@@ -1,69 +1,297 @@
 # Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
-# do Fuzzy_1_run_msim_gate_verilog.do
-# if {[file exists gate_work]} {
-# 	vdel -lib gate_work -all
+# do Fuzzy_1_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
 # }
-# vlib gate_work
-# vmap work gate_work
+# vlib rtl_work
+# vmap work rtl_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work gate_work 
+# vmap work rtl_work 
 # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+. {Fuzzy_1.vo}
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/maquina_estados.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:46:33 on Nov 23,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." Fuzzy_1.vo 
+# Start time: 22:00:09 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/maquina_estados.v 
+# -- Compiling module maquina_estados
+# 
+# Top level modules:
+# 	maquina_estados
+# End time: 22:00:09 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/bloco_fuzzificador.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:09 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/bloco_fuzzificador.v 
+# -- Compiling module bloco_fuzzificador
+# 
+# Top level modules:
+# 	bloco_fuzzificador
+# End time: 22:00:09 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:09 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1.v 
 # -- Compiling module Fuzzy_1
-# -- Compiling module hard_block
 # 
 # Top level modules:
 # 	Fuzzy_1
-# End time: 22:46:34 on Nov 23,2022, Elapsed time: 0:00:01
+# End time: 22:00:09 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/ffd.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:09 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/ffd.v 
+# -- Compiling module ffd
+# 
+# Top level modules:
+# 	ffd
+# End time: 22:00:09 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/ffds.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:09 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/ffds.v 
+# -- Compiling module ffds
+# 
+# Top level modules:
+# 	ffds
+# End time: 22:00:09 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Unidade_controle_regras.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:09 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Unidade_controle_regras.v 
+# -- Compiling module Unidade_controle_regras
+# 
+# Top level modules:
+# 	Unidade_controle_regras
+# End time: 22:00:09 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/soma_X_pos.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/soma_X_pos.v 
+# -- Compiling module soma_X_pos
+# 
+# Top level modules:
+# 	soma_X_pos
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/soma_total.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/soma_total.v 
+# -- Compiling module soma_total
+# 
+# Top level modules:
+# 	soma_total
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/soma.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/soma.v 
+# -- Compiling module soma
+# 
+# Top level modules:
+# 	soma
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/mux_4CANAIS_4b.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/mux_4CANAIS_4b.v 
+# -- Compiling module mux_4CANAIS_4b
+# 
+# Top level modules:
+# 	mux_4CANAIS_4b
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/mux4b_U_reg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/mux4b_U_reg.v 
+# -- Compiling module mux4b_U_reg
+# 
+# Top level modules:
+# 	mux4b_U_reg
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/TR_defuzzy.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/TR_defuzzy.v 
+# -- Compiling module TR_defuzzy
+# 
+# Top level modules:
+# 	TR_defuzzy
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Registrador_saida.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Registrador_saida.v 
+# -- Compiling module Registrador_saida
+# 
+# Top level modules:
+# 	Registrador_saida
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Unidade_regras.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Unidade_regras.v 
+# -- Compiling module Unidade_regras
+# 
+# Top level modules:
+# 	Unidade_regras
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/inferencia.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/inferencia.v 
+# -- Compiling module inferencia
+# 
+# Top level modules:
+# 	inferencia
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v 
+# -- Compiling module fuzzificador
+# 
+# Top level modules:
+# 	fuzzificador
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/compara_U_reg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/compara_U_reg.v 
+# -- Compiling module compara_U_reg
+# 
+# Top level modules:
+# 	compara_U_reg
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/compara_Maximo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/compara_Maximo.v 
+# -- Compiling module compara_Maximo
+# 
+# Top level modules:
+# 	compara_Maximo
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/codificador_inferencia.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/codificador_inferencia.v 
+# -- Compiling module codificador_inferencia
+# 
+# Top level modules:
+# 	codificador_inferencia
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/codificador.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/codificador.v 
+# -- Compiling module codificador
+# 
+# Top level modules:
+# 	codificador
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/ffd_defuzzy.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:00:10 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/ffd_defuzzy.v 
+# -- Compiling module ffd_defuzzy
+# 
+# Top level modules:
+# 	ffd_defuzzy
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:46:34 on Nov 23,2022
+# Start time: 22:00:10 on Nov 27,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1_tb.v 
 # -- Compiling module Fuzzy_1_tb
 # 
 # Top level modules:
 # 	Fuzzy_1_tb
-# End time: 22:46:34 on Nov 23,2022, Elapsed time: 0:00:00
+# End time: 22:00:10 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  Fuzzy_1_tb
-# vsim -t 1ps -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=""+acc"" Fuzzy_1_tb 
-# Start time: 22:46:34 on Nov 23,2022
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Fuzzy_1_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Fuzzy_1_tb 
+# Start time: 22:00:10 on Nov 27,2022
 # Loading work.Fuzzy_1_tb
 # Loading work.Fuzzy_1
-# Loading work.hard_block
-# Loading cycloneive_ver.cycloneive_io_obuf
-# Loading cycloneive_ver.cycloneive_io_ibuf
-# Loading cycloneive_ver.cycloneive_clkctrl
-# Loading cycloneive_ver.cycloneive_mux41
-# Loading cycloneive_ver.cycloneive_ena_reg
-# Loading altera_ver.dffeas
-# Loading cycloneive_ver.cycloneive_lcell_comb
-# Loading altera_ver.PRIM_GDFF_LOW
-# ** Warning: Design size of 13470 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
-# Expect performance to be adversely affected.
+# Loading work.bloco_fuzzificador
+# Loading work.ffds
+# Loading work.fuzzificador
+# Loading work.Unidade_controle_regras
+# Loading work.maquina_estados
+# Loading work.inferencia
+# Loading work.Unidade_regras
+# Loading work.mux4b_U_reg
+# Loading work.compara_U_reg
+# Loading work.compara_Maximo
+# Loading work.Registrador_saida
+# Loading work.ffd
+# Loading work.codificador_inferencia
+# Loading work.mux_4CANAIS_4b
+# Loading work.codificador
+# Loading work.TR_defuzzy
+# Loading work.soma
+# Loading work.soma_X_pos
+# Loading work.soma_total
+# Loading work.ffd_defuzzy
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/bloco_fuzzificador.v(76): [PCDPC] - Port size (8) does not match connection size (6) for port 'q'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/ffds.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/SAIDA_ATIVO_UP File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/ffds.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/bloco_fuzzificador.v(76): [PCDPC] - Port size (8) does not match connection size (6) for port 'D'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/ffds.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/SAIDA_ATIVO_UP File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/ffds.v
+# ** Warning: (vsim-3017) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1.v(47): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Unidade_controle_regras.v
+# ** Warning: (vsim-3722) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1.v(47): [TFMPC] - Missing connection for port 'estado'.
+# ** Warning: (vsim-3017) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1.v(50): [TFMPC] - Too few port connections. Expected 22, found 21.
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/inferencia.v
+# ** Warning: (vsim-3722) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1.v(50): [TFMPC] - Missing connection for port 'EN_Cod_Mem'.
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/inferencia.v(17): [PCDPC] - Port size (2) does not match connection size (3) for port 'Mux_8Canais'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Unidade_regras.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/UP File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Unidade_regras.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Registrador_saida.v(17): [PCDPC] - Port size (3) does not match connection size (7) for port 'codigo'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/codificador_inferencia.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/UP/U3/cod File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/codificador_inferencia.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/inferencia.v(18): [PCDPC] - Port size (2) does not match connection size (3) for port 'Mux_8Canais'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Unidade_regras.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/LOW File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Unidade_regras.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Registrador_saida.v(17): [PCDPC] - Port size (3) does not match connection size (7) for port 'codigo'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/codificador_inferencia.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/LOW/U3/cod File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/codificador_inferencia.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/inferencia.v(20): [PCDPC] - Port size (2) does not match connection size (3) for port 'codigo'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/codificador.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/Cod File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/codificador.v
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: aline  Hostname: DESKTOP-T3S058L  ProcessID: 11020
-#           Attempting to use alternate WLF file "./wlftmzjrm9".
+#           Attempting to use alternate WLF file "./wlft9864zy".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftmzjrm9
+#           Using alternate file: ./wlft9864zy
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Note: $finish    : C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1_tb.v(59)
+# ** Note: $finish    : C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1_tb.v(60)
 #    Time: 28900 us  Iteration: 0  Instance: /Fuzzy_1_tb
 # 1
-# Break in Module Fuzzy_1_tb at C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1_tb.v line 59
-# End time: 22:47:45 on Nov 23,2022, Elapsed time: 0:01:11
-# Errors: 0, Warnings: 3
+# Break in Module Fuzzy_1_tb at C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1_tb.v line 60
+# End time: 22:03:08 on Nov 27,2022, Elapsed time: 0:02:58
+# Errors: 0, Warnings: 13

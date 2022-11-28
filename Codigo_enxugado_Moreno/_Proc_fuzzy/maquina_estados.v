@@ -149,9 +149,9 @@ R3:
 						
 R4:			
 					 if (entrada == 6'b010_011) //ok
-						estado_atual <= R4;
+						estado_atual <= R5;
 				    else if (entrada == 6'b011_010) //ok
-						estado_atual <= R6;
+						estado_atual <= R7;
 				    else if(entrada ==  6'b011_011)//ok
 					   estado_atual <= R5;
 					 else if(entrada ==  6'b011_110)//4R

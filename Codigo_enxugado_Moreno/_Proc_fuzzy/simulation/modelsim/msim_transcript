@@ -1,302 +1,304 @@
-# Reading pref.tcl
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # do Fuzzy_1_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
 # vlib rtl_work
 # vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap work rtl_work 
-# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/ffd.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:49 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/ffd.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffd.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:54 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffd.v 
 # -- Compiling module ffd
 # 
 # Top level modules:
 # 	ffd
-# End time: 08:50:49 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:54 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/ffds.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:49 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/ffds.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffds.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:54 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffds.v 
 # -- Compiling module ffds
 # 
 # Top level modules:
 # 	ffds
-# End time: 08:50:50 on Jun 02,2022, Elapsed time: 0:00:01
+# End time: 23:09:54 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_controle_regras.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:50 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_controle_regras.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_controle_regras.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_controle_regras.v 
 # -- Compiling module Unidade_controle_regras
 # 
 # Top level modules:
 # 	Unidade_controle_regras
-# End time: 08:50:50 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma_X_pos.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:50 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma_X_pos.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma_X_pos.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma_X_pos.v 
 # -- Compiling module soma_X_pos
 # 
 # Top level modules:
 # 	soma_X_pos
-# End time: 08:50:50 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma_total.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:50 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma_total.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma_total.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma_total.v 
 # -- Compiling module soma_total
 # 
 # Top level modules:
 # 	soma_total
-# End time: 08:50:50 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:51 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma.v 
 # -- Compiling module soma
 # 
 # Top level modules:
 # 	soma
-# End time: 08:50:51 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/mux_4CANAIS_4b.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:51 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/mux_4CANAIS_4b.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/mux_4CANAIS_4b.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/mux_4CANAIS_4b.v 
 # -- Compiling module mux_4CANAIS_4b
 # 
 # Top level modules:
 # 	mux_4CANAIS_4b
-# End time: 08:50:51 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/mux4b_U_reg.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:51 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/mux4b_U_reg.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/mux4b_U_reg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/mux4b_U_reg.v 
 # -- Compiling module mux4b_U_reg
 # 
 # Top level modules:
 # 	mux4b_U_reg
-# End time: 08:50:51 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/TR_defuzzy.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:51 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/TR_defuzzy.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/TR_defuzzy.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/TR_defuzzy.v 
 # -- Compiling module TR_defuzzy
 # 
 # Top level modules:
 # 	TR_defuzzy
-# End time: 08:50:51 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Registrador_saida.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:51 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Registrador_saida.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Registrador_saida.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Registrador_saida.v 
 # -- Compiling module Registrador_saida
 # 
 # Top level modules:
 # 	Registrador_saida
-# End time: 08:50:52 on Jun 02,2022, Elapsed time: 0:00:01
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_regras.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:52 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_regras.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_regras.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_regras.v 
 # -- Compiling module Unidade_regras
 # 
 # Top level modules:
 # 	Unidade_regras
-# End time: 08:50:52 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:52 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v 
 # -- Compiling module Trapezio
 # 
 # Top level modules:
 # 	Trapezio
-# End time: 08:50:52 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:53 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v 
 # -- Compiling module range_x_trapezio
 # 
 # Top level modules:
 # 	range_x_trapezio
-# End time: 08:50:53 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Numerador_Multiplicado_trapezio.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:53 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Numerador_Multiplicado_trapezio.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Numerador_Multiplicado_trapezio.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Numerador_Multiplicado_trapezio.v 
 # -- Compiling module Numerador_Multiplicado_trapezio
 # 
 # Top level modules:
 # 	Numerador_Multiplicado_trapezio
-# End time: 08:50:53 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:53 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:55 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v 
 # -- Compiling module Num_denom_trapezio
 # 
 # Top level modules:
 # 	Num_denom_trapezio
-# End time: 08:50:53 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:55 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/inferencia.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:53 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/inferencia.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/inferencia.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/inferencia.v 
 # -- Compiling module inferencia
 # 
 # Top level modules:
 # 	inferencia
-# End time: 08:50:53 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/geraSativo.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:53 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/geraSativo.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/geraSativo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/geraSativo.v 
 # -- Compiling module geraSativo
 # 
 # Top level modules:
 # 	geraSativo
-# End time: 08:50:54 on Jun 02,2022, Elapsed time: 0:00:01
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:54 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1.v 
 # -- Compiling module Fuzzy_1
 # 
 # Top level modules:
 # 	Fuzzy_1
-# End time: 08:50:54 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:54 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v 
 # -- Compiling module FOU
 # 
 # Top level modules:
 # 	FOU
-# End time: 08:50:54 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Elementos_trapezio.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:54 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Elementos_trapezio.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Elementos_trapezio.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Elementos_trapezio.v 
 # -- Compiling module Elementos_trapezio
 # 
 # Top level modules:
 # 	Elementos_trapezio
-# End time: 08:50:54 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Elemento_menor_trapezio.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:54 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Elemento_menor_trapezio.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Elemento_menor_trapezio.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Elemento_menor_trapezio.v 
 # -- Compiling module Elemento_menor_trapezio
 # 
 # Top level modules:
 # 	Elemento_menor_trapezio
-# End time: 08:50:55 on Jun 02,2022, Elapsed time: 0:00:01
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/descarte_topo_trapezio.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:55 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/descarte_topo_trapezio.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/descarte_topo_trapezio.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/descarte_topo_trapezio.v 
 # -- Compiling module descarte_topo_trapezio
 # 
 # Top level modules:
 # 	descarte_topo_trapezio
-# End time: 08:50:55 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/compara_U_reg.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:55 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/compara_U_reg.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/compara_U_reg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/compara_U_reg.v 
 # -- Compiling module compara_U_reg
 # 
 # Top level modules:
 # 	compara_U_reg
-# End time: 08:50:55 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/compara_Maximo.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:55 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/compara_Maximo.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/compara_Maximo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/compara_Maximo.v 
 # -- Compiling module compara_Maximo
 # 
 # Top level modules:
 # 	compara_Maximo
-# End time: 08:50:55 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador_inferencia.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:55 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador_inferencia.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador_inferencia.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador_inferencia.v 
 # -- Compiling module codificador_inferencia
 # 
 # Top level modules:
 # 	codificador_inferencia
-# End time: 08:50:55 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:56 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador.v 
 # -- Compiling module codificador
 # 
 # Top level modules:
 # 	codificador
-# End time: 08:50:56 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/maquina_estados.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:56 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/maquina_estados.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/maquina_estados.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/maquina_estados.v 
 # -- Compiling module maquina_estados
 # 
 # Top level modules:
 # 	maquina_estados
-# End time: 08:50:56 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho {C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1_tb.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 08:50:56 on Jun 02,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho" C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1_tb.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy {C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:56 on Nov 27,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy" C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1_tb.v 
 # -- Compiling module Fuzzy_1_tb
 # 
 # Top level modules:
 # 	Fuzzy_1_tb
-# End time: 08:50:56 on Jun 02,2022, Elapsed time: 0:00:00
+# End time: 23:09:56 on Nov 27,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  Fuzzy_1_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" Fuzzy_1_tb 
-# Start time: 08:50:57 on Jun 02,2022
+# Start time: 23:09:57 on Nov 27,2022
 # Loading work.Fuzzy_1_tb
 # Loading work.Fuzzy_1
+# Loading work.Unidade_controle_regras
+# Loading work.maquina_estados
 # Loading work.FOU
 # Loading work.ffds
 # Loading work.Trapezio
@@ -307,8 +309,6 @@
 # Loading work.Elemento_menor_trapezio
 # Loading work.descarte_topo_trapezio
 # Loading work.geraSativo
-# Loading work.Unidade_controle_regras
-# Loading work.maquina_estados
 # Loading work.inferencia
 # Loading work.Unidade_regras
 # Loading work.mux4b_U_reg
@@ -323,107 +323,109 @@
 # Loading work.soma
 # Loading work.soma_X_pos
 # Loading work.soma_total
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_UM_01 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v Line: 177
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_UM_01/I1 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 12
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_UM_01/I2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_UM_01 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v Line: 179
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_UM_01/I1 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 12
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_UM_01/I2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_DOIS_01 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v Line: 181
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_DOIS_01/I1 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 12
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_DOIS_01/I2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_DOIS_01 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v Line: 183
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_DOIS_01/I1 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 12
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_DOIS_01/I2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_TRES_01 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v Line: 185
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_TRES_01/I1 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 12
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_TRES_01/I2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_TRES_01 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v Line: 187
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_TRES_01/I1 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 12
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_TRES_01/I2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_UM_02 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v Line: 195
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_UM_02/I1 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 12
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_UM_02/I2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_UM_02 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v Line: 197
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_UM_02/I1 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 12
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_UM_02/I2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_DOIS_02 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v Line: 199
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_DOIS_02/I1 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 12
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_DOIS_02/I2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_DOIS_02 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v Line: 201
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_DOIS_02/I1 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 12
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_DOIS_02/I2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_TRES_02 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v Line: 203
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_TRES_02/I1 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 12
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_TRES_02/I2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 14
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_TRES_02 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v Line: 205
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v(3).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_TRES_02/I1 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 12
-# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_TRES_02/I2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v Line: 14
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'U2'.  Expected 8, found 7.
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U2 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1.v Line: 85
-# ** Warning: (vsim-3722) C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1.v(85): [TFMPC] - Missing connection for port 'estado'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'U3'.  Expected 22, found 21.
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3 File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1.v Line: 88
-# ** Warning: (vsim-3722) C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1.v(88): [TFMPC] - Missing connection for port 'EN_Cod_Mem'.
-# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'Mux_8Canais'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_regras.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/UP File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/inferencia.v Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (7) for port 'codigo'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador_inferencia.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/UP/U3/cod File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Registrador_saida.v Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'Mux_8Canais'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_regras.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/LOW File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/inferencia.v Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (7) for port 'codigo'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador_inferencia.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/LOW/U3/cod File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Registrador_saida.v Line: 17
-# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (3) for port 'codigo'. The port definition is at: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/Cod File: C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/inferencia.v Line: 20
+# ** Warning: (vsim-3017) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1.v(38): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_controle_regras.v
+# ** Warning: (vsim-3722) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1.v(38): [TFMPC] - Missing connection for port 'estado'.
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v(177): [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_UM_01 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_UM_01/I1 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(14): [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_UM_01/I2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v(179): [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_UM_01 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_UM_01/I1 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(14): [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_UM_01/I2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v(181): [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_DOIS_01 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_DOIS_01/I1 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(14): [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_DOIS_01/I2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v(183): [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_DOIS_01 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_DOIS_01/I1 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(14): [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_DOIS_01/I2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v(185): [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_TRES_01 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_TRES_01/I1 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(14): [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_TRES_01/I2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v(187): [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_TRES_01 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_TRES_01/I1 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(14): [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_TRES_01/I2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v(195): [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_UM_02 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_UM_02/I1 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(14): [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_UM_02/I2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v(197): [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_UM_02 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_UM_02/I1 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(14): [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_UM_02/I2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v(199): [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_DOIS_02 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_DOIS_02/I1 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(14): [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_DOIS_02/I2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v(201): [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_DOIS_02 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_DOIS_02/I1 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(14): [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_DOIS_02/I2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v(203): [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_TRES_02 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_TRES_02/I1 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(14): [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/UP_TRES_02/I2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v(205): [PCDPC] - Port size (32) does not match connection size (8) for port 'saida'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_TRES_02 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'out_x'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_TRES_02/I1 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v(14): [PCDPC] - Port size (8) does not match connection size (32) for port 'X'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U1/LOW_TRES_02/I2 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+# ** Warning: (vsim-3017) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1.v(44): [TFMPC] - Too few port connections. Expected 22, found 21.
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3 File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/inferencia.v
+# ** Warning: (vsim-3722) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1.v(44): [TFMPC] - Missing connection for port 'EN_Cod_Mem'.
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/inferencia.v(17): [PCDPC] - Port size (2) does not match connection size (3) for port 'Mux_8Canais'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_regras.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/UP File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_regras.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Registrador_saida.v(17): [PCDPC] - Port size (3) does not match connection size (7) for port 'codigo'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador_inferencia.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/UP/U3/cod File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador_inferencia.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/inferencia.v(18): [PCDPC] - Port size (2) does not match connection size (3) for port 'Mux_8Canais'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_regras.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/LOW File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_regras.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Registrador_saida.v(17): [PCDPC] - Port size (3) does not match connection size (7) for port 'codigo'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador_inferencia.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/LOW/U3/cod File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador_inferencia.v
+# ** Warning: (vsim-3015) C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/inferencia.v(20): [PCDPC] - Port size (2) does not match connection size (3) for port 'codigo'. The port definition is at: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /Fuzzy_1_tb/DUT/U3/Cod File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador.v
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: aline  Hostname: DESKTOP-T3S058L  ProcessID: 11020
-#           Attempting to use alternate WLF file "./wlfth1yg65".
+#           Attempting to use alternate WLF file "./wlftiswfs5".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfth1yg65
+#           Using alternate file: ./wlftiswfs5
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Note: $finish    : C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1_tb.v(56)
-#    Time: 289 us  Iteration: 0  Instance: /Fuzzy_1_tb
-# End time: 08:51:06 on Jun 02,2022, Elapsed time: 0:00:09
+# ** Note: $finish    : C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1_tb.v(96)
+#    Time: 66049 us  Iteration: 0  Instance: /Fuzzy_1_tb
+# 1
+# Break in Module Fuzzy_1_tb at C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1_tb.v line 96
+# End time: 23:26:31 on Nov 27,2022, Elapsed time: 0:16:34
 # Errors: 0, Warnings: 47

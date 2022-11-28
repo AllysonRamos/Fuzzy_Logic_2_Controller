@@ -4,6 +4,30 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "Ativo_UP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Ativo_UP[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Ativo_UP[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Ativo_UP[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Ativo_UP[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Ativo_UP[5]",
+					"strict" : false
+				},
+				{
 					"name" : "saida_defuzzy[0]",
 					"strict" : false
 				},
@@ -36,6 +60,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "Entrada_02[3]",
+					"strict" : false
+				},
+				{
 					"name" : "Srst",
 					"strict" : false
 				},
@@ -44,59 +72,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk_1",
-					"strict" : false
-				},
-				{
-					"name" : "clk_0",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_01[1]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_01[3]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_01[2]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_01[4]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_01[5]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_01[7]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_01[6]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_01[0]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[3]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[4]",
+					"name" : "Entrada_02[6]",
 					"strict" : false
 				},
 				{
 					"name" : "Entrada_02[5]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[6]",
 					"strict" : false
 				},
 				{
@@ -113,6 +93,50 @@
 				},
 				{
 					"name" : "Entrada_02[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_1",
+					"strict" : false
+				},
+				{
+					"name" : "clk_0",
 					"strict" : false
 				}
 			]
