@@ -77,8 +77,8 @@ integer i,j;
 
 		f = $fopen("output.txt","w");		//Open output file
 		
-		for (i=0;i<257;i=i+1) begin
-			for (j=0;j<257;j=j+1) begin
+		for (i=0;i<255;i=i+1) begin
+			for (j=0;j<255;j=j+1) begin
 		
 				Entrada_01 = i;  
 				Entrada_02 = j;

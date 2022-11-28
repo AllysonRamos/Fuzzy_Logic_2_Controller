@@ -1,701 +1,644 @@
 m255
 K4
 z2
-!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/simulation/modelsim
+Z0 dC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/simulation/modelsim
 vcodificador
-Z1 !s110 1654170656
+Z1 !s110 1669603093
 !i10b 1
-!s100 9Kf:``eS?=j6`0NUnF<_c3
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-If3HbniXUXCl>9jmkNkS482
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s100 2N5Y1=WJ^Bm;foGNO^X]83
+IOcHXObSh<[MnB2`BLP5O71
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z4 w1626768616
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador.v
-!i122 25
-L0 1 20
-Z5 OV;L;2020.1;71
+Z3 w1669333782
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador.v
+L0 1
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1654170656.000000
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador.v|
+Z5 !s108 1669603093.000000
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador.v|
 !i113 1
-Z7 o-vlog01compat -work work
-Z8 !s92 -vlog01compat -work work +incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho
-Z9 tCvgOpt 0
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy
+Z8 tCvgOpt 0
 vcodificador_inferencia
-Z10 !s110 1654170655
+R1
 !i10b 1
-!s100 DhcL9:5?`Y?UWG@W>oAhm1
+!s100 2ZRWZGOd50Zgg:I0Z1fZI3
+IB1AUOZ7``Q;KTfH<P7dg^2
 R2
-IVECOmlbWlQed1=JGzY7:c1
-R3
 R0
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador_inferencia.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador_inferencia.v
+L0 1
 R4
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador_inferencia.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador_inferencia.v
-!i122 24
-L0 1 23
-R5
 r1
 !s85 0
 31
-Z11 !s108 1654170655.000000
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador_inferencia.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/codificador_inferencia.v|
+R5
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador_inferencia.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador_inferencia.v|
 !i113 1
+R6
 R7
 R8
-R9
 vcompara_Maximo
-R10
+R1
 !i10b 1
-!s100 lWzlV<;mNa>SCZIYFhOao3
+!s100 HJKT7ScX00K]4kX<ncjln0
+I@W:<HRl>9aHg:HV^HGW7C2
 R2
-I7k@fUX@FiAYzA7KGXU`UC1
-R3
 R0
-w1616600754
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/compara_Maximo.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/compara_Maximo.v
-!i122 23
-Z12 L0 1 5
-R5
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/compara_Maximo.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/compara_Maximo.v
+L0 1
+R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/compara_Maximo.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/compara_Maximo.v|
+R5
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/compara_Maximo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/compara_Maximo.v|
 !i113 1
+R6
 R7
 R8
-R9
 ncompara_@maximo
 vcompara_U_reg
-R10
+R1
 !i10b 1
-!s100 HW=h]HaJ?5E7?iDG^H7J?2
+!s100 K2Qo4WgBAIfX:h0@A==LS3
+IQP8E`ODh^i_nDjHXALc_L2
 R2
-I@gG^=joh]O=7E^7NSF<Q62
-R3
 R0
-w1616660990
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/compara_U_reg.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/compara_U_reg.v
-!i122 22
-R12
-R5
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/compara_U_reg.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/compara_U_reg.v
+L0 1
+R4
 r1
 !s85 0
 31
-R11
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/compara_U_reg.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/compara_U_reg.v|
+R5
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/compara_U_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/compara_U_reg.v|
 !i113 1
+R6
 R7
 R8
-R9
 ncompara_@u_reg
 vdescarte_topo_trapezio
+R1
+!i10b 1
+!s100 X@gGWioWd2TCJQKFXDkld0
+IGhbH2V7WSOAnFQTJQSQME3
+R2
+R0
+Z9 w1669333783
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/descarte_topo_trapezio.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/descarte_topo_trapezio.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/descarte_topo_trapezio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/descarte_topo_trapezio.v|
+!i113 1
+R6
+R7
+R8
+vElemento_menor_trapezio
+R1
+!i10b 1
+!s100 gS[RWoT@S[TYLVHlDblbF3
+ITm<4i]UDeS]]hJNA5]h8`0
+R2
+R0
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Elemento_menor_trapezio.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Elemento_menor_trapezio.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Elemento_menor_trapezio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Elemento_menor_trapezio.v|
+!i113 1
+R6
+R7
+R8
+n@elemento_menor_trapezio
+vElementos_trapezio
+Z10 !s110 1669603092
+!i10b 1
+!s100 JCfW@d:^m1TK`OEB8g@Sj0
+IBlJbk:S>GDGCfHOS4a<bg0
+R2
+R0
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Elementos_trapezio.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Elementos_trapezio.v
+L0 19
+R4
+r1
+!s85 0
+31
+Z11 !s108 1669603092.000000
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Elementos_trapezio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Elementos_trapezio.v|
+!i113 1
+R6
+R7
+R8
+n@elementos_trapezio
+vffd
+Z12 !s110 1669603091
+!i10b 1
+!s100 nbk0?]6g;L4ihoz[00RJ=2
+ITU9SVMmJHNlJzWS07[0DP1
+R2
+R0
+R9
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffd.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffd.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z13 !s108 1669603091.000000
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffd.v|
+!i113 1
+R6
+R7
+R8
+vffds
+R12
+!i10b 1
+!s100 1Sn4;@VN?dT9=11@XaQ@m2
+I<B]kdo0Wl;e=@a21=BE:B1
+R2
+R0
+R9
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffds.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffds.v
+L0 1
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffds.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffds.v|
+!i113 1
+R6
+R7
+R8
+vFOU
 R10
 !i10b 1
-!s100 Vh^l29H>fhn4V5>VVTmZS0
+!s100 Da]2b>ScQ:1gjcU]k?obE2
+IQ68GzNVNZ?jPG_oEDd@mo0
 R2
-I=>K1fb9A7;[imL2iF==4f0
-R3
 R0
-Z13 w1615540730
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/descarte_topo_trapezio.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/descarte_topo_trapezio.v
-!i122 21
-L0 1 10
-R5
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v
+L0 1
+R4
 r1
 !s85 0
 31
 R11
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/descarte_topo_trapezio.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/descarte_topo_trapezio.v|
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/FOU.v|
 !i113 1
+R6
 R7
 R8
-R9
-vElemento_menor_trapezio
-R10
-!i10b 1
-!s100 3GZd?cCzAnI@E[`QZa;_]1
-R2
-IJVJH2nPmkij1enUSJQj^X3
-R3
-R0
-R13
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Elemento_menor_trapezio.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Elemento_menor_trapezio.v
-!i122 20
-L0 1 9
-R5
-r1
-!s85 0
-31
-Z14 !s108 1654170654.000000
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Elemento_menor_trapezio.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Elemento_menor_trapezio.v|
-!i113 1
-R7
-R8
-R9
-n@elemento_menor_trapezio
-vElementos_trapezio
-Z15 !s110 1654170654
-!i10b 1
-!s100 UYK:KBYJ<Be@a4c8PPWOI1
-R2
-I1GmSCm@3dIzoD[oBAlQ8d2
-R3
-R0
-w1628110346
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Elementos_trapezio.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Elementos_trapezio.v
-!i122 19
-L0 19 9
-R5
-r1
-!s85 0
-31
-R14
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Elementos_trapezio.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Elementos_trapezio.v|
-!i113 1
-R7
-R8
-R9
-n@elementos_trapezio
-vffd
-!s110 1654170649
-!i10b 1
-!s100 naCHQl;0bk=KFITZ[]JfB1
-R2
-I7W^_WSJR`Gl=F>UML;:Tk1
-R3
-R0
-R13
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/ffd.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/ffd.v
-!i122 0
-Z16 L0 1 14
-R5
-r1
-!s85 0
-31
-Z17 !s108 1654170649.000000
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/ffd.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/ffd.v|
-!i113 1
-R7
-R8
-R9
-vffds
-Z18 !s110 1654170650
-!i10b 1
-!s100 fU]]eK2U=MXhM<8fz]YFe2
-R2
-IK?kb00:J7Kiz`9HMmi[MV2
-R3
-R0
-w1625380944
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/ffds.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/ffds.v
-!i122 1
-Z19 L0 1 13
-R5
-r1
-!s85 0
-31
-R17
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/ffds.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/ffds.v|
-!i113 1
-R7
-R8
-R9
-vFOU
-R15
-!i10b 1
-!s100 <3XYc5c_2PmQo>96aWMgA1
-R2
-IQCFdI9naUEh:n?c8A]76V1
-R3
-R0
-w1654169951
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v
-!i122 18
-L0 1 220
-R5
-r1
-!s85 0
-31
-R14
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/FOU.v|
-!i113 1
-R7
-R8
-R9
 n@f@o@u
 vFuzzy_1
-R15
+R10
 !i10b 1
-!s100 P19Zg]eX7GdZAIdR=8E802
+!s100 ]0[_NhaU<FEDc_5IikRlN3
+IA5ULIX;e3n`=macAl3W:53
 R2
-IG?QbJRk_=m>AFKd0`TdWG2
-R3
 R0
-w1626807798
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1.v
-!i122 17
-L0 1 111
-R5
+w1669598439
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1.v
+L0 1
+R4
 r1
 !s85 0
 31
-R14
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1.v|
+R11
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1.v|
 !i113 1
+R6
 R7
 R8
-R9
 n@fuzzy_1
 vFuzzy_1_tb
 R1
 !i10b 1
-!s100 JY;ZPAHh8RJ7zEk=jaQRN3
+!s100 VMMJIX2;@bRd9LOz<cPn00
+Ii:5j7oLmXLkIEY??ef72Y3
 R2
-IeLSb=GK5SUdi=`O90CXnZ3
-R3
 R0
-w1654134160
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1_tb.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1_tb.v
-!i122 27
-L0 3 85
-R5
+w1669603081
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1_tb.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1_tb.v
+L0 3
+R4
 r1
 !s85 0
 31
-R6
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Fuzzy_1_tb.v|
+R5
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1_tb.v|
 !i113 1
+R6
 R7
 R8
-R9
 n@fuzzy_1_tb
 vgeraSativo
-R15
+R10
 !i10b 1
-!s100 hYzVfR]T49Xb@mU[Mle?11
+!s100 YQVH9G2M]jNPQTc[^_AX73
+IHjn6=Pm:bGNV:RNnfS;I80
 R2
-I>8KafkCGC1dQLbMIzdeA^0
-R3
 R0
-R13
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/geraSativo.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/geraSativo.v
-!i122 16
-L0 1 16
-R5
+R9
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/geraSativo.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/geraSativo.v
+L0 1
+R4
 r1
 !s85 0
 31
-Z20 !s108 1654170653.000000
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/geraSativo.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/geraSativo.v|
+R11
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/geraSativo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/geraSativo.v|
 !i113 1
+R6
 R7
 R8
-R9
 ngera@sativo
 vinferencia
-Z21 !s110 1654170653
+R10
 !i10b 1
-!s100 UBJDPJ@RCFL6G?W]Mf^2?1
+!s100 FIkCQ`?Jk>]6f?DCPMT<00
+I1Rj90_AfkZmFo?M@zGCK63
 R2
-I<Nn2PV8_H_lE32aV^4Pl@2
-R3
 R0
-Z22 w1626768618
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/inferencia.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/inferencia.v
-!i122 15
-L0 1 21
-R5
+R9
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/inferencia.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/inferencia.v
+L0 1
+R4
 r1
 !s85 0
 31
-R20
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/inferencia.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/inferencia.v|
+R11
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/inferencia.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/inferencia.v|
 !i113 1
+R6
 R7
 R8
-R9
 vmaquina_estados
 R1
 !i10b 1
-!s100 IA@;LLC>K1II4bMCYe58S1
+!s100 @f9Sc^5^9NIXiH^RG4SWl0
+IY[Yz_U<]V`^55M>fmAK_Q3
 R2
-IGKzZVGTQJ_iXb=Y3=_;HJ2
-R3
 R0
-w1626765110
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/maquina_estados.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/maquina_estados.v
-!i122 26
-L0 1 198
-R5
+w1669600875
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/maquina_estados.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/maquina_estados.v
+L0 1
+R4
 r1
 !s85 0
 31
+R5
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/maquina_estados.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/maquina_estados.v|
+!i113 1
 R6
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/maquina_estados.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/maquina_estados.v|
-!i113 1
 R7
 R8
-R9
 vmux4b_U_reg
-Z23 !s110 1654170651
+R12
 !i10b 1
-!s100 J;KSObao8`:VJ??5ZIZNa3
+!s100 <KKiXAa<>[j4EOhN^_PfC0
+IcYiP5eL^P@?RaIOWOQ9T[0
 R2
-I@3nlYJO1Y4[F5J17A9JE?3
-R3
 R0
-R22
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/mux4b_U_reg.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/mux4b_U_reg.v
-!i122 7
-R19
-R5
+R9
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/mux4b_U_reg.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/mux4b_U_reg.v
+L0 1
+R4
 r1
 !s85 0
 31
-Z24 !s108 1654170651.000000
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/mux4b_U_reg.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/mux4b_U_reg.v|
+R13
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/mux4b_U_reg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/mux4b_U_reg.v|
 !i113 1
+R6
 R7
 R8
-R9
 nmux4b_@u_reg
 vmux_4CANAIS_4b
-R23
+R12
 !i10b 1
-!s100 N>nFSzRHL=0jAVW::Dzid1
+!s100 ASj<gP2:DEjFe;DU0d[`j2
+ImXz7DO[L@2??R7kg9;Q<Y2
 R2
-IKYz=Ym18ZEjRTjzoz>V^12
-R3
 R0
-w1626770776
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/mux_4CANAIS_4b.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/mux_4CANAIS_4b.v
-!i122 6
-R16
-R5
+R9
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/mux_4CANAIS_4b.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/mux_4CANAIS_4b.v
+L0 1
+R4
 r1
 !s85 0
 31
-R24
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/mux_4CANAIS_4b.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/mux_4CANAIS_4b.v|
+R13
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/mux_4CANAIS_4b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/mux_4CANAIS_4b.v|
 !i113 1
+R6
 R7
 R8
-R9
 nmux_4@c@a@n@a@i@s_4b
 vNum_denom_trapezio
-R21
+R10
 !i10b 1
-!s100 W[ocRGPDKFdX@z?bk]9ng1
+!s100 >^LI;iV`gRiYa3Qg0c1ob1
+I4QDeQJ9gaL>[F;QQ_[9Xd0
 R2
-IY:F9h9V7C=5<bzjCEJ]ni0
-R3
 R0
-Z25 w1615540732
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v
-!i122 14
-L0 1 18
-R5
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v
+L0 1
+R4
 r1
 !s85 0
 31
-R20
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Num_denom_trapezio.v|
+R11
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Num_denom_trapezio.v|
 !i113 1
+R6
 R7
 R8
-R9
 n@num_denom_trapezio
 vNumerador_Multiplicado_trapezio
-R21
+R10
 !i10b 1
-!s100 iz<ND`C2PT58SQckh[ieB3
+!s100 1bH6f64zoG65[T321@nEX0
+InPQK>oOIE?1Co]dGfSVU`1
 R2
-I:kkdF;Vm[>?kA8[7ljbgQ1
-R3
 R0
-R25
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Numerador_Multiplicado_trapezio.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Numerador_Multiplicado_trapezio.v
-!i122 13
-L0 10 10
-R5
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Numerador_Multiplicado_trapezio.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Numerador_Multiplicado_trapezio.v
+L0 10
+R4
 r1
 !s85 0
 31
-R20
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Numerador_Multiplicado_trapezio.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Numerador_Multiplicado_trapezio.v|
+R11
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Numerador_Multiplicado_trapezio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Numerador_Multiplicado_trapezio.v|
 !i113 1
+R6
 R7
 R8
-R9
 n@numerador_@multiplicado_trapezio
 vrange_x_trapezio
-R21
+R10
 !i10b 1
-!s100 5lk?N3eenS=P^7N6<REIB1
+!s100 YD>hZ<[`EifUX:XJO1^=Y0
+IVXVIFhTQB43]0C?TZTjg:2
 R2
-I0i5=0;QWnaFS^Mi6ge]ij2
-R3
 R0
-R25
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v
-!i122 12
-L0 3 12
-R5
+R9
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v
+L0 3
+R4
 r1
 !s85 0
 31
-R20
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/range_x_trapezio.v|
+R11
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/range_x_trapezio.v|
 !i113 1
+R6
 R7
 R8
-R9
 vRegistrador_saida
-Z26 !s110 1654170652
+R10
 !i10b 1
-!s100 9Y?[K9eJ3WHe@kF<9ak;g1
+!s100 C398a2I9YWG`=DmMffAzB2
+IRnDYi06L8f0]D;D67JIB:1
 R2
-InD9o9<78?YHK?5dGP24nP2
-R3
 R0
-w1624271578
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Registrador_saida.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Registrador_saida.v
-!i122 9
-L0 1 19
-R5
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Registrador_saida.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Registrador_saida.v
+L0 1
+R4
 r1
 !s85 0
 31
-R24
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Registrador_saida.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Registrador_saida.v|
+R11
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Registrador_saida.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Registrador_saida.v|
 !i113 1
+R6
 R7
 R8
-R9
 n@registrador_saida
 vsoma
-R23
+R12
 !i10b 1
-!s100 T?Nk[URS=DP7BaiXB<ZbA1
+!s100 ]`^>67]TJWJo7bBLBZm>O2
+IP;4gaYTFJ9Y^5NgD3oGR42
 R2
-IZKQ8WHSo_OGENIoCN[W_X1
-R3
 R0
-w1626801276
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma.v
-!i122 5
-L0 1 15
-R5
+Z14 w1669333784
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma.v
+L0 1
+R4
 r1
 !s85 0
 31
-R24
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma.v|
+R13
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma.v|
 !i113 1
+R6
 R7
 R8
-R9
 vsoma_total
-R18
+R12
 !i10b 1
-!s100 dFjBCZSK[C4VR[g2JA9UX2
+!s100 WBZEnfL=V21j9IUgn=`d00
+Ihh2FH[fVca8kZ^FhKL_J@1
 R2
-IX[W9QM9dYQSW?gEPI1U`P0
-R3
 R0
-w1626803070
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma_total.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma_total.v
-!i122 4
-L0 1 11
-R5
+R14
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma_total.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma_total.v
+L0 1
+R4
 r1
 !s85 0
 31
-Z27 !s108 1654170650.000000
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma_total.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma_total.v|
+R13
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma_total.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma_total.v|
 !i113 1
+R6
 R7
 R8
-R9
 vsoma_X_pos
-R18
+R12
 !i10b 1
-!s100 CdZfJlHkgRLQeMcTa8GmE2
+!s100 j6o952h453]V;MFNh^fZH2
+ILaJ<F4PEQmz6=Y8J=ec`Q3
 R2
-IR=Qm^iFJ:oi9^>K>;0`k<1
-R3
 R0
-w1626801274
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma_X_pos.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma_X_pos.v
-!i122 3
-R19
-R5
+R14
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma_X_pos.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma_X_pos.v
+L0 1
+R4
 r1
 !s85 0
 31
-R27
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma_X_pos.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/soma_X_pos.v|
+R13
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma_X_pos.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/soma_X_pos.v|
 !i113 1
+R6
 R7
 R8
-R9
 nsoma_@x_pos
 vTR_defuzzy
-R23
+R10
 !i10b 1
-!s100 mPaa6TKonKg;<n^?V4g6X2
+!s100 _MFYQc1zc4dhoG2U^Z21T0
+I=0P94F;FhgW[FWZPn`W@a3
 R2
-IfWWWF2F_=MKlHBfn:^zR]1
-R3
 R0
-w1626798844
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/TR_defuzzy.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/TR_defuzzy.v
-!i122 8
-L0 1 27
-R5
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/TR_defuzzy.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/TR_defuzzy.v
+L0 1
+R4
 r1
 !s85 0
 31
-R24
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/TR_defuzzy.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/TR_defuzzy.v|
+R11
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/TR_defuzzy.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/TR_defuzzy.v|
 !i113 1
+R6
 R7
 R8
-R9
 n@t@r_defuzzy
 vTrapezio
-R26
+R10
 !i10b 1
-!s100 ]1kKV]Y13^;8DQElz6ze33
+!s100 hfgXb`DFI_K?IDMC4O>4i2
+IB25?Ef0lYPXOI^_bS9V=J1
 R2
-IgS[F;l0e@;lAVdWi@f[B`1
-R3
 R0
-R25
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v
-!i122 11
-L0 1 24
-R5
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v
+L0 1
+R4
 r1
 !s85 0
 31
-Z28 !s108 1654170652.000000
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Trapezio.v|
+R11
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Trapezio.v|
 !i113 1
+R6
 R7
 R8
-R9
 n@trapezio
 vUnidade_controle_regras
-R18
+R12
 !i10b 1
-!s100 mLlmja^=24oma2@We`S_I3
+!s100 ZE8:ZYOY1`97XBYcRoJdU3
+I2Qz7Oa:[;fY;]:kA;d0kG3
 R2
-I`TXZ82zPMgo4dXn][zW`Z1
-R3
 R0
-w1625373860
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_controle_regras.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_controle_regras.v
-!i122 2
-L0 1 35
-R5
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_controle_regras.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_controle_regras.v
+L0 1
+R4
 r1
 !s85 0
 31
-R27
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_controle_regras.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_controle_regras.v|
+R13
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_controle_regras.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_controle_regras.v|
 !i113 1
+R6
 R7
 R8
-R9
 n@unidade_controle_regras
 vUnidade_regras
-R26
+R10
 !i10b 1
-!s100 G`U27eYXE]z<AhfLiSGFI1
+!s100 LQZNBi>><2BYHTJ9^0BQO0
+IN^>=9>g>683dzo6:kd]>^1
 R2
-I_ZNVD[PoC8A[ELG]YdBm72
-R3
 R0
-w1631631814
-8C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_regras.v
-FC:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_regras.v
-!i122 10
-L0 1 29
-R5
+R3
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_regras.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_regras.v
+L0 1
+R4
 r1
 !s85 0
 31
-R28
-!s107 C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_regras.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho|C:/Users/gabri/OneDrive/Documentos/MATLAB/Aline_22_julho/Unidade_regras.v|
+R11
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_regras.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Unidade_regras.v|
 !i113 1
+R6
 R7
 R8
-R9
 n@unidade_regras
