@@ -88,7 +88,7 @@ integer i,j;
 				if(j<1) Entrada_02=1;
 				if(j>254) Entrada_02=254;
 			
-				#500 $fwrite(f,"%b\n",saida_defuzzy);		//Save Output data File
+				#2000 $fwrite(f,"%b\n",saida_defuzzy);		//Save Output data File
 			end
 		end
 	
