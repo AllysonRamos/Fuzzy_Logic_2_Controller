@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/simulation/modelsim
 vcodificador
-Z1 !s110 1669603926
+Z1 !s110 1669604137
 !i10b 1
 !s100 2N5Y1=WJ^Bm;foGNO^X]83
 IOcHXObSh<[MnB2`BLP5O71
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1669603926.000000
+Z5 !s108 1669604137.000000
 !s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/codificador.v|
 !i113 1
@@ -167,7 +167,7 @@ R7
 R8
 n@elementos_trapezio
 vffd
-Z10 !s110 1669603925
+Z10 !s110 1669604136
 !i10b 1
 !s100 nbk0?]6g;L4ihoz[00RJ=2
 ITU9SVMmJHNlJzWS07[0DP1
@@ -181,7 +181,7 @@ R4
 r1
 !s85 0
 31
-Z11 !s108 1669603925.000000
+Z11 !s108 1669604136.000000
 !s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffd.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/ffd.v|
 !i113 1
@@ -257,13 +257,13 @@ R7
 R8
 n@fuzzy_1
 vFuzzy_1_tb
-Z12 !s110 1669603927
+Z12 !s110 1669604138
 !i10b 1
-!s100 6i>dE9mWX?C?<<j65d5i80
-IEQTgXb7D=kGmE<BIo`D`U2
+!s100 i:=U5L:ei1V>cMENl?cj:3
+I8Ka@8:P>gEj<SL>Cb@MOG0
 R2
 R0
-w1669603910
+w1669604127
 8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1_tb.v
 FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1_tb.v
 L0 3
@@ -271,7 +271,7 @@ R4
 r1
 !s85 0
 31
-Z13 !s108 1669603927.000000
+Z13 !s108 1669604138.000000
 !s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/Codigo_enxugado_Moreno/_Proc_fuzzy/Fuzzy_1_tb.v|
 !i113 1
