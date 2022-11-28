@@ -49,36 +49,12 @@ integer f;
 integer i,j;
 
 //	VERSAO DE 16 EM 16
-initial begin
-
-		f = $fopen("output.txt","w");		//Open output file
-		
-		for (i=0;i<257;i=i+16) begin
-			for (j=0;j<257;j=j+16) begin
-		
-				Entrada_01 = i;  
-				Entrada_02 = j;
-			
-				if(i<1) Entrada_01=1;
-				if(i>254) Entrada_01=254;
-				if(j<1) Entrada_02=1;
-				if(j>254) Entrada_02=254;
-			
-				#1000 $fwrite(f,"%b\n",saida_defuzzy);		//Save Output data File
-			end
-		end
-	
-		$fclose(f);
-		$finish;	
-	end
-
-//VERSAO DE 1 EM 1
-//	initial begin
+//initial begin
 //
 //		f = $fopen("output.txt","w");		//Open output file
 //		
-//		for (i=0;i<255;i=i+1) begin
-//			for (j=0;j<255;j=j+1) begin
+//		for (i=0;i<257;i=i+16) begin
+//			for (j=0;j<257;j=j+16) begin
 //		
 //				Entrada_01 = i;  
 //				Entrada_02 = j;
@@ -88,13 +64,37 @@ initial begin
 //				if(j<1) Entrada_02=1;
 //				if(j>254) Entrada_02=254;
 //			
-//				#1500 $fwrite(f,"%b\n",saida_defuzzy);		//Save Output data File
+//				#1000 $fwrite(f,"%b\n",saida_defuzzy);		//Save Output data File
 //			end
 //		end
 //	
 //		$fclose(f);
 //		$finish;	
 //	end
+
+//VERSAO DE 1 EM 1
+	initial begin
+
+		f = $fopen("output.txt","w");		//Open output file
+		
+		for (i=0;i<255;i=i+1) begin
+			for (j=0;j<255;j=j+1) begin
+		
+				Entrada_01 = i;  
+				Entrada_02 = j;
+			
+				if(i<1) Entrada_01=1;
+				if(i>254) Entrada_01=254;
+				if(j<1) Entrada_02=1;
+				if(j>254) Entrada_02=254;
+			
+				#1500 $fwrite(f,"%b\n",saida_defuzzy);		//Save Output data File
+			end
+		end
+	
+		$fclose(f);
+		$finish;	
+	end
 	
 //    always
 //	  begin
