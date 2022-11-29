@@ -25,7 +25,7 @@ always @ (entrada)
 					MF_01_UP<=8'd255;
 				else if(entrada<D1)
 					MF_01_UP<=255*(D1-entrada)/(D1-C1);
-				else if(entrada>=D1)
+				else //if(entrada>=D1)
 					MF_01_UP<=8'd0;
 					
 		if(entrada<=A2)
@@ -36,7 +36,7 @@ always @ (entrada)
 					MF_01_LOW<=8'd255;
 				else if(entrada<D2)
 					MF_01_LOW<=255*(D2-entrada)/(D2-C2);
-				else if(entrada>=D2)
+				else //if(entrada>=D2)
 					MF_01_LOW<=8'd0;
 					
 		if(entrada<=A3)
@@ -47,7 +47,7 @@ always @ (entrada)
 					MF_02_UP<=8'd255;
 				else if(entrada<D3)
 					MF_02_UP<=255*(D3-entrada)/(D3-C3);
-				else if(entrada>=D3)
+				else //if(entrada>=D3)
 					MF_02_UP<=8'd0;
 					
 		if(entrada<=A4)
@@ -58,7 +58,7 @@ always @ (entrada)
 					MF_02_LOW<=8'd255;
 				else if(entrada<D4)
 					MF_02_LOW<=255*(D4-entrada)/(D4-C4);
-				else if(entrada>=D4)
+				else //if(entrada>=D4)
 					MF_02_LOW<=8'd0;
 					
 		if(entrada<=A5)
@@ -69,7 +69,7 @@ always @ (entrada)
 					MF_03_UP<=8'd255;
 				else if(entrada<D5)
 					MF_03_UP<=255*(D5-entrada)/(D5-C5);
-				else if(entrada>=D5)
+				else //if(entrada>=D5)
 					MF_03_UP<=8'd0;
 					
 					
@@ -81,7 +81,7 @@ always @ (entrada)
 					MF_03_LOW<=8'd255;
 				else if(entrada<D6)
 					MF_03_LOW<=255*(D6-entrada)/(D6-C6);
-				else if(entrada>=D6)
+				else //if(entrada>=D6)
 					MF_03_LOW<=8'd0;
 			
 	end

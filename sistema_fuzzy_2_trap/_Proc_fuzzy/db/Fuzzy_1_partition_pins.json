@@ -96,15 +96,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "Entrada_02[7]",
+					"name" : "Entrada_02[2]",
 					"strict" : false
 				},
 				{
-					"name" : "Entrada_02[6]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[5]",
+					"name" : "Entrada_02[1]",
 					"strict" : false
 				},
 				{
@@ -116,11 +112,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "Entrada_02[2]",
+					"name" : "Entrada_02[7]",
 					"strict" : false
 				},
 				{
-					"name" : "Entrada_02[1]",
+					"name" : "Entrada_02[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[5]",
 					"strict" : false
 				},
 				{

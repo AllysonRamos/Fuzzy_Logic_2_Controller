@@ -1,5 +1,5 @@
 Flow report for Fuzzy_1
-Wed Nov 23 22:44:30 2022
+Mon Nov 28 20:54:26 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Nov 23 22:44:30 2022       ;
+; Flow Status                        ; Successful - Mon Nov 28 20:54:26 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Fuzzy_1                                     ;
 ; Top-level Entity Name              ; Fuzzy_1                                     ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 6,302 / 114,480 ( 6 % )                     ;
-;     Total combinational functions  ; 6,295 / 114,480 ( 5 % )                     ;
+; Total logic elements               ; 6,373 / 114,480 ( 6 % )                     ;
+;     Total combinational functions  ; 6,356 / 114,480 ( 6 % )                     ;
 ;     Dedicated logic registers      ; 178 / 114,480 ( < 1 % )                     ;
 ; Total registers                    ; 178                                         ;
 ; Total pins                         ; 39 / 529 ( 7 % )                            ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/23/2022 22:43:38 ;
+; Start date & time ; 11/28/2022 20:53:37 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Fuzzy_1             ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 123870410517417.166925421706484        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 123870410517417.166967961752304        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; FOU_TB         ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; Fuzzy_1_tb     ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Fuzzy_1_tb                             ; --            ; --          ; eda_simulation ;
@@ -106,12 +106,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4885 MB             ; 00:00:09                           ;
-; Fitter               ; 00:00:23     ; 1.2                     ; 6368 MB             ; 00:00:17                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4696 MB             ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.8                     ; 4988 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4666 MB             ; 00:00:01                           ;
-; Total                ; 00:00:49     ; --                      ; --                  ; 00:00:31                           ;
+; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 4887 MB             ; 00:00:10                           ;
+; Fitter               ; 00:00:21     ; 1.2                     ; 6366 MB             ; 00:00:17                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 4693 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.6                     ; 4990 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4666 MB             ; 00:00:01                           ;
+; Total                ; 00:00:43     ; --                      ; --                  ; 00:00:33                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

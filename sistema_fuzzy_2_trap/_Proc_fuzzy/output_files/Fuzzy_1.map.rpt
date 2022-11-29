@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Fuzzy_1
-Wed Nov 23 22:43:55 2022
+Mon Nov 28 20:53:53 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -14,41 +14,54 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. State Machine - |Fuzzy_1|Unidade_controle_regras:U2|maquina_estados:I1|estado_atual
-  9. User-Specified and Inferred Latches
- 10. General Register Statistics
- 11. Inverted Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Parameter Settings for User Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1
- 14. Parameter Settings for User Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2
- 15. Parameter Settings for User Entity Instance: TR_defuzzy:U4|soma_X_pos:x1
- 16. Parameter Settings for Inferred Entity Instance: TR_defuzzy:U4|lpm_divide:Div0
- 17. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div6
+  9. General Register Statistics
+ 10. Inverted Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for User Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1
+ 13. Parameter Settings for User Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2
+ 14. Parameter Settings for User Entity Instance: TR_defuzzy:U4|soma_X_pos:x1
+ 15. Parameter Settings for Inferred Entity Instance: TR_defuzzy:U4|lpm_divide:Div0
+ 16. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div6
+ 17. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div3
  18. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div2
- 19. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div3
- 20. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div0
- 21. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div6
+ 19. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div0
+ 20. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div6
+ 21. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div3
  22. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div2
- 23. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div3
- 24. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div0
+ 23. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div0
+ 24. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div5
  25. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div4
- 26. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div5
- 27. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div1
- 28. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div7
+ 26. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div1
+ 27. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div7
+ 28. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div5
  29. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div4
- 30. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div5
- 31. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div1
- 32. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div7
- 33. Port Connectivity Checks: "inferencia:U3|codificador:Cod"
- 34. Port Connectivity Checks: "inferencia:U3|Unidade_regras:LOW"
- 35. Port Connectivity Checks: "inferencia:U3|Unidade_regras:UP|Registrador_saida:U3|codificador_inferencia:cod"
- 36. Port Connectivity Checks: "inferencia:U3|Unidade_regras:UP"
- 37. Port Connectivity Checks: "inferencia:U3"
- 38. Port Connectivity Checks: "Unidade_controle_regras:U2"
- 39. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA_ATIVO_UP"
- 40. Post-Synthesis Netlist Statistics for Top Partition
- 41. Elapsed Time Per Partition
- 42. Analysis & Synthesis Messages
- 43. Analysis & Synthesis Suppressed Messages
+ 30. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div1
+ 31. Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div7
+ 32. Port Connectivity Checks: "inferencia:U3|codificador:Cod"
+ 33. Port Connectivity Checks: "inferencia:U3|Unidade_regras:LOW"
+ 34. Port Connectivity Checks: "inferencia:U3|Unidade_regras:UP|Registrador_saida:U3|codificador_inferencia:cod"
+ 35. Port Connectivity Checks: "inferencia:U3|Unidade_regras:UP"
+ 36. Port Connectivity Checks: "inferencia:U3"
+ 37. Port Connectivity Checks: "Unidade_controle_regras:U2"
+ 38. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA_ATIVO_UP"
+ 39. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA06_LOW"
+ 40. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA06_UP"
+ 41. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA05_LOW"
+ 42. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA05_UP"
+ 43. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA04_LOW"
+ 44. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA04_UP"
+ 45. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA03_LOW"
+ 46. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA03_UP"
+ 47. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA02_LOW"
+ 48. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA02_UP"
+ 49. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA01_LOW"
+ 50. Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA01_UP"
+ 51. Port Connectivity Checks: "bloco_fuzzificador:U1|fuzzificador:in2"
+ 52. Port Connectivity Checks: "bloco_fuzzificador:U1|fuzzificador:in1"
+ 53. Post-Synthesis Netlist Statistics for Top Partition
+ 54. Elapsed Time Per Partition
+ 55. Analysis & Synthesis Messages
+ 56. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -74,13 +87,13 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Nov 23 22:43:55 2022       ;
+; Analysis & Synthesis Status        ; Successful - Mon Nov 28 20:53:53 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Fuzzy_1                                     ;
 ; Top-level Entity Name              ; Fuzzy_1                                     ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 6,341                                       ;
-;     Total combinational functions  ; 6,295                                       ;
+; Total logic elements               ; 6,402                                       ;
+;     Total combinational functions  ; 6,356                                       ;
 ;     Dedicated logic registers      ; 178                                         ;
 ; Total registers                    ; 178                                         ;
 ; Total pins                         ; 39                                          ;
@@ -195,8 +208,8 @@ refer to the applicable agreement for further details.
 ;     Processor 4            ;   0.1%      ;
 ;     Processor 5            ;   0.1%      ;
 ;     Processor 6            ;   0.1%      ;
-;     Processor 7            ;   0.0%      ;
-;     Processor 8            ;   0.0%      ;
+;     Processor 7            ;   0.1%      ;
+;     Processor 8            ;   0.1%      ;
 ;     Processors 9-12        ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -250,17 +263,17 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 6,341       ;
+; Estimated Total logic elements              ; 6,402       ;
 ;                                             ;             ;
-; Total combinational functions               ; 6295        ;
+; Total combinational functions               ; 6356        ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 1448        ;
-;     -- 3 input functions                    ; 2002        ;
-;     -- <=2 input functions                  ; 2845        ;
+;     -- 4 input functions                    ; 1476        ;
+;     -- 3 input functions                    ; 2014        ;
+;     -- <=2 input functions                  ; 2866        ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 4075        ;
-;     -- arithmetic mode                      ; 2220        ;
+;     -- normal mode                          ; 4129        ;
+;     -- arithmetic mode                      ; 2227        ;
 ;                                             ;             ;
 ; Total registers                             ; 178         ;
 ;     -- Dedicated logic registers            ; 178         ;
@@ -272,8 +285,8 @@ refer to the applicable agreement for further details.
 ;                                             ;             ;
 ; Maximum fan-out node                        ; clk_0~input ;
 ; Maximum fan-out                             ; 178         ;
-; Total fan-out                               ; 17612       ;
-; Average fan-out                             ; 2.69        ;
+; Total fan-out                               ; 17843       ;
+; Average fan-out                             ; 2.70        ;
 +---------------------------------------------+-------------+
 
 
@@ -282,7 +295,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                             ; Entity Name             ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
-; |Fuzzy_1                                     ; 6295 (0)            ; 178 (0)                   ; 0           ; 0            ; 0       ; 0         ; 39   ; 0            ; |Fuzzy_1                                                                                                                                        ; Fuzzy_1                 ; work         ;
+; |Fuzzy_1                                     ; 6356 (0)            ; 178 (0)                   ; 0           ; 0            ; 0       ; 0         ; 39   ; 0            ; |Fuzzy_1                                                                                                                                        ; Fuzzy_1                 ; work         ;
 ;    |TR_defuzzy:U4|                           ; 449 (0)             ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4                                                                                                                          ; TR_defuzzy              ; work         ;
 ;       |ffd_defuzzy:ff1|                      ; 20 (20)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4|ffd_defuzzy:ff1                                                                                                          ; ffd_defuzzy             ; work         ;
 ;       |lpm_divide:Div0|                      ; 303 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4|lpm_divide:Div0                                                                                                          ; lpm_divide              ; work         ;
@@ -295,7 +308,7 @@ refer to the applicable agreement for further details.
 ;       |soma_total:x2|                        ; 21 (21)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|TR_defuzzy:U4|soma_total:x2                                                                                                            ; soma_total              ; work         ;
 ;    |Unidade_controle_regras:U2|              ; 65 (0)              ; 4 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|Unidade_controle_regras:U2                                                                                                             ; Unidade_controle_regras ; work         ;
 ;       |maquina_estados:I1|                   ; 65 (65)             ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|Unidade_controle_regras:U2|maquina_estados:I1                                                                                          ; maquina_estados         ; work         ;
-;    |bloco_fuzzificador:U1|                   ; 5617 (0)            ; 118 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1                                                                                                                  ; bloco_fuzzificador      ; work         ;
+;    |bloco_fuzzificador:U1|                   ; 5678 (0)            ; 118 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1                                                                                                                  ; bloco_fuzzificador      ; work         ;
 ;       |ffds:ENTRADA01|                       ; 1 (1)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:ENTRADA01                                                                                                   ; ffds                    ; work         ;
 ;       |ffds:ENTRADA02|                       ; 1 (1)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:ENTRADA02                                                                                                   ; ffds                    ; work         ;
 ;       |ffds:SAIDA01_LOW|                     ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA01_LOW                                                                                                 ; ffds                    ; work         ;
@@ -304,14 +317,14 @@ refer to the applicable agreement for further details.
 ;       |ffds:SAIDA02_UP|                      ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA02_UP                                                                                                  ; ffds                    ; work         ;
 ;       |ffds:SAIDA03_LOW|                     ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA03_LOW                                                                                                 ; ffds                    ; work         ;
 ;       |ffds:SAIDA03_UP|                      ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA03_UP                                                                                                  ; ffds                    ; work         ;
-;       |ffds:SAIDA04_LOW|                     ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA04_LOW                                                                                                 ; ffds                    ; work         ;
-;       |ffds:SAIDA04_UP|                      ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA04_UP                                                                                                  ; ffds                    ; work         ;
+;       |ffds:SAIDA04_LOW|                     ; 7 (7)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA04_LOW                                                                                                 ; ffds                    ; work         ;
+;       |ffds:SAIDA04_UP|                      ; 7 (7)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA04_UP                                                                                                  ; ffds                    ; work         ;
 ;       |ffds:SAIDA05_LOW|                     ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA05_LOW                                                                                                 ; ffds                    ; work         ;
 ;       |ffds:SAIDA05_UP|                      ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA05_UP                                                                                                  ; ffds                    ; work         ;
 ;       |ffds:SAIDA06_LOW|                     ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA06_LOW                                                                                                 ; ffds                    ; work         ;
 ;       |ffds:SAIDA06_UP|                      ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA06_UP                                                                                                  ; ffds                    ; work         ;
 ;       |ffds:SAIDA_ATIVO_UP|                  ; 0 (0)               ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA_ATIVO_UP                                                                                              ; ffds                    ; work         ;
-;       |fuzzificador:in1|                     ; 2699 (353)          ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1                                                                                                 ; fuzzificador            ; work         ;
+;       |fuzzificador:in1|                     ; 2730 (384)          ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1                                                                                                 ; fuzzificador            ; work         ;
 ;          |lpm_divide:Div0|                   ; 284 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div0                                                                                 ; lpm_divide              ; work         ;
 ;             |lpm_divide_2jm:auto_generated|  ; 284 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div0|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm          ; work         ;
 ;                |sign_div_unsign_qlh:divider| ; 284 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div0|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh     ; work         ;
@@ -344,7 +357,7 @@ refer to the applicable agreement for further details.
 ;             |lpm_divide_2jm:auto_generated|  ; 305 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div7|lpm_divide_2jm:auto_generated                                                   ; lpm_divide_2jm          ; work         ;
 ;                |sign_div_unsign_qlh:divider| ; 305 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div7|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider                       ; sign_div_unsign_qlh     ; work         ;
 ;                   |alt_u_div_87f:divider|    ; 305 (305)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div7|lpm_divide_2jm:auto_generated|sign_div_unsign_qlh:divider|alt_u_div_87f:divider ; alt_u_div_87f           ; work         ;
-;       |fuzzificador:in2|                     ; 2916 (373)          ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2                                                                                                 ; fuzzificador            ; work         ;
+;       |fuzzificador:in2|                     ; 2932 (389)          ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2                                                                                                 ; fuzzificador            ; work         ;
 ;          |lpm_divide:Div0|                   ; 363 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div0                                                                                 ; lpm_divide              ; work         ;
 ;             |lpm_divide_3jm:auto_generated|  ; 363 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div0|lpm_divide_3jm:auto_generated                                                   ; lpm_divide_3jm          ; work         ;
 ;                |sign_div_unsign_rlh:divider| ; 363 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div0|lpm_divide_3jm:auto_generated|sign_div_unsign_rlh:divider                       ; sign_div_unsign_rlh     ; work         ;
@@ -424,120 +437,14 @@ Encoding Type:  User-Encoded
 +--------------------+----------------+----------------+----------------+----------------+
 
 
-+----------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                                ;
-+-----------------------------------------------------+---------------------+------------------------+
-; Latch Name                                          ; Latch Enable Signal ; Free of Timing Hazards ;
-+-----------------------------------------------------+---------------------+------------------------+
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_UP[0]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_UP[1]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_UP[2]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_UP[3]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_UP[4]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_UP[5]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_UP[6]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_UP[7]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_UP[0]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_UP[1]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_UP[2]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_UP[3]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_UP[4]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_UP[5]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_UP[6]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_UP[7]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_UP[0]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_UP[1]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_UP[2]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_UP[3]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_UP[4]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_UP[5]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_UP[6]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_UP[7]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_UP[0]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_UP[1]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_UP[2]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_UP[3]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_UP[4]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_UP[5]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_UP[6]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_UP[7]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_UP[0]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_UP[1]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_UP[2]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_UP[3]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_UP[4]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_UP[5]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_UP[6]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_UP[7]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_UP[0]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_UP[1]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_UP[2]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_UP[3]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_UP[4]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_UP[5]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_UP[6]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_UP[7]  ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_LOW[4] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_LOW[4] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_LOW[4] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_LOW[4] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_LOW[4] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_LOW[4] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_LOW[7] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_LOW[7] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_LOW[7] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_LOW[7] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_LOW[7] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_LOW[7] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_LOW[6] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_LOW[6] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_LOW[6] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_LOW[6] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_LOW[6] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_LOW[6] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_LOW[5] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_LOW[5] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_LOW[5] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_LOW[5] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_LOW[5] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_LOW[5] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_LOW[3] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_LOW[3] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_LOW[3] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_LOW[3] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_LOW[3] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_LOW[3] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_LOW[2] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_LOW[2] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_LOW[2] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_LOW[2] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_LOW[2] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_LOW[2] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_LOW[1] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_LOW[1] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_LOW[1] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_LOW[1] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_LOW[1] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_LOW[1] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_02_LOW[0] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_01_LOW[0] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in1|MF_03_LOW[0] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_02_LOW[0] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_01_LOW[0] ; VCC                 ; yes                    ;
-; bloco_fuzzificador:U1|fuzzificador:in2|MF_03_LOW[0] ; VCC                 ; yes                    ;
-; Number of user-specified and inferred latches = 96  ;                     ;                        ;
-+-----------------------------------------------------+---------------------+------------------------+
-Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
-
-
 +------------------------------------------------------+
 ; General Register Statistics                          ;
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
 ; Total registers                              ; 178   ;
-; Number of registers using Synchronous Clear  ; 0     ;
-; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Synchronous Clear  ; 14    ;
+; Number of registers using Synchronous Load   ; 14    ;
 ; Number of registers using Asynchronous Clear ; 178   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 174   ;
@@ -552,7 +459,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +------------------------------------------------+---------+
 ; bloco_fuzzificador:U1|ffds:SAIDA_ATIVO_UP|q[0] ; 8       ;
 ; bloco_fuzzificador:U1|ffds:ENTRADA02|q[0]      ; 26      ;
-; bloco_fuzzificador:U1|ffds:ENTRADA01|q[0]      ; 26      ;
+; bloco_fuzzificador:U1|ffds:ENTRADA01|q[0]      ; 28      ;
 ; bloco_fuzzificador:U1|ffds:SAIDA03_LOW|q[0]    ; 1       ;
 ; bloco_fuzzificador:U1|ffds:SAIDA01_LOW|q[0]    ; 1       ;
 ; bloco_fuzzificador:U1|ffds:SAIDA02_LOW|q[0]    ; 1       ;
@@ -574,19 +481,25 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|mux_4CANAIS_4b:U4|Mux3  ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|MF_03_UP[2]       ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|MF_03_UP[7]       ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|MF_02_UP[1]       ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|MF_01_UP[5]       ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|MF_02_UP[7]       ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|MF_01_UP[6]       ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|MF_01_LOW[5]      ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|MF_02_LOW[7]      ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|MF_01_LOW[4]      ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|MF_02_LOW[5]      ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|mux4b_U_reg:A|Selector7 ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|mux4b_U_reg:B|Selector7  ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA06_LOW|q[4]              ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA03_LOW|q[2]              ;
+; 5:1                ; 7 bits    ; 21 LEs        ; 21 LEs               ; 0 LEs                  ; Yes        ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA04_LOW|q[3]              ;
+; 5:1                ; 7 bits    ; 21 LEs        ; 21 LEs               ; 0 LEs                  ; Yes        ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA05_LOW|q[3]              ;
+; 5:1                ; 7 bits    ; 21 LEs        ; 21 LEs               ; 0 LEs                  ; Yes        ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA01_LOW|q[4]              ;
+; 5:1                ; 7 bits    ; 21 LEs        ; 21 LEs               ; 0 LEs                  ; Yes        ; |Fuzzy_1|bloco_fuzzificador:U1|ffds:SAIDA02_LOW|q[3]              ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|mux_4CANAIS_4b:U4|Mux4   ;
+; 3:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|MF_03_UP          ;
+; 3:1                ; 23 bits   ; 46 LEs        ; 46 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|MF_03_UP[18]      ;
+; 3:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|MF_03_UP          ;
+; 3:1                ; 23 bits   ; 46 LEs        ; 46 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|MF_03_UP[19]      ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|inferencia:U3|Unidade_regras:UP|mux4b_U_reg:A|Selector2  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|inferencia:U3|Unidade_regras:LOW|mux4b_U_reg:B|Selector7 ;
+; 5:1                ; 9 bits    ; 27 LEs        ; 18 LEs               ; 9 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|MF_03_UP[15]      ;
+; 5:1                ; 32 bits   ; 96 LEs        ; 96 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|MF_02_UP[4]       ;
+; 5:1                ; 32 bits   ; 96 LEs        ; 96 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in2|MF_01_UP[23]      ;
+; 5:1                ; 9 bits    ; 27 LEs        ; 18 LEs               ; 9 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|MF_03_UP[16]      ;
+; 5:1                ; 32 bits   ; 96 LEs        ; 96 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|MF_02_UP[11]      ;
+; 5:1                ; 32 bits   ; 96 LEs        ; 96 LEs               ; 0 LEs                  ; No         ; |Fuzzy_1|bloco_fuzzificador:U1|fuzzificador:in1|MF_01_UP[27]      ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------+
 
 
@@ -715,7 +628,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div2 ;
+; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div3 ;
 +------------------------+----------------+---------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                          ;
 +------------------------+----------------+---------------------------------------------------------------+
@@ -738,7 +651,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div3 ;
+; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div2 ;
 +------------------------+----------------+---------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                          ;
 +------------------------+----------------+---------------------------------------------------------------+
@@ -807,7 +720,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div2 ;
+; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div3 ;
 +------------------------+----------------+---------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                          ;
 +------------------------+----------------+---------------------------------------------------------------+
@@ -830,7 +743,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div3 ;
+; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div2 ;
 +------------------------+----------------+---------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                          ;
 +------------------------+----------------+---------------------------------------------------------------+
@@ -876,7 +789,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div4 ;
+; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div5 ;
 +------------------------+----------------+---------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                          ;
 +------------------------+----------------+---------------------------------------------------------------+
@@ -899,7 +812,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div5 ;
+; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div4 ;
 +------------------------+----------------+---------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                          ;
 +------------------------+----------------+---------------------------------------------------------------+
@@ -968,7 +881,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div4 ;
+; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div5 ;
 +------------------------+----------------+---------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                          ;
 +------------------------+----------------+---------------------------------------------------------------+
@@ -991,7 +904,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div5 ;
+; Parameter Settings for Inferred Entity Instance: bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div4 ;
 +------------------------+----------------+---------------------------------------------------------------+
 ; Parameter Name         ; Value          ; Type                                                          ;
 +------------------------+----------------+---------------------------------------------------------------+
@@ -1123,6 +1036,142 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
 
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA06_LOW"                                                                                                                                           ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D    ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA06_UP"                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D    ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA05_LOW"                                                                                                                                           ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D    ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA05_UP"                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D    ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA04_LOW"                                                                                                                                           ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D    ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA04_UP"                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D    ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA03_LOW"                                                                                                                                           ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D    ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA03_UP"                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D    ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA02_LOW"                                                                                                                                           ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D    ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA02_UP"                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D    ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA01_LOW"                                                                                                                                           ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D    ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|ffds:SAIDA01_UP"                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; D    ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|fuzzificador:in2"                                                         ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port             ; Type   ; Severity ; Details                                                                             ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; MF_01_UP[31..8]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; MF_01_LOW[31..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; MF_02_UP[31..8]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; MF_02_LOW[31..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; MF_03_UP[31..8]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; MF_03_LOW[31..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "bloco_fuzzificador:U1|fuzzificador:in1"                                                         ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port             ; Type   ; Severity ; Details                                                                             ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+; MF_01_UP[31..8]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; MF_01_LOW[31..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; MF_02_UP[31..8]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; MF_02_LOW[31..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; MF_03_UP[31..8]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; MF_03_LOW[31..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
@@ -1131,21 +1180,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; boundary_port         ; 39                          ;
 ; cycloneiii_ff         ; 178                         ;
 ;     CLR               ; 4                           ;
-;     ENA CLR           ; 174                         ;
-; cycloneiii_lcell_comb ; 6299                        ;
-;     arith             ; 2220                        ;
+;     ENA CLR           ; 160                         ;
+;     ENA CLR SCLR SLD  ; 14                          ;
+; cycloneiii_lcell_comb ; 6360                        ;
+;     arith             ; 2227                        ;
 ;         1 data inputs ; 23                          ;
-;         2 data inputs ; 416                         ;
+;         2 data inputs ; 423                         ;
 ;         3 data inputs ; 1781                        ;
-;     normal            ; 4079                        ;
+;     normal            ; 4133                        ;
 ;         0 data inputs ; 298                         ;
-;         1 data inputs ; 31                          ;
-;         2 data inputs ; 2081                        ;
-;         3 data inputs ; 221                         ;
-;         4 data inputs ; 1448                        ;
+;         1 data inputs ; 32                          ;
+;         2 data inputs ; 2094                        ;
+;         3 data inputs ; 233                         ;
+;         4 data inputs ; 1476                        ;
 ;                       ;                             ;
 ; Max LUT depth         ; 53.70                       ;
-; Average LUT depth     ; 43.90                       ;
+; Average LUT depth     ; 43.77                       ;
 +-----------------------+-----------------------------+
 
 
@@ -1164,7 +1214,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Nov 23 22:43:37 2022
+    Info: Processing started: Mon Nov 28 20:53:37 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Fuzzy_1 -c Fuzzy_1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -1220,139 +1270,7 @@ Info (12127): Elaborating entity "Fuzzy_1" for the top level hierarchy
 Info (12128): Elaborating entity "bloco_fuzzificador" for hierarchy "bloco_fuzzificador:U1" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1.v Line: 45
 Info (12128): Elaborating entity "ffds" for hierarchy "bloco_fuzzificador:U1|ffds:ENTRADA01" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/bloco_fuzzificador.v Line: 31
 Info (12128): Elaborating entity "fuzzificador" for hierarchy "bloco_fuzzificador:U1|fuzzificador:in1" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/bloco_fuzzificador.v Line: 44
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(23): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 23
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(27): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 27
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(34): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 34
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(38): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 38
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(45): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 45
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(49): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 49
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(56): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 56
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(60): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 60
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(67): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 67
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(71): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 71
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(79): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 79
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(83): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 83
-Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(18): inferring latch(es) for variable "MF_01_UP", which holds its previous value in one or more paths through the always construct File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(18): inferring latch(es) for variable "MF_01_LOW", which holds its previous value in one or more paths through the always construct File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(18): inferring latch(es) for variable "MF_02_UP", which holds its previous value in one or more paths through the always construct File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(18): inferring latch(es) for variable "MF_02_LOW", which holds its previous value in one or more paths through the always construct File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(18): inferring latch(es) for variable "MF_03_UP", which holds its previous value in one or more paths through the always construct File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(18): inferring latch(es) for variable "MF_03_LOW", which holds its previous value in one or more paths through the always construct File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[0]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[1]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[2]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[3]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[4]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[5]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[6]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[7]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[0]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[1]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[2]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[3]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[4]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[5]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[6]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[7]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[0]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[1]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[2]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[3]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[4]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[5]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[6]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[7]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[0]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[1]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[2]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[3]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[4]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[5]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[6]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[7]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[0]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[1]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[2]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[3]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[4]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[5]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[6]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[7]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[0]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[1]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[2]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[3]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[4]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[5]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[6]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[7]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
 Info (12128): Elaborating entity "fuzzificador" for hierarchy "bloco_fuzzificador:U1|fuzzificador:in2" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/bloco_fuzzificador.v Line: 56
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(23): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 23
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(27): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 27
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(34): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 34
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(38): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 38
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(45): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 45
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(49): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 49
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(56): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 56
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(60): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 60
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(67): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 67
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(71): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 71
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(79): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 79
-Warning (10230): Verilog HDL assignment warning at fuzzificador.v(83): truncated value with size 32 to match size of target (8) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 83
-Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(18): inferring latch(es) for variable "MF_01_UP", which holds its previous value in one or more paths through the always construct File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(18): inferring latch(es) for variable "MF_01_LOW", which holds its previous value in one or more paths through the always construct File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(18): inferring latch(es) for variable "MF_02_UP", which holds its previous value in one or more paths through the always construct File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(18): inferring latch(es) for variable "MF_02_LOW", which holds its previous value in one or more paths through the always construct File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(18): inferring latch(es) for variable "MF_03_UP", which holds its previous value in one or more paths through the always construct File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Warning (10240): Verilog HDL Always Construct warning at fuzzificador.v(18): inferring latch(es) for variable "MF_03_LOW", which holds its previous value in one or more paths through the always construct File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[0]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[1]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[2]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[3]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[4]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[5]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[6]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_LOW[7]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[0]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[1]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[2]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[3]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[4]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[5]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[6]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_03_UP[7]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[0]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[1]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[2]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[3]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[4]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[5]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[6]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_LOW[7]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[0]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[1]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[2]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[3]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[4]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[5]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[6]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_02_UP[7]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[0]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[1]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[2]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[3]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[4]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[5]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[6]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_LOW[7]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[0]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[1]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[2]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[3]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[4]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[5]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[6]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
-Info (10041): Inferred latch for "MF_01_UP[7]" at fuzzificador.v(18) File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 18
 Info (12128): Elaborating entity "Unidade_controle_regras" for hierarchy "Unidade_controle_regras:U2" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1.v Line: 48
 Info (12128): Elaborating entity "maquina_estados" for hierarchy "Unidade_controle_regras:U2|maquina_estados:I1" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Unidade_controle_regras.v Line: 24
 Info (12128): Elaborating entity "inferencia" for hierarchy "inferencia:U3" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/Fuzzy_1.v Line: 53
@@ -1378,19 +1296,19 @@ Warning (12011): Net is missing source, defaulting to GND
 Info (278001): Inferred 17 megafunctions from design logic
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "TR_defuzzy:U4|Div0" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/TR_defuzzy.v Line: 27
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in2|Div6" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 67
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in2|Div2" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 45
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in2|Div3" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 49
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in2|Div2" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 45
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in2|Div0" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 27
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in1|Div6" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 67
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in1|Div2" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 45
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in1|Div3" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 49
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in1|Div2" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 45
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in1|Div0" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 27
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in2|Div4" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 56
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in2|Div5" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 60
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in2|Div4" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 56
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in2|Div1" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 38
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in2|Div7" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 79
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in1|Div4" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 56
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in1|Div5" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 60
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in1|Div4" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 56
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in1|Div1" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 38
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "bloco_fuzzificador:U1|fuzzificador:in1|Div7" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 79
 Info (12130): Elaborated megafunction instantiation "TR_defuzzy:U4|lpm_divide:Div0" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/TR_defuzzy.v Line: 27
@@ -1421,8 +1339,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/sign
     Info (12023): Found entity 1: sign_div_unsign_rlh File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/db/sign_div_unsign_rlh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_a7f.tdf
     Info (12023): Found entity 1: alt_u_div_a7f File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/db/alt_u_div_a7f.tdf Line: 26
-Info (12130): Elaborated megafunction instantiation "bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div2" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 45
-Info (12133): Instantiated megafunction "bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div2" with the following parameter: File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 45
+Info (12130): Elaborated megafunction instantiation "bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div3" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 49
+Info (12133): Instantiated megafunction "bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div3" with the following parameter: File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 49
     Info (12134): Parameter "LPM_WIDTHN" = "32"
     Info (12134): Parameter "LPM_WIDTHD" = "7"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -1439,14 +1357,14 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/sign
     Info (12023): Found entity 1: sign_div_unsign_qlh File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/db/sign_div_unsign_qlh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_87f.tdf
     Info (12023): Found entity 1: alt_u_div_87f File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/db/alt_u_div_87f.tdf Line: 26
-Info (12130): Elaborated megafunction instantiation "bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div2" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 45
-Info (12133): Instantiated megafunction "bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div2" with the following parameter: File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 45
+Info (12130): Elaborated megafunction instantiation "bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div3" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 49
+Info (12133): Instantiated megafunction "bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div3" with the following parameter: File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 49
     Info (12134): Parameter "LPM_WIDTHN" = "32"
     Info (12134): Parameter "LPM_WIDTHD" = "7"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12130): Elaborated megafunction instantiation "bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div3" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 49
-Info (12133): Instantiated megafunction "bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div3" with the following parameter: File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 49
+Info (12130): Elaborated megafunction instantiation "bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div2" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 45
+Info (12133): Instantiated megafunction "bloco_fuzzificador:U1|fuzzificador:in1|lpm_divide:Div2" with the following parameter: File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 45
     Info (12134): Parameter "LPM_WIDTHN" = "32"
     Info (12134): Parameter "LPM_WIDTHD" = "7"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -1457,8 +1375,8 @@ Info (12133): Instantiated megafunction "bloco_fuzzificador:U1|fuzzificador:in1|
     Info (12134): Parameter "LPM_WIDTHD" = "6"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12130): Elaborated megafunction instantiation "bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div4" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 56
-Info (12133): Instantiated megafunction "bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div4" with the following parameter: File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 56
+Info (12130): Elaborated megafunction instantiation "bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div5" File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 60
+Info (12133): Instantiated megafunction "bloco_fuzzificador:U1|fuzzificador:in2|lpm_divide:Div5" with the following parameter: File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/fuzzificador.v Line: 60
     Info (12134): Parameter "LPM_WIDTHN" = "32"
     Info (12134): Parameter "LPM_WIDTHD" = "6"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -1481,7 +1399,7 @@ Info (12133): Instantiated megafunction "bloco_fuzzificador:U1|fuzzificador:in1|
     Info (12134): Parameter "LPM_WIDTHD" = "6"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
     Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Warning (12241): 7 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (12241): 19 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (13000): Registers with preset signals will power-up high File: C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/ffds.v Line: 11
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
@@ -1492,15 +1410,15 @@ Info (17016): Found the following redundant logic cells in design
 Info (144001): Generated suppressed messages file C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/_Proc_fuzzy/output_files/Fuzzy_1.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 6439 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 6460 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 19 input pins
     Info (21059): Implemented 20 output pins
-    Info (21061): Implemented 6400 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 44 warnings
-    Info: Peak virtual memory: 4885 megabytes
-    Info: Processing ended: Wed Nov 23 22:43:55 2022
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:09
+    Info (21061): Implemented 6421 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
+    Info: Peak virtual memory: 4887 megabytes
+    Info: Processing ended: Mon Nov 28 20:53:53 2022
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:10
 
 
 +------------------------------------------+
