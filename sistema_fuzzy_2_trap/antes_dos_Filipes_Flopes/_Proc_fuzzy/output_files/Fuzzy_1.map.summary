@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Wed Nov 23 23:19:46 2022
+Analysis & Synthesis Status : Successful - Tue Nov 29 01:25:43 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : Fuzzy_1
 Top-level Entity Name : Fuzzy_1
 Family : Cyclone IV E
-Total logic elements : 6,339
-    Total combinational functions : 6,293
+Total logic elements : 6,319
+    Total combinational functions : 6,273
     Dedicated logic registers : 76
 Total registers : 76
 Total pins : 39

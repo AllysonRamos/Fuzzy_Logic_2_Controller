@@ -84,10 +84,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk_0",
-					"strict" : false
-				},
-				{
 					"name" : "Srst",
 					"strict" : false
 				},
@@ -96,15 +92,11 @@
 					"strict" : false
 				},
 				{
+					"name" : "clk_0",
+					"strict" : false
+				},
+				{
 					"name" : "Entrada_02[7]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[6]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_02[5]",
 					"strict" : false
 				},
 				{
@@ -124,19 +116,19 @@
 					"strict" : false
 				},
 				{
+					"name" : "Entrada_02[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_02[5]",
+					"strict" : false
+				},
+				{
 					"name" : "Entrada_02[0]",
 					"strict" : false
 				},
 				{
-					"name" : "Entrada_01[0]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_01[6]",
-					"strict" : false
-				},
-				{
-					"name" : "Entrada_01[5]",
+					"name" : "Entrada_01[7]",
 					"strict" : false
 				},
 				{
@@ -152,11 +144,19 @@
 					"strict" : false
 				},
 				{
+					"name" : "Entrada_01[0]",
+					"strict" : false
+				},
+				{
 					"name" : "Entrada_01[4]",
 					"strict" : false
 				},
 				{
-					"name" : "Entrada_01[7]",
+					"name" : "Entrada_01[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada_01[5]",
 					"strict" : false
 				}
 			]

@@ -7,15 +7,15 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dF:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy/simulation/modelsim
+Z0 dC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/antes_dos_Filipes_Flopes/_Proc_fuzzy/simulation/modelsim
 vFuzzy_1
-Z1 !s110 1669256449
+Z1 !s110 1669696757
 !i10b 1
-!s100 YN[]9R0LZhD0F_^[6GYYo2
-IJ0RNZYRn_GAc^NaOcGRIU0
+!s100 MjVLof9jPdPLiSlY5J@HE2
+IUR65nZ]<Y57ohW]76W3aK2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1669256435
+Z3 w1669695988
 Z4 8Fuzzy_1.vo
 Z5 FFuzzy_1.vo
 L0 31
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1669256448.000000
+Z7 !s108 1669696757.000000
 Z8 !s107 Fuzzy_1.vo|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Fuzzy_1.vo|
 !i113 1
@@ -34,37 +34,37 @@ n@fuzzy_1
 vFuzzy_1_tb
 R1
 !i10b 1
-!s100 7WE[K:B[[oh7Hj?E?1U6Q3
-In^cDeQW1@cFlcVFAoZ2[B0
+!s100 2iSQOb^_l:ICdBQ7ehe_m1
+Ib755^[=5YiERo;n2T5NP:1
 R2
 R0
-w1669256381
-8F:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy/Fuzzy_1_tb.v
-FF:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy/Fuzzy_1_tb.v
+w1669696339
+8C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/antes_dos_Filipes_Flopes/_Proc_fuzzy/Fuzzy_1_tb.v
+FC:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/antes_dos_Filipes_Flopes/_Proc_fuzzy/Fuzzy_1_tb.v
 L0 3
 R6
 r1
 !s85 0
 31
-!s108 1669256449.000000
-!s107 F:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy/Fuzzy_1_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy|F:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy/Fuzzy_1_tb.v|
+R7
+!s107 C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/antes_dos_Filipes_Flopes/_Proc_fuzzy/Fuzzy_1_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/antes_dos_Filipes_Flopes/_Proc_fuzzy|C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/antes_dos_Filipes_Flopes/_Proc_fuzzy/Fuzzy_1_tb.v|
 !i113 1
 R10
-!s92 -vlog01compat -work work {+incdir+F:/Wanderson/Unifei/TFG/TFG Novo/Material proprio/Saida_defuzzy_corrigida/antes dos Filipes Flopes/_Proc_fuzzy}
+!s92 -vlog01compat -work work +incdir+C:/Users/lyson/OneDrive/Documentos/GitHub/Fuzzy_Logic_2_Controller/sistema_fuzzy_2_trap/antes_dos_Filipes_Flopes/_Proc_fuzzy
 R12
 n@fuzzy_1_tb
 vhard_block
 R1
 !i10b 1
-!s100 =WTlL2OX71VcDa^^8OAWP2
-I5WNj147U]3k^zfPLCJK342
+!s100 9XaK;4?Iboh]S`eR_TH[[3
+I:W3MaE74NI[Y5XeXNA^S^1
 R2
 R0
 R3
 R4
 R5
-L0 123915
+L0 123644
 R6
 r1
 !s85 0

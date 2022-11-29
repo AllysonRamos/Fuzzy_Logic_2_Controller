@@ -32,7 +32,7 @@ assign Sclk_int = clk_int;
 assign SAtivo = Ativo_UP;
 
 //---------------------------<MODULES>----------------------------------------------------------						
-bloco_fuzzificador U1(Input_01, Input_02, clk_0, clk_int, Srst, 
+bloco_fuzzificador U1(Input_01, Input_02, clk_int, Srst, 
 		 FOU_01_UP, FOU_02_UP, FOU_03_UP, FOU_01_LOW, FOU_02_LOW, FOU_03_LOW, 
 		 FOU_04_UP, FOU_05_UP, FOU_06_UP, FOU_04_LOW, FOU_05_LOW, FOU_06_LOW,
        Ativo_UP);
@@ -46,6 +46,6 @@ inferencia U3(FOU_01_UP, FOU_02_UP,FOU_03_UP,FOU_04_UP,FOU_05_UP,
               saida_LOW_1, saida_UP_1, saida_LOW_2, saida_LOW_3, Regras, clk_0, Reset_Inf);
 				  
 TR_defuzzy U4(saida_UP_1, saida_UP_2, saida_UP_3, saida_LOW_1, saida_LOW_2, saida_LOW_3, 
-				  saida_defuzzy, clk_0, clk_int, Srst);
+				  saida_defuzzy, clk_int, Srst);
 				  
 endmodule

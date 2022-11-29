@@ -1,10 +1,10 @@
-module bloco_fuzzificador (Input_01,Input_02, clk, EN_SCLK, RESET, 
+module bloco_fuzzificador (Input_01,Input_02, EN_Fuzzificador, RESET, 
 				FOU_01_UP, FOU_02_UP, FOU_03_UP, FOU_01_LOW, FOU_02_LOW, FOU_03_LOW, 
 				FOU_04_UP, FOU_05_UP, FOU_06_UP, FOU_04_LOW, FOU_05_LOW, FOU_06_LOW,
 				Ativo_UP);
 
 //---------------------------<INPUTS>----------------------------------------------------------	
-input clk, EN_SCLK, RESET;
+input EN_Fuzzificador, RESET;
 input [7:0] Input_01, Input_02;
 
 //---------------------------<OUTPUTS>---------------------------------------------------------
@@ -21,8 +21,8 @@ assign Ativo_UP = {Ativo_1, Ativo_2, Ativo_3,
                    Ativo_4, Ativo_5, Ativo_6};  											 
 
 //---------------------------<FF>--------------------------------------------------------------
-ffds ENTRADA01(entrada_01, Input_01, clk, EN_SCLK, RESET);
-ffds ENTRADA02(entrada_02, Input_02, clk, EN_SCLK, RESET);
+ffds ENTRADA01(entrada_01, Input_01, EN_Fuzzificador, RESET);
+ffds ENTRADA02(entrada_02, Input_02, EN_Fuzzificador, RESET);
 
 //---------------------------<MEMBERSHIP FUNCTION FOR INPUT_1>---------------------------------
 

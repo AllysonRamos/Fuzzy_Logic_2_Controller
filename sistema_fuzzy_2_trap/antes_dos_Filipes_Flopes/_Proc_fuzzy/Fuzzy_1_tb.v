@@ -32,9 +32,9 @@ Fuzzy_1 DUT (Srst, Entrada_01, Entrada_02, EN_REGRAS, saida_defuzzy, clk_0, Sclk
 	 
 	always
 		begin
-			#15 clk_0 = 1'b1;
-			#20 clk_0 = 1'b0; 
-//			#80 clk_0 = ~clk_0;
+//			#15 clk_0 = 1'b1;
+//			#20 clk_0 = 1'b0; 
+			#15 clk_0 = ~clk_0;
 		end
 	 
 	initial begin
