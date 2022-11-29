@@ -41,8 +41,8 @@ Fuzzy_1 DUT (Srst, Entrada_01, Entrada_02, EN_REGRAS, saida_defuzzy, clk_0, Sclk
 
 		f = $fopen("output.txt","w");		//Open output file
 		
-		for (i=0;i<257;i=i+16) begin
-			for (j=0;j<257;j=j+16) begin
+		for (i=0;i<255;i=i+1) begin
+			for (j=0;j<255;j=j+1) begin
 		
 				Entrada_01 = i;  
 				Entrada_02 = j;
